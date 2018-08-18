@@ -1,0 +1,317 @@
+<!-- 
+  Copyright (c) 2004
+  INRIA, Ecole des Mines de Nantes, INSA-Rennes, University of Orleans,
+  Cosytec S.A., ILOG S.A.
+
+  $Id: gentra4cp.dtd v 2.1 2004/07/21 19:00:00 deransart Exp $
+
+  DTD describing the generic trace syntax for finite domain constraint solvers.
+  Project OADymPPaC.  All the documentation related to the project can
+  be found at the folloging URL:
+  http://contraintes.inria.fr/OADymPPaC/
+
+  For the gentra4cp version 2.1:
+
+  Namespace:
+    http://contraintes.inria.fr/OADymPPaC
+
+  Public identifier:
+    PUBLIC "-//GENTRA4CP//DTD GENTRA4CP 2.1//INRIA"
+
+  URI for the DTD:
+    http://contraintes.inria.fr/OADymPPaC/Public/Trace/gentra4cp.2.1.dtd
+
+  URI for the documentation (syntax and semantics):
+    http://contraintes.inria.fr/OADymPPaC/Public/Trace/gentra4cp-doc.2.1.pdf
+--> 
+
+<!ENTITY % Toplevel
+  "(provide | complement | breakpoint | new-variable | new-constraint | post | 
+    choice-point | back-to | solution | failure | remove | 
+    restore | reduce | suspend | solved | reject | awake | schedule | 
+    annotation | new-stage | start-stage | suspend-stage | 
+    resume-stage | stop-stage )*" >
+
+<!ELEMENT gentra4cp (header, (%Toplevel; | packet)*) >
+<!ATTLIST gentra4cp
+   xmlns CDATA #FIXED "http://contraintes.inria.fr/OADymPPaC/Public/Trace">
+
+<!ELEMENT packet %Toplevel;>
+<!ATTLIST packet 
+   control  CDATA #IMPLIED >
+
+<!ELEMENT breakpoint EMPTY>
+<!ATTLIST breakpoint 
+   control  CDATA #IMPLIED >
+
+<!ELEMENT header ( date, source, creator?, contributor?, description?, 
+                   identifier?, rights?, solver?, parameters?,
+                   solver-parameters?, model-parameters?, checksum?,
+                   provide? ) >
+
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT source (#PCDATA)>
+<!ELEMENT creator (#PCDATA)>
+<!ELEMENT contributor (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT identifier (#PCDATA)>
+<!ELEMENT rights (#PCDATA)>
+<!ELEMENT solver (#PCDATA)>
+<!ELEMENT parameters (#PCDATA)>
+
+<!ELEMENT solver-parameters ( vardomain? , varenum? )>
+<!ATTLIST solver-parameters
+  back-to-strategy  CDATA #IMPLIED
+  vident CDATA #IMPLIED           
+  cident CDATA #IMPLIED        
+  nident CDATA #IMPLIED >         
+
+<!ELEMENT varenum EMPTY >         
+
+<!ELEMENT model-parameters ( vardomain? , varenum? )>
+<!ATTLIST model-parameters
+   back-to-strategy  CDATA #IMPLIED>
+
+<!ELEMENT checksum (#PCDATA)>
+
+<!ELEMENT provide (( new-variable | new-constraint | post |
+          choice-point | back-to | solution | failure | remove |
+          restore | reduce | suspend | solved | reject | awake |
+          schedule | annotation |  new-stage | start-stage |
+          suspend-stage | resume-stage | stop-stage )* , state?) >
+
+<!ELEMENT complement ( state | new-variable | new-constraint | post | 
+    choice-point | back-to | solution | failure | remove | 
+    restore | reduce | suspend | solved | reject | awake | schedule | 
+    annotation | new-stage | start-stage | suspend-stage | 
+    resume-stage | stop-stage ) >
+
+<!ENTITY % integer "CDATA" >
+
+<!ENTITY % number "CDATA" >
+
+<!ENTITY % eventAttributes
+  "chrono %integer; #REQUIRED
+   depth %integer; #IMPLIED
+   time  %integer; #IMPLIED
+   context CDATA #IMPLIED
+   line %integer; #IMPLIED
+   file CDATA #IMPLIED" >
+
+<!ENTITY % constraintAttributes
+  "cident CDATA #REQUIRED
+   cinternal CDATA #IMPLIED
+   cname CDATA #IMPLIED
+   cexternal CDATA #IMPLIED" >
+
+<!ENTITY % variableAttributes
+  "vident CDATA #REQUIRED
+   vinternal CDATA #IMPLIED
+   vname CDATA #IMPLIED
+   vexternal CDATA #IMPLIED" >
+
+<!ELEMENT state ((constraint)*, (variable)*, (update)*, misc?) >
+
+<!ATTLIST state
+   chrono %integer; #IMPLIED
+   depth %integer; #IMPLIED
+   time  %integer; #IMPLIED
+   context CDATA #IMPLIED
+   line CDATA #IMPLIED
+   file CDATA #IMPLIED
+   current-node CDATA #IMPLIED
+   nname CDATA #IMPLIED
+   status CDATA #IMPLIED
+   choice-constraint CDATA #IMPLIED
+   next-node CDATA #IMPLIED >
+
+<!ELEMENT constraint ( variables? , (update)* ) >
+<!ATTLIST constraint
+  %constraintAttributes;
+  orig CDATA #IMPLIED
+  status CDATA #IMPLIED >
+
+<!ELEMENT variables (#PCDATA) >
+
+<!ELEMENT variable  ( vardomain? ) >
+<!ATTLIST variable
+  %variableAttributes; 
+  type CDATA #IMPLIED >
+
+<!ELEMENT update EMPTY >
+<!ATTLIST update
+  vident CDATA #REQUIRED
+  types CDATA #IMPLIED 
+  status CDATA #IMPLIED >
+
+<!ELEMENT misc (#PCDATA) >
+
+<!ELEMENT new-variable ( vardomain? , state?) >
+<!ATTLIST new-variable
+  %eventAttributes;
+  %variableAttributes;
+  type CDATA #IMPLIED >
+
+<!ENTITY % valueList "( values | range )*" >
+
+<!ELEMENT vardomain %valueList; >
+<!ATTLIST vardomain
+  min %integer; #IMPLIED
+  max %integer; #IMPLIED
+  size %integer; #IMPLIED >
+
+<!ELEMENT values (#PCDATA) >
+
+<!ELEMENT range EMPTY>
+<!ATTLIST range
+  from CDATA #REQUIRED
+  to CDATA #REQUIRED >
+
+<!ELEMENT new-constraint ( variables?, (update)*, state?) >
+<!ATTLIST new-constraint
+  %eventAttributes;
+  %constraintAttributes;
+  orig CDATA #IMPLIED>
+
+<!ELEMENT post (state?) >
+<!ATTLIST post
+  %eventAttributes;
+  cident CDATA #REQUIRED>
+
+<!ELEMENT choice-point ( (choice-constraint)* , state? ) >
+<!ATTLIST choice-point
+   %eventAttributes;
+   nident CDATA #IMPLIED
+   nname CDATA #IMPLIED >
+
+<!ELEMENT choice-constraint EMPTY >
+<!ATTLIST choice-constraint
+    vident CDATA #IMPLIED
+    value %integer; #IMPLIED
+    constraints CDATA #IMPLIED >
+
+<!ELEMENT back-to ( (delta)*, (removed-values)*, state? ) > 
+<!ATTLIST back-to
+  %eventAttributes;
+  node CDATA #IMPLIED
+  node-before CDATA #IMPLIED> 
+
+<!ELEMENT removed-values %valueList;  >
+<!ATTLIST removed-values
+  vident CDATA #IMPLIED >
+
+<!ELEMENT solution ( (choice-constraint)* , state?) >
+<!ATTLIST solution
+  %eventAttributes;
+  nident CDATA #IMPLIED
+  nname CDATA #IMPLIED
+  val %number; #IMPLIED>
+
+<!ELEMENT failure ( (choice-constraint)* , state?) >
+<!ATTLIST failure
+  %eventAttributes;
+  nident CDATA #IMPLIED
+  nname CDATA #IMPLIED >
+
+<!ELEMENT remove (state?) >
+<!ATTLIST remove
+  %eventAttributes;
+  cident CDATA #REQUIRED>
+
+<!ELEMENT restore ( delta?, vardomain?, update?, state? ) >
+<!ATTLIST restore
+  %eventAttributes; 
+  vident CDATA #IMPLIED >
+
+<!ELEMENT reduce ( delta?, vardomain?, update?, explanation*, state? ) >
+<!ATTLIST reduce
+  %eventAttributes;
+  cident CDATA #IMPLIED
+  vident CDATA #IMPLIED
+  algo CDATA #IMPLIED >
+
+<!ELEMENT delta %valueList;  >
+<!ATTLIST delta
+  vident CDATA #IMPLIED >
+
+<!ELEMENT explanation ( %valueList; , (cause)*, constraints?) >
+
+<!ELEMENT cause %valueList; >
+<!ATTLIST cause
+  vident CDATA #REQUIRED
+  ctype CDATA #IMPLIED>
+
+<!ELEMENT constraints EMPTY>
+<!ATTLIST constraints
+  cidents CDATA #REQUIRED >
+
+<!ELEMENT suspend (state?) >
+<!ATTLIST suspend
+  %eventAttributes; 
+  cident CDATA #REQUIRED>
+
+<!ELEMENT solved (state?) >
+<!ATTLIST solved
+  %eventAttributes; 
+  cident CDATA #REQUIRED>
+
+<!ELEMENT reject ( state? ) >
+<!ATTLIST reject
+  %eventAttributes;
+  cident CDATA #REQUIRED>
+
+<!ELEMENT awake (update?, state?) >
+<!ATTLIST awake
+  %eventAttributes; 
+  cident CDATA #REQUIRED>
+
+<!ELEMENT schedule ( update?, state?) >
+<!ATTLIST schedule
+  %eventAttributes;
+  cident CDATA #IMPLIED
+  actions CDATA #IMPLIED>
+
+<!ELEMENT annotation ( acmd?, state?) >
+<!ATTLIST annotation
+  %eventAttributes;
+  aident CDATA #REQUIRED
+  type CDATA #IMPLIED
+  aname CDATA #IMPLIED
+  refs CDATA #IMPLIED >
+
+<!ELEMENT acmd (#PCDATA) >
+
+<!ENTITY % stageAttributes
+  "sident CDATA #REQUIRED
+   sname CDATA #IMPLIED
+   refs CDATA #IMPLIED
+   detail CDATA #IMPLIED" >
+
+<!ELEMENT new-stage (scomm?, state?) >
+<!ATTLIST new-stage
+  %eventAttributes;
+  %stageAttributes;>
+
+<!ELEMENT scomm (#PCDATA) >
+
+<!ELEMENT start-stage ( state? ) >
+<!ATTLIST start-stage
+  %eventAttributes;
+  sident CDATA #REQUIRED >
+
+<!ELEMENT suspend-stage ( state? ) >
+<!ATTLIST suspend-stage
+  %eventAttributes;
+  sident CDATA #REQUIRED >
+
+<!ELEMENT resume-stage ( state? ) >
+<!ATTLIST resume-stage
+  %eventAttributes;
+  sident CDATA #REQUIRED >
+
+<!ELEMENT stop-stage ( state? ) >
+<!ATTLIST stop-stage
+  %eventAttributes;
+  sident CDATA #REQUIRED >
+
+
