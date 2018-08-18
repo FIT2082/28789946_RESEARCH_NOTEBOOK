@@ -1,6 +1,8 @@
 Begun sqllite -> gentra4cp
 
 
+# project repo
+https://github.com/gh4n/minizinger
 
 # gentracp docs
 http://pauillac.inria.fr/~contraintes/OADymPPaC/Net/tra4cp/www/GenTra4CP/FDSTraces/indexFDST.html
