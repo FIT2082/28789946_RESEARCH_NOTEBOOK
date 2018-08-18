@@ -19,14 +19,14 @@ def create_connection(db_file):
     return None
  
  
-def select_all_tasks(conn):
+def select_all_nodes(conn):
     """
-    Query all rows in the tasks table
+    Query all rows in the Node table
     :param conn: the Connection object
     :return:
     """
     cur = conn.cursor()
-    cur.execute("SELECT * FROM tasks")
+    cur.execute("SELECT * FROM Nodes")
  
     rows = cur.fetchall()
  
@@ -36,7 +36,7 @@ def select_all_tasks(conn):
  
 def select_task_by_priority(conn, priority):
     """
-    Query tasks by priority
+    Query nodes by priority
     :param conn: the Connection object
     :param priority:
     :return:
@@ -48,7 +48,16 @@ def select_task_by_priority(conn, priority):
  
     for row in rows:
         print(row)
- 
+
+
+def select_node_by_label(conn, label):
+    """
+    Query tasks by label
+    :param conn: the Connection object
+    :param label: label {0, 1, 2, 3, 4}
+    """
+    cur = conn.cursor()
+    cur.execute("SELECT * FROM Nodes WHERE label=?", (label,)) 
  
 def main():
     database = "/Users/grace.han/Documents/University/sem2/res/example_dbs/nqueens_5_gecode_stdlib_inorder.db"
