@@ -51,7 +51,7 @@ def select_task_by_priority(conn, priority):
  
  
 def main():
-    database = "C:\\sqlite\db\pythonsqlite.db"
+    database = "/Users/grace.han/Documents/University/sem2/res/example_dbs/nqueens_5_gecode_stdlib_inorder.db"
  
     # create a database connection
     conn = create_connection(database)
