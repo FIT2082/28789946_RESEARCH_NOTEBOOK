@@ -12,3 +12,4 @@ http://pauillac.inria.fr/~contraintes/OADymPPaC/Net/tra4cp/www/GenTra4CP/FDSTrac
 https://arxiv.org/pdf/1105.6210.pdf
 https://nanopdf.com/download/gentra4cp-a-generic-trace-format-for-constraint-programming_pdf
 https://lallouet.users.greyc.fr/Publications_files/icmc06.pdf
+http://ialab.it.monash.edu/~dwyer/papers/cpprofiling.pdf
