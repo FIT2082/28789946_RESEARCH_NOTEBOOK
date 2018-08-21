@@ -1,6 +1,6 @@
 # buiding cpprofiler notes:
 ## installing qt5..
-~~1. download online installer~~
+~~1. download online installer~~ Don't even try this.
 1. on a mac ```brew install qt5```
 2. then ```brew link qt5 --force``` for command line use
 
