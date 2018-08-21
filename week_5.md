@@ -1,3 +1,14 @@
+This week I continued developing the sqlite -> gentra4cp convertor.
+To visualise the sqlite output and build a faithful convertor I installed **CP-Profiler** and **GECODE**.
+GECODE is used to solve CSPs and **CP-Profiler** provides visual feedback. 
+
+# Major dependencies
+1. MiniZinc Compiler
+2. Qt5
+
+# installing Minizinc compiler
+1. Download the bundled binary from http://www.minizinc.org/software.html
+
 # buiding cpprofiler notes:
 ## installing qt5..
 quite an annoying installation process
