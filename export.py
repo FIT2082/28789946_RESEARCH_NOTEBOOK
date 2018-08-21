@@ -46,7 +46,7 @@ def select_task_by_priority(conn, priority):
     cur.execute("SELECT * FROM tasks WHERE priority=?", (priority,))
  
     rows = cur.fetchall()
- 
+    
     for row in rows:
         print(row)
 
