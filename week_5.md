@@ -8,7 +8,7 @@ GECODE is used to solve CSPs and **CP-Profiler** provides visual feedback.
 
 # installing Minizinc compiler
 1. Download the bundled binary from http://www.minizinc.org/software.html
-2. add Minizinc executables to path ```export PATH=$PATH:/Applications/MiniZincIDE.app/Contents/Resources/``` 
+2. add Minizinc executables to path ```echo export PATH=$PATH:/Applications/MiniZincIDE.app/Contents/Resources/ >> ~/.zshrc``` 
 
 
 # buiding cpprofiler notes:
@@ -17,7 +17,7 @@ quite an annoying installation process
 ~~1. download online installer~~ Don't even try this.
 1. on a mac ```brew install qt5```
 2. then ```brew link qt5 --force``` for command line use
-3. add qt5 to path with ```export PATH=/usr/local/opt/qt5/bin:$PATH```
+3. add qt5 to path with ```echo export PATH=/usr/local/opt/qt5/bin:$PATH >> ~/.zshrc```
 
 ## github submodule ssh key issues
 1. modify ```.gitmodules``` to https://github.com/cp-profiler/cpp-integration.git
@@ -31,7 +31,9 @@ quite an annoying installation process
 3. ```git checkout develop ``` # Do not forget this step
 4. ```mkdir build```
 5. ```cd build```
-6. ```cmake -DENABLE_CPPROFILER=ON ..```
+6. ```cmake -ENABLE_CPPROFILER=ON ..```
 7. ```make```
+8. Run ```fzn-gecode --help``` and make sure that CPProfiler support listed as enabled.
 
-Run fzn-gecode --help and make sure that CPProfiler support listed as enabled.
+
+##### Note I use [zsh](http://www.zsh.org/) shell so all commands reflect this. If you use bash replace with ```~/.bashrc```
