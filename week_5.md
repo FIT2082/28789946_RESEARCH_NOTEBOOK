@@ -8,6 +8,8 @@ GECODE is used to solve CSPs and **CP-Profiler** provides visual feedback.
 
 # installing Minizinc compiler
 1. Download the bundled binary from http://www.minizinc.org/software.html
+2. add Minizinc executables to path ```export PATH=$PATH:/Applications/MiniZincIDE.app/Contents/Resources/``` 
+
 
 # buiding cpprofiler notes:
 ## installing qt5..
@@ -24,4 +26,12 @@ quite an annoying installation process
 
 
 # building gecode notes
+1. ```git clone git@github.com:Gecode/gecode.git```
+2. ```cd gecode```
+3. ```git checkout develop ``` # Do not forget this step
+4. ```mkdir build```
+5. ```cd build```
+6. ```cmake -DENABLE_CPPROFILER=ON ..```
+7. ```make```
 
+Run fzn-gecode --help and make sure that CPProfiler support listed as enabled.
