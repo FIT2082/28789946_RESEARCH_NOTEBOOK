@@ -22,14 +22,23 @@ provide = SubElement(top, 'provide')
 
 # preorder dfs
 def dfs(root, top):
+    cident = 0
+    chrono = 0
     if root:
         s = []
         s.insert(0, root)
         while s:
             cur = s.pop()
+            chrono += 1
             choicepoint = SubElement(top, 'choice-point')
             choicepoint.text = str(cur)
-            new_cons = SubElement(top, 'new-constraint')
+            if cur[-2] != 0:
+                new_cons = SubElement(top, 'new-constraint', {'chrono' : str(chrono), 'cident':str(cident)})
+            else:
+                solution = SubElement(top, 'solved', {'chrono' : str(chrono), 'cident': str(cident)})
+                cident +=1
+
+            
             new_cons.text = str(cur[-1])
             if len(tree) > cur[0] + 1:
                 if len(tree[cur[0] + 1])>0:
@@ -47,13 +56,7 @@ def prettify(elem):
 
 dfs(tree[0][0], top)
 print(prettify(top))
+# print(top)
 
 
 
-
-def prettify(elem):
-    """Return a pretty-printed XML string for the Element.
-    """
-    rough_string = ElementTree.tostring(elem, 'utf-8')
-    reparsed = minidom.parseString(rough_string)
-    return reparsed.toprettyxml(indent="  ")
