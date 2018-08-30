@@ -31,9 +31,18 @@ quite an annoying installation process
 3. ```git checkout develop ``` # Do not forget this step
 4. ```mkdir build```
 5. ```cd build```
-6. ```cmake -ENABLE_CPPROFILER=ON ..```
+6. ```cmake -DENABLE_CPPROFILER=ON ..```
 7. ```make```
 8. Run ```fzn-gecode --help``` and make sure that CPProfiler support listed as enabled.
 
+---
+- During this week's meeting Kevin, Guido and I explored an example Gentra4CP xml file and discussed the process of converting the database files.
+- Guido found some sample execution traces [here]
+- The main xml elements we need to represent are:
+1. choicepoint - denoting a branch
+2. new constraint - the detail of the constraint, for example assignment.
+3. failure - no solution found
+
+- Some GECODE compilation issues were also solved during this meeting
 
 ##### Note I use [zsh](http://www.zsh.org/) shell so all commands reflect this. If you use bash replace with ```~/.bashrc```

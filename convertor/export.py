@@ -1,6 +1,7 @@
-!/usr/bin/python
+#!/usr/bin/python
  
 import sqlite3
+import sys
 from sqlite3 import Error
  
  
@@ -30,12 +31,9 @@ def select_all_nodes(conn):
     cur.execute("SELECT * FROM Nodes")
  
     rows = cur.fetchall()
- 
-    for row in rows:
-        print(row)
- 
- 
-def select_task_by_priority(conn, priority):
+    return rows
+
+def select_task_by_status(conn, status):
     """
     Query nodes by priority
     :param conn: the Connection object
@@ -43,13 +41,10 @@ def select_task_by_priority(conn, priority):
     :return:
     """
     cur = conn.cursor()
-    cur.execute("SELECT * FROM tasks WHERE priority=?", (priority,))
+    cur.execute("SELECT * FROM nodes WHERE status=?", (status,))
  
     rows = cur.fetchall()
-    
-    for row in rows:
-        print(row)
-
+    return rows
 
 def select_node_by_label(conn, label):
     """
@@ -59,19 +54,38 @@ def select_node_by_label(conn, label):
     """
     cur = conn.cursor()
     cur.execute("SELECT * FROM Nodes WHERE label=?", (label,)) 
- 
+
+
+def get_info_by_node(conn, node):
+    """
+    Queries Info database for information on node
+    :param conn: the Connnection object
+    :param node: nodeid number
+    """ 
+    cur = conn.cursor()
+    cur.execute("SELECT * FROM Info WHERE NodeID=?", (node))
+
+
+# def write(fn):
+#     """
+#     Writes db output to file
+#     :param fn: output filename
+#     """
+#     with open(fn, 'w') as out
+#         out.write
+
+
 def main():
-    database = "/Users/grace.han/Documents/University/sem2/res/example_dbs/nqueens_5_gecode_stdlib_inorder.db"
- 
+    database = sys.argv[1]
     # create a database connection
     conn = create_connection(database)
     with conn:
-        print("1. Query task by priority:")
-        select_task_by_priority(conn,1)
+        # print("1. Query task by status:")
+        # select_task_by_status(conn,1)
  
-        print("2. Query all tasks")
-        select_all_tasks(conn)
+        tmp =  select_all_nodes(conn)
  
- 
+        for i in tmp:
+            print(i)
 if __name__ == '__main__':
     main()
