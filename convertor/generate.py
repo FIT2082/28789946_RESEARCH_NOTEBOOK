@@ -27,13 +27,15 @@ def dfs(root, top):
         s.insert(0, root)
         while s:
             cur = s.pop()
-            choicepoint = SubElement(top, 'choicepoint')
+            choicepoint = SubElement(top, 'choice-point')
             choicepoint.text = str(cur)
+            new_cons = SubElement(top, 'new-constraint')
+            new_cons.text = str(cur[-1])
             if len(tree) > cur[0] + 1:
-                if len(tree[cur[0] + 1])>1:
-                    s.insert(0, tree[cur[0] + 1][1])
-                if len(tree[cur[0] + 1]) > 0:
+                if len(tree[cur[0] + 1])>0:
                     s.insert(0, tree[cur[0] + 1][0])
+                if len(tree[cur[0] + 1]) > 1:
+                    s.insert(0, tree[cur[0] + 1][1])
     
 # print(tree)
 def prettify(elem):
