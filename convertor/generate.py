@@ -2,7 +2,6 @@ import export
 from xml.etree.ElementTree import Element, SubElement, Comment, tostring
 import sys
 from xml.etree import ElementTree
-
 from xml.dom import minidom
 
 
@@ -29,27 +28,25 @@ def dfs(root, top):
         s.insert(0, root)
         while s:
             cur = s.pop()
+            nident = cur[0]
             chrono += 1
-            choicepoint = SubElement(top, 'choice-point')
-            choicepoint.text = str(cur)
+            choicepoint = SubElement(top, 'choice-point', {'chrono' : str(chrono), 'nident':str(nident)})
             if cur[-2] != 0:
-                new_cons = SubElement(top, 'new-constraint', {'chrono' : str(chrono), 'cident':str(cident)})
+                new_cons = SubElement(top, 'new-constraint', {'chrono' : str(chrono), 'cident': 'c' + str(cident), 'cinternal':str(cur[-1])})
             else:
-                solution = SubElement(top, 'solved', {'chrono' : str(chrono), 'cident': str(cident)})
+                solution = SubElement(top, 'solved', {'chrono' : str(chrono), 'cident': 'c' + str(cident)})
                 cident +=1
-
-            
-            new_cons.text = str(cur[-1])
             if len(tree) > cur[0] + 1:
                 if len(tree[cur[0] + 1])>0:
-                    s.insert(0, tree[cur[0] + 1][0])
+                    if(cur[-2] != 4 or cur[-2] != 3):
+                        s.insert(0, tree[cur[0] + 1][0])
                 if len(tree[cur[0] + 1]) > 1:
-                    s.insert(0, tree[cur[0] + 1][1])
+                    if(cur[-2] != 4 or cur[-2] != 3):
+                        s.insert(0, tree[cur[0] + 1][1])
     
 # print(tree)
 def prettify(elem):
-    """Return a pretty-printed XML string for the Element.
-    """
+
     rough_string = ElementTree.tostring(elem, 'utf-8')
     reparsed = minidom.parseString(rough_string)
     return reparsed.toprettyxml(indent="  ")
