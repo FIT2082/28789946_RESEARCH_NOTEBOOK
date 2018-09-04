@@ -6,6 +6,7 @@ from xml.dom import minidom
 
 # read in database
 database = sys.argv[1]
+fp = sys.argv[2]
 conn = export.create_connection(database)
 
 with conn:
@@ -20,6 +21,7 @@ class Node:
         self.data = data
         self.rc = None
         self.lc = None
+        # self.backtrack = False
 
 # construct tree
 tree = []
@@ -46,6 +48,9 @@ def dfs(tree):
             s.append(tree[cur.rc])
         if cur.lc is not None:
             s.append(tree[cur.lc])
+        # # if no kids, sets backtrack to true
+        # if cur.data[-3] == 0:
+        #     self.backtrack = True
     return path
 path = dfs(tree)
 
@@ -77,4 +82,7 @@ def prettify(elem):
     rough_string = ElementTree.tostring(elem, 'utf-8')
     reparsed = minidom.parseString(rough_string)
     return reparsed.toprettyxml(indent="  ")
-print(prettify(top))
+    
+# writes to file
+with open(fp, 'w') as out:
+    out.write(prettify(top))
