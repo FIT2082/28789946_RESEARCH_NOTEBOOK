@@ -28,6 +28,7 @@ def dfs(root, top):
         s.insert(0, root)
         while s:
             cur = s.pop()
+            print(cur)
             nident = cur[0]
             chrono += 1
             choicepoint = SubElement(top, 'choice-point', {'chrono' : str(chrono), 'nident':str(nident)})
@@ -38,11 +39,13 @@ def dfs(root, top):
                 cident +=1
             if len(tree) > cur[0] + 1:
                 if len(tree[cur[0] + 1])>0:
-                    if(cur[-2] != 4 or cur[-2] != 3):
-                        s.insert(0, tree[cur[0] + 1][0])
+                    # if(cur[-2] != 4 or cur[-2] != 3 or cur[-2] != 1):
+                    s.insert(0, tree[cur[0] + 1][0])
+                    # else:
+                        
                 if len(tree[cur[0] + 1]) > 1:
-                    if(cur[-2] != 4 or cur[-2] != 3):
-                        s.insert(0, tree[cur[0] + 1][1])
+                    # if(cur[-2] != 4 or cur[-2] != 3 or cur[-2] != 1):
+                    s.insert(0, tree[cur[0] + 1][1])
     
 # print(tree)
 def prettify(elem):
@@ -51,7 +54,22 @@ def prettify(elem):
     reparsed = minidom.parseString(rough_string)
     return reparsed.toprettyxml(indent="  ")
 
-dfs(tree[0][0], top)
+
+
+def dfs2(root):
+    if root:
+        s = []
+        s.insert(0, root)
+        while s:
+            cur = s.pop()
+            print(cur[0])
+            if len(tree) > cur[0] + 1:
+                s.insert(0, tree[cur[0] + 1][0])
+            if len(tree[cur[0] + 1]) > 1:
+                s.insert(0, tree[cur[0] + 1][1])
+
+# dfs(tree[0][0], top)
+dfs2(tree[0][0])
 print(prettify(top))
 # print(top)
 
