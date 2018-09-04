@@ -21,6 +21,7 @@ class Node:
         self.data = data
         self.rc = None
         self.lc = None
+        self.cident = None
         # self.backtrack = False
 
 # construct tree
@@ -48,9 +49,9 @@ def dfs(tree):
             s.append(tree[cur.rc])
         if cur.lc is not None:
             s.append(tree[cur.lc])
-        # # if no kids, sets backtrack to true
-        # if cur.data[-3] == 0:
-        #     self.backtrack = True
+        # if no kids, sets backtrack to true
+        if cur.data[-3] == 0:
+            self.backtrack = (True, cur.id)
     return path
 path = dfs(tree)
 
@@ -68,9 +69,13 @@ depth = 0
 for node in path:
     choicepoint = SubElement(top, 'choice-point', {'chrono' : str(chrono), 'nident':str(node.id)})
     # if not solved, create new constraint
+    if node.backtrack[0]:
+        chrono +=1
+        backtrack = SubElement(top, 'back-to', {'chrono':str(chrono), 'node':str(node.id), 'node-before':str(node.backtrack[1])})
     if node.data[-2] != 0:
         chrono +=1
         cident +=1
+        node.cident = cident
         new_cons = SubElement(top, 'new-constraint', {'chrono' : str(chrono), 'cident': 'c' + str(cident), 'cinternal':node.data[-1]})
     # if solve, report solved state
     else:

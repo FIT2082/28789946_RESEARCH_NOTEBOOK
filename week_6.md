@@ -1,4 +1,4 @@
-# week 6 
+# Week 6 
 
 
 To generate XML file: 
