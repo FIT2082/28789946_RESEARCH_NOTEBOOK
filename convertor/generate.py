@@ -22,7 +22,7 @@ class Node:
         self.rc = None
         self.lc = None
         self.cident = None
-        # self.backtrack = False
+        self.backtrack = (False, None)
 
 # construct tree
 tree = []
@@ -51,7 +51,7 @@ def dfs(tree):
             s.append(tree[cur.lc])
         # if no kids, sets backtrack to true
         if cur.data[-3] == 0:
-            self.backtrack = (True, cur.id)
+            cur.backtrack = (True, cur.parent)
     return path
 path = dfs(tree)
 
