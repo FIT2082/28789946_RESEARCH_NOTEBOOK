@@ -1,5 +1,3 @@
-<!--DOCTYPE gentra4cp SYSTEM 
-"http://contraintes.inria.fr/OADymPPaC/Public/Trace/gentra4cp.2.1.dtd"-->
 <gentra4cp>
 <header>
 	<date>2004-04-28 01:53:56</date>
@@ -13,138 +11,3281 @@
 		multsorted(2,_15)
 	</parameters>
 </header>
-<!---->
-<!--<provide>-->
-<!--   <new-variable chrono="" depth=""  vinternal="" vident="" vname="">-->
-<!--      <vardomain min="" max="" size="">-->
-<!--         <range from="" to=""/>-->
-<!--      </vardomain>-->
-<!--   </new-variable>-->
-<!--   <new-constraint chrono="" depth=""  cident="" cinternal="" orig="" cname="" />-->
-<!--   <post chrono="" depth=""  cident="" />-->
-<!--   <choice-point chrono="" depth="" nident="" />-->
-<!--   <back-to chrono="" depth="" node="" node-before="" time="" />-->
-<!--   <solution chrono="" depth="" nident="" time="" >-->
-<!--      <state>-->
-<!--         <variable vident="" type="" vinternal="" vname="">-->
-<!--            <vardomain min="" max="" size="" > <range from="" to="" />-->
-<!--            </vardomain>-->
-<!--         </variable>-->
-<!--      </state>-->
-<!--   </solution>-->
-<!--   <failure chrono="" depth="" nident="" time="" />-->
-<!--   <reduce chrono="" depth=""  algo="" cident="" vident="" >-->
-<!--      <delta> <range from="" to=""/> </delta>-->
-<!--      <update vident="" types=""/>-->
-<!--   </reduce>-->
-<!--   <solved chrono="" depth="" cident="" />-->
-<!--   <schedule chrono="" depth="" actions="" >-->
-<!--    <update vident="" types="" />-->
-<!--   </schedule>-->
-<!--</provide>-->
-
-<choice-point chrono="1" depth="0" nident="0" nname="root" time="0" />
-<new-variable chrono="2" depth="1" vident="v1" vinternal="_#3" vname="var2" >
-	<vardomain min="1" max="3" size="3"><range from="1" to="3" /></vardomain>
-</new-variable>
-<new-constraint chrono="3" depth="1" cident="c1" cinternal="fd_domain(v1,1,3)" orig="user" cname="fdom" />
-<post chrono="4" depth="1" cident="c1" />
-<solved chrono="5" depth="1" cident="c1" />
-<new-variable chrono="6" depth="1" vident="v2" vinternal="_#25" vname="var1" >
-	<vardomain min="1" max="3" size="3"><range from="1" to="3" /></vardomain>
-</new-variable>
-<new-constraint chrono="7" depth="1" cident="c2" cinternal="fd_domain(v2,1,3)" orig="user" cname="fdom" />
-<post chrono="8" depth="1" cident="c2" />
-<solved chrono="9" depth="1" cident="c2" />
-<choice-point chrono="10" depth="1" nident="1" time="0" />
-<new-constraint chrono="11" depth="2" cident="c3" cinternal="x_lt_y(v1,v2)" orig="user" cname="cons2" />
-<post chrono="12" depth="2" cident="c3" />
-<reduce chrono="13" depth="2" algo="initial[2]" cident="c3" vident="v1" >
-	<delta><range from="3" to="3" /></delta>
-	<update vident="v1" types="max minmax dom" />
-</reduce>
-<reduce chrono="14" depth="2" algo="initial[2]" cident="c3" vident="v2" >
-	<delta><range from="1" to="1" /></delta>
-	<update vident="v2" types="min minmax dom" />
-</reduce>
-<suspend chrono="15" depth="2" cident="c3" />
-<choice-point chrono="16" depth="2" nident="2" time="0" />
-<new-constraint chrono="17" depth="3" cident="c6" cinternal="assign(v1,1)" orig="system" />
-<post chrono="18" depth="3" cident="c6" />
-<reduce chrono="19" depth="3" algo="initial[1]" cident="c6" vident="v1" >
-	<delta><range from="2" to="2" /></delta>
-	<update vident="v1" types="max minmax dom val" />
-</reduce>
-<solved chrono="20" depth="3" cident="c6" />
-<choice-point chrono="21" depth="3" nident="3" time="0" />
-<new-constraint chrono="22" depth="4" cident="c7" cinternal="assign(v2,2)" orig="system" />
-<post chrono="23" depth="4" cident="c7" />
-<reduce chrono="24" depth="4" algo="initial[1]" cident="c7" vident="v2" >
-	<delta><range from="3" to="3" /></delta>
-	<update vident="v2" types="max minmax dom val" />
-</reduce>
-<solved chrono="25" depth="4" cident="c7" />
-<schedule chrono="26" depth="4" actions="dequeue" >
-	<update vident="v2" types="max" />
-</schedule>
-<solution chrono="27" depth="4" nident="4" time="0" >
-	<state>
-	<variable vident="v1" type="int" vinternal="_#3" vname="var2">
-		<vardomain min="1" max="1" size="1"><range from="1" to="1" /></vardomain>
-	</variable>
-	<variable vident="v2" type="int" vinternal="_#25" vname="var1">
-		<vardomain min="2" max="2" size="1"><range from="2" to="2" /></vardomain>
-	</variable>
-	</state>
-</solution>
-<back-to chrono="28" depth="3" node="3" node-before="4" time="0" />
-<new-constraint chrono="29" depth="4" cident="c8" cinternal="assign(v2,3)" orig="system" />
-<post chrono="30" depth="4" cident="c8" />
-<reduce chrono="31" depth="4" algo="initial[1]" cident="c8" vident="v2" >
-	<delta><range from="2" to="2" /></delta>
-	<update vident="v2" types="min minmax dom val" />
-</reduce>
-<solved chrono="32" depth="4" cident="c8" />
-<solution chrono="33" depth="4" nident="5" time="0" >
-	<state>
-	<variable vident="v1" type="int" vinternal="_#3" vname="var2">
-		<vardomain min="1" max="1" size="1"><range from="1" to="1" /></vardomain>
-	</variable>
-	<variable vident="v2" type="int" vinternal="_#25" vname="var1">
-		<vardomain min="3" max="3" size="1"><range from="3" to="3" /></vardomain>
-	</variable>
-	</state>
-</solution>
-<back-to chrono="34" depth="2" node="2" node-before="5" time="0" />
-<new-constraint chrono="35" depth="3" cident="c9" cinternal="assign(v1,2)" orig="system" />
-<post chrono="36" depth="3" cident="c9" />
-<reduce chrono="37" depth="3" algo="initial[1]" cident="c9" vident="v1" >
-	<delta><range from="1" to="1" /></delta>
-	<update vident="v1" types="min minmax dom val" />
-</reduce>
-<solved chrono="38" depth="3" cident="c9" />
-<schedule chrono="39" depth="3" actions="dequeue" >
-	<update vident="v1" types="min" />
-</schedule>
-<awake chrono="40" depth="3" cident="c3" >
-	<update vident="v1" types="min" />
-</awake>
-<reduce chrono="41" depth="3" algo="f_5[1]" cident="c3" vident="v2" >
-	<delta><range from="2" to="2" /></delta>
-	<update vident="v2" types="min minmax dom val" />
-</reduce>
-<suspend chrono="42" depth="3" cident="c3" />
-<solution chrono="43" depth="3" nident="6" time="0" >
-	<state>
-	<variable vident="v1" type="int" vinternal="_#3" vname="var2">
-		<vardomain min="2" max="2" size="1"><range from="2" to="2" /></vardomain>
-	</variable>
-	<variable vident="v2" type="int" vinternal="_#25" vname="var1">
-		<vardomain min="3" max="3" size="1"><range from="3" to="3" /></vardomain>
-	</variable>
-	</state>
-</solution>
-<back-to chrono="44" depth="2" node="2" node-before="6" time="0" />
-<failure chrono="45" depth="3" nident="7" time="0" />
-<back-to chrono="46" depth="0" node="0" node-before="7" time="0" />
+  <!-- <provide/> -->
+  <choice-point chrono="0" nident="0"/>
+  <new-variable chrono="0" var="X_INTRODUCED_0_">
+    <vardomain max="9" min="1" size="7">
+      <values>1 2 3 4 5 7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_1_">
+    <vardomain max="9" min="1" size="3">
+      <values>1 7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_2_">
+    <vardomain max="9" min="1" size="6">
+      <values>1 2 3 4 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_3_">
+    <vardomain max="9" min="3" size="3">
+      <values>3 7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_4_">
+    <vardomain max="9" min="2" size="5">
+      <values>2 3 6 7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_5_">
+    <vardomain max="3" min="2" size="2">
+      <values>2 3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_6_">
+    <vardomain max="8" min="1" size="5">
+      <values>1 2 4 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_7_">
+    <vardomain max="8" min="5" size="4">
+      <values>1 5 6 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_8_">
+    <vardomain max="9" min="1" size="7">
+      <values>1 2 4 5 6 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_9_">
+    <vardomain max="9" min="2" size="4">
+      <values>2 3 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_10_">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_11_">
+    <vardomain max="8" min="8" size="1">
+      <values>8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_12_">
+    <vardomain max="4" min="4" size="1">
+      <values>4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_13_">
+    <vardomain max="9" min="2" size="3">
+      <values>2 3 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_14_">
+    <vardomain max="1" min="1" size="1">
+      <values>1</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_15_">
+    <vardomain max="5" min="2" size="2">
+      <values>2 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_16_">
+    <vardomain max="7" min="7" size="1">
+      <values>7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_17_">
+    <vardomain max="9" min="2" size="3">
+      <values>2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_18_">
+    <vardomain max="9" min="1" size="5">
+      <values>1 2 4 7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_19_">
+    <vardomain max="9" min="1" size="3">
+      <values>1 7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_20_">
+    <vardomain max="9" min="1" size="4">
+      <values>1 2 4 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_21_">
+    <vardomain max="9" min="7" size="2">
+      <values>7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_22_">
+    <vardomain max="8" min="8" size="1">
+      <values>8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_23_">
+    <vardomain max="5" min="5" size="1">
+      <values>5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_24_">
+    <vardomain max="4" min="1" size="3">
+      <values>1 2 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_25_">
+    <vardomain max="3" min="3" size="1">
+      <values>3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_26_">
+    <vardomain max="9" min="1" size="5">
+      <values>1 2 4 6 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_27_">
+    <vardomain max="3" min="1" size="2">
+      <values>1 3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_28_">
+    <vardomain max="2" min="2" size="1">
+      <values>2</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_29_">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_30_">
+    <vardomain max="8" min="8" size="1">
+      <values>8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_31_">
+    <vardomain max="7" min="3" size="3">
+      <values>3 5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_32_">
+    <vardomain max="9" min="9" size="1">
+      <values>9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_33_">
+    <vardomain max="7" min="1" size="3">
+      <values>1 5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_34_">
+    <vardomain max="4" min="4" size="1">
+      <values>4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_35_">
+    <vardomain max="7" min="1" size="3">
+      <values>1 5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_36_">
+    <vardomain max="8" min="3" size="4">
+      <values>1 3 4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_37_">
+    <vardomain max="8" min="1" size="2">
+      <values>1 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_38_">
+    <vardomain max="7" min="7" size="1">
+      <values>7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_39_">
+    <vardomain max="5" min="3" size="2">
+      <values>3 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_40_">
+    <vardomain max="5" min="2" size="4">
+      <values>2 3 4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_41_">
+    <vardomain max="4" min="2" size="3">
+      <values>2 3 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_42_">
+    <vardomain max="9" min="9" size="1">
+      <values>9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_43_">
+    <vardomain max="8" min="5" size="4">
+      <values>1 5 6 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_44_">
+    <vardomain max="8" min="5" size="4">
+      <values>1 5 6 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_45_">
+    <vardomain max="4" min="8" size="3">
+      <values>4 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_46_">
+    <vardomain max="5" min="5" size="1">
+      <values>5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_47_">
+    <vardomain max="9" min="4" size="2">
+      <values>4 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_48_">
+    <vardomain max="1" min="1" size="1">
+      <values>1</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_49_">
+    <vardomain max="7" min="4" size="2">
+      <values>4 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_50_">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_51_">
+    <vardomain max="3" min="3" size="1">
+      <values>3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="X_INTRODUCED_52_">
+    <vardomain max="2" min="2" size="1">
+      <values>2</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="puzzle">
+    <vardomain max="8" min="7" size="2">
+      <values>7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="puzzle">
+    <vardomain max="5" min="7" size="5">
+      <values>2 5 7 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="puzzle">
+    <vardomain max="4" min="4" size="1">
+      <values>4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="puzzle">
+    <vardomain max="9" min="2" size="3">
+      <values>2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="puzzle">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="puzzle">
+    <vardomain max="1" min="1" size="1">
+      <values>1</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="puzzle">
+    <vardomain max="8" min="3" size="2">
+      <values>3 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="puzzle">
+    <vardomain max="5" min="7" size="4">
+      <values>2 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="puzzle">
+    <vardomain max="8" min="5" size="2">
+      <values>5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="puzzle">
+    <vardomain max="5" min="2" size="5">
+      <values>2 3 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="puzzle">
+    <vardomain max="8" min="1" size="3">
+      <values>1 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="puzzle">
+    <vardomain max="3" min="3" size="1">
+      <values>3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="puzzle">
+    <vardomain max="5" min="1" size="2">
+      <values>1 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="puzzle">
+    <vardomain max="2" min="2" size="1">
+      <values>2</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="puzzle">
+    <vardomain max="5" min="4" size="2">
+      <values>4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="puzzle">
+    <vardomain max="7" min="7" size="1">
+      <values>7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="puzzle">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="puzzle">
+    <vardomain max="9" min="9" size="1">
+      <values>9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="puzzle">
+    <vardomain max="8" min="4" size="4">
+      <values>1 4 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="puzzle">
+    <vardomain max="9" min="1" size="7">
+      <values>1 2 5 6 7 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="puzzle">
+    <vardomain max="1" min="7" size="4">
+      <values>1 7 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="puzzle">
+    <vardomain max="9" min="1" size="4">
+      <values>1 2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="puzzle">
+    <vardomain max="9" min="3" size="3">
+      <values>3 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="puzzle">
+    <vardomain max="9" min="3" size="4">
+      <values>3 4 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="puzzle">
+    <vardomain max="8" min="3" size="3">
+      <values>3 4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="puzzle">
+    <vardomain max="8" min="1" size="6">
+      <values>1 2 4 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="puzzle">
+    <vardomain max="8" min="1" size="3">
+      <values>1 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" var="puzzle">
+    <vardomain max="8" min="1" size="7">
+      <values>1 2 3 4 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-constraint chrono="1" cident="c1" cinternal=""/>
+  <choice-point chrono="1" nident="1"/>
+  <new-variable chrono="1" var="X_INTRODUCED_0_">
+    <vardomain max="9" min="3" size="6">
+      <values>1 3 4 5 7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_1_">
+    <vardomain max="9" min="1" size="3">
+      <values>1 7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_2_">
+    <vardomain max="9" min="3" size="5">
+      <values>1 3 4 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_3_">
+    <vardomain max="9" min="3" size="3">
+      <values>3 7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_4_">
+    <vardomain max="9" min="6" size="4">
+      <values>3 6 7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_5_">
+    <vardomain max="2" min="2" size="1">
+      <values>2</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_6_">
+    <vardomain max="8" min="4" size="4">
+      <values>1 4 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_7_">
+    <vardomain max="8" min="5" size="4">
+      <values>1 5 6 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_8_">
+    <vardomain max="1" min="4" size="6">
+      <values>1 4 5 6 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_9_">
+    <vardomain max="9" min="2" size="4">
+      <values>2 3 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_10_">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_11_">
+    <vardomain max="8" min="8" size="1">
+      <values>8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_12_">
+    <vardomain max="4" min="4" size="1">
+      <values>4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_13_">
+    <vardomain max="9" min="3" size="2">
+      <values>3 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_14_">
+    <vardomain max="1" min="1" size="1">
+      <values>1</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_15_">
+    <vardomain max="5" min="2" size="2">
+      <values>2 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_16_">
+    <vardomain max="7" min="7" size="1">
+      <values>7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_17_">
+    <vardomain max="9" min="2" size="3">
+      <values>2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_18_">
+    <vardomain max="9" min="1" size="5">
+      <values>1 2 4 7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_19_">
+    <vardomain max="9" min="1" size="3">
+      <values>1 7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_20_">
+    <vardomain max="9" min="1" size="4">
+      <values>1 2 4 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_21_">
+    <vardomain max="9" min="7" size="2">
+      <values>7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_22_">
+    <vardomain max="8" min="8" size="1">
+      <values>8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_23_">
+    <vardomain max="5" min="5" size="1">
+      <values>5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_24_">
+    <vardomain max="4" min="1" size="3">
+      <values>1 2 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_25_">
+    <vardomain max="3" min="3" size="1">
+      <values>3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_26_">
+    <vardomain max="9" min="1" size="5">
+      <values>1 2 4 6 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_27_">
+    <vardomain max="3" min="1" size="2">
+      <values>1 3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_28_">
+    <vardomain max="2" min="2" size="1">
+      <values>2</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_29_">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_30_">
+    <vardomain max="8" min="8" size="1">
+      <values>8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_31_">
+    <vardomain max="7" min="3" size="3">
+      <values>3 5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_32_">
+    <vardomain max="9" min="9" size="1">
+      <values>9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_33_">
+    <vardomain max="7" min="1" size="3">
+      <values>1 5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_34_">
+    <vardomain max="4" min="4" size="1">
+      <values>4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_35_">
+    <vardomain max="7" min="1" size="3">
+      <values>1 5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_36_">
+    <vardomain max="8" min="3" size="4">
+      <values>1 3 4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_37_">
+    <vardomain max="8" min="1" size="2">
+      <values>1 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_38_">
+    <vardomain max="7" min="7" size="1">
+      <values>7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_39_">
+    <vardomain max="5" min="3" size="2">
+      <values>3 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_40_">
+    <vardomain max="2" min="2" size="1">
+      <values>2</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_41_">
+    <vardomain max="4" min="3" size="2">
+      <values>3 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_42_">
+    <vardomain max="9" min="9" size="1">
+      <values>9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_43_">
+    <vardomain max="8" min="5" size="4">
+      <values>1 5 6 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_44_">
+    <vardomain max="8" min="5" size="4">
+      <values>1 5 6 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_45_">
+    <vardomain max="4" min="8" size="3">
+      <values>4 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_46_">
+    <vardomain max="5" min="5" size="1">
+      <values>5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_47_">
+    <vardomain max="9" min="4" size="2">
+      <values>4 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_48_">
+    <vardomain max="1" min="1" size="1">
+      <values>1</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_49_">
+    <vardomain max="7" min="4" size="2">
+      <values>4 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_50_">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_51_">
+    <vardomain max="3" min="3" size="1">
+      <values>3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="X_INTRODUCED_52_">
+    <vardomain max="2" min="2" size="1">
+      <values>2</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="puzzle">
+    <vardomain max="8" min="7" size="2">
+      <values>7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="puzzle">
+    <vardomain max="5" min="7" size="5">
+      <values>2 5 7 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="puzzle">
+    <vardomain max="4" min="4" size="1">
+      <values>4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="puzzle">
+    <vardomain max="9" min="2" size="3">
+      <values>2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="puzzle">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="puzzle">
+    <vardomain max="1" min="1" size="1">
+      <values>1</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="puzzle">
+    <vardomain max="8" min="3" size="2">
+      <values>3 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="puzzle">
+    <vardomain max="5" min="7" size="4">
+      <values>2 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="puzzle">
+    <vardomain max="8" min="5" size="2">
+      <values>5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="puzzle">
+    <vardomain max="5" min="2" size="5">
+      <values>2 3 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="puzzle">
+    <vardomain max="8" min="1" size="3">
+      <values>1 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="puzzle">
+    <vardomain max="3" min="3" size="1">
+      <values>3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="puzzle">
+    <vardomain max="5" min="1" size="2">
+      <values>1 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="puzzle">
+    <vardomain max="2" min="2" size="1">
+      <values>2</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="puzzle">
+    <vardomain max="5" min="4" size="2">
+      <values>4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="puzzle">
+    <vardomain max="7" min="7" size="1">
+      <values>7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="puzzle">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="puzzle">
+    <vardomain max="9" min="9" size="1">
+      <values>9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="puzzle">
+    <vardomain max="8" min="4" size="4">
+      <values>1 4 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="puzzle">
+    <vardomain max="9" min="1" size="7">
+      <values>1 2 5 6 7 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="puzzle">
+    <vardomain max="1" min="7" size="4">
+      <values>1 7 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="puzzle">
+    <vardomain max="9" min="1" size="4">
+      <values>1 2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="puzzle">
+    <vardomain max="9" min="3" size="3">
+      <values>3 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="puzzle">
+    <vardomain max="9" min="3" size="4">
+      <values>3 4 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="puzzle">
+    <vardomain max="8" min="3" size="3">
+      <values>3 4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="puzzle">
+    <vardomain max="8" min="1" size="6">
+      <values>1 2 4 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="puzzle">
+    <vardomain max="8" min="1" size="3">
+      <values>1 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" var="puzzle">
+    <vardomain max="8" min="1" size="7">
+      <values>1 2 3 4 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-constraint chrono="2" cident="c2" cinternal="X_INTRODUCED_53_[6] = 2"/>
+  <choice-point chrono="2" nident="3"/>
+  <new-variable chrono="2" var="X_INTRODUCED_0_">
+    <vardomain max="9" min="3" size="6">
+      <values>1 3 4 5 7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_1_">
+    <vardomain max="9" min="1" size="3">
+      <values>1 7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_2_">
+    <vardomain max="9" min="3" size="5">
+      <values>1 3 4 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_3_">
+    <vardomain max="9" min="7" size="2">
+      <values>7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_4_">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_5_">
+    <vardomain max="2" min="2" size="1">
+      <values>2</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_6_">
+    <vardomain max="8" min="4" size="4">
+      <values>1 4 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_7_">
+    <vardomain max="8" min="1" size="3">
+      <values>1 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_8_">
+    <vardomain max="1" min="4" size="5">
+      <values>1 4 5 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_9_">
+    <vardomain max="9" min="2" size="3">
+      <values>2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_10_">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_11_">
+    <vardomain max="8" min="8" size="1">
+      <values>8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_12_">
+    <vardomain max="4" min="4" size="1">
+      <values>4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_13_">
+    <vardomain max="3" min="3" size="1">
+      <values>3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_14_">
+    <vardomain max="1" min="1" size="1">
+      <values>1</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_15_">
+    <vardomain max="5" min="2" size="2">
+      <values>2 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_16_">
+    <vardomain max="7" min="7" size="1">
+      <values>7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_17_">
+    <vardomain max="9" min="2" size="3">
+      <values>2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_18_">
+    <vardomain max="9" min="1" size="5">
+      <values>1 2 4 7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_19_">
+    <vardomain max="9" min="1" size="3">
+      <values>1 7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_20_">
+    <vardomain max="9" min="1" size="4">
+      <values>1 2 4 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_21_">
+    <vardomain max="9" min="7" size="2">
+      <values>7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_22_">
+    <vardomain max="8" min="8" size="1">
+      <values>8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_23_">
+    <vardomain max="5" min="5" size="1">
+      <values>5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_24_">
+    <vardomain max="4" min="1" size="3">
+      <values>1 2 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_25_">
+    <vardomain max="3" min="3" size="1">
+      <values>3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_26_">
+    <vardomain max="9" min="1" size="5">
+      <values>1 2 4 6 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_27_">
+    <vardomain max="3" min="1" size="2">
+      <values>1 3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_28_">
+    <vardomain max="2" min="2" size="1">
+      <values>2</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_29_">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_30_">
+    <vardomain max="8" min="8" size="1">
+      <values>8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_31_">
+    <vardomain max="7" min="5" size="2">
+      <values>5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_32_">
+    <vardomain max="9" min="9" size="1">
+      <values>9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_33_">
+    <vardomain max="7" min="1" size="3">
+      <values>1 5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_34_">
+    <vardomain max="4" min="4" size="1">
+      <values>4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_35_">
+    <vardomain max="7" min="1" size="3">
+      <values>1 5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_36_">
+    <vardomain max="8" min="3" size="4">
+      <values>1 3 4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_37_">
+    <vardomain max="8" min="1" size="2">
+      <values>1 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_38_">
+    <vardomain max="7" min="7" size="1">
+      <values>7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_39_">
+    <vardomain max="5" min="3" size="2">
+      <values>3 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_40_">
+    <vardomain max="2" min="2" size="1">
+      <values>2</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_41_">
+    <vardomain max="4" min="3" size="2">
+      <values>3 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_42_">
+    <vardomain max="9" min="9" size="1">
+      <values>9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_43_">
+    <vardomain max="8" min="5" size="4">
+      <values>1 5 6 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_44_">
+    <vardomain max="8" min="5" size="4">
+      <values>1 5 6 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_45_">
+    <vardomain max="4" min="8" size="3">
+      <values>4 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_46_">
+    <vardomain max="5" min="5" size="1">
+      <values>5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_47_">
+    <vardomain max="9" min="4" size="2">
+      <values>4 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_48_">
+    <vardomain max="1" min="1" size="1">
+      <values>1</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_49_">
+    <vardomain max="7" min="4" size="2">
+      <values>4 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_50_">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_51_">
+    <vardomain max="3" min="3" size="1">
+      <values>3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="X_INTRODUCED_52_">
+    <vardomain max="2" min="2" size="1">
+      <values>2</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="puzzle">
+    <vardomain max="8" min="7" size="2">
+      <values>7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="puzzle">
+    <vardomain max="5" min="7" size="5">
+      <values>2 5 7 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="puzzle">
+    <vardomain max="4" min="4" size="1">
+      <values>4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="puzzle">
+    <vardomain max="9" min="2" size="3">
+      <values>2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="puzzle">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="puzzle">
+    <vardomain max="1" min="1" size="1">
+      <values>1</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="puzzle">
+    <vardomain max="8" min="3" size="2">
+      <values>3 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="puzzle">
+    <vardomain max="5" min="7" size="4">
+      <values>2 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="puzzle">
+    <vardomain max="8" min="5" size="2">
+      <values>5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="puzzle">
+    <vardomain max="5" min="2" size="5">
+      <values>2 3 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="puzzle">
+    <vardomain max="8" min="1" size="3">
+      <values>1 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="puzzle">
+    <vardomain max="3" min="3" size="1">
+      <values>3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="puzzle">
+    <vardomain max="5" min="1" size="2">
+      <values>1 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="puzzle">
+    <vardomain max="2" min="2" size="1">
+      <values>2</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="puzzle">
+    <vardomain max="5" min="4" size="2">
+      <values>4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="puzzle">
+    <vardomain max="7" min="7" size="1">
+      <values>7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="puzzle">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="puzzle">
+    <vardomain max="9" min="9" size="1">
+      <values>9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="puzzle">
+    <vardomain max="8" min="4" size="4">
+      <values>1 4 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="puzzle">
+    <vardomain max="8" min="1" size="6">
+      <values>1 2 5 6 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="puzzle">
+    <vardomain max="1" min="7" size="3">
+      <values>1 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="puzzle">
+    <vardomain max="5" min="1" size="3">
+      <values>1 2 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="puzzle">
+    <vardomain max="5" min="3" size="2">
+      <values>3 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="puzzle">
+    <vardomain max="9" min="9" size="1">
+      <values>9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="puzzle">
+    <vardomain max="8" min="3" size="3">
+      <values>3 4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="puzzle">
+    <vardomain max="8" min="1" size="6">
+      <values>1 2 4 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="puzzle">
+    <vardomain max="8" min="1" size="3">
+      <values>1 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" var="puzzle">
+    <vardomain max="8" min="1" size="7">
+      <values>1 2 3 4 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-constraint chrono="3" cident="c3" cinternal="X_INTRODUCED_53_[14] = 3"/>
+  <choice-point chrono="3" nident="5"/>
+  <new-variable chrono="3" var="X_INTRODUCED_0_">
+    <vardomain max="1" min="3" size="4">
+      <values>1 3 4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_1_">
+    <vardomain max="9" min="9" size="1">
+      <values>9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_2_">
+    <vardomain max="1" min="3" size="4">
+      <values>1 3 4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_3_">
+    <vardomain max="7" min="7" size="1">
+      <values>7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_4_">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_5_">
+    <vardomain max="2" min="2" size="1">
+      <values>2</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_6_">
+    <vardomain max="8" min="4" size="4">
+      <values>1 4 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_7_">
+    <vardomain max="8" min="1" size="3">
+      <values>1 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_8_">
+    <vardomain max="8" min="4" size="4">
+      <values>1 4 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_9_">
+    <vardomain max="5" min="2" size="2">
+      <values>2 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_10_">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_11_">
+    <vardomain max="8" min="8" size="1">
+      <values>8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_12_">
+    <vardomain max="4" min="4" size="1">
+      <values>4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_13_">
+    <vardomain max="3" min="3" size="1">
+      <values>3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_14_">
+    <vardomain max="1" min="1" size="1">
+      <values>1</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_15_">
+    <vardomain max="5" min="2" size="2">
+      <values>2 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_16_">
+    <vardomain max="7" min="7" size="1">
+      <values>7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_17_">
+    <vardomain max="9" min="9" size="1">
+      <values>9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_18_">
+    <vardomain max="7" min="1" size="4">
+      <values>1 2 4 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_19_">
+    <vardomain max="7" min="1" size="2">
+      <values>1 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_20_">
+    <vardomain max="4" min="1" size="3">
+      <values>1 2 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_21_">
+    <vardomain max="9" min="9" size="1">
+      <values>9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_22_">
+    <vardomain max="8" min="8" size="1">
+      <values>8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_23_">
+    <vardomain max="5" min="5" size="1">
+      <values>5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_24_">
+    <vardomain max="4" min="1" size="3">
+      <values>1 2 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_25_">
+    <vardomain max="3" min="3" size="1">
+      <values>3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_26_">
+    <vardomain max="6" min="1" size="4">
+      <values>1 2 4 6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_27_">
+    <vardomain max="3" min="1" size="2">
+      <values>1 3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_28_">
+    <vardomain max="2" min="2" size="1">
+      <values>2</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_29_">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_30_">
+    <vardomain max="8" min="8" size="1">
+      <values>8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_31_">
+    <vardomain max="7" min="5" size="2">
+      <values>5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_32_">
+    <vardomain max="9" min="9" size="1">
+      <values>9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_33_">
+    <vardomain max="7" min="1" size="3">
+      <values>1 5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_34_">
+    <vardomain max="4" min="4" size="1">
+      <values>4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_35_">
+    <vardomain max="7" min="1" size="3">
+      <values>1 5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_36_">
+    <vardomain max="8" min="3" size="4">
+      <values>1 3 4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_37_">
+    <vardomain max="8" min="1" size="2">
+      <values>1 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_38_">
+    <vardomain max="7" min="7" size="1">
+      <values>7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_39_">
+    <vardomain max="5" min="3" size="2">
+      <values>3 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_40_">
+    <vardomain max="2" min="2" size="1">
+      <values>2</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_41_">
+    <vardomain max="4" min="3" size="2">
+      <values>3 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_42_">
+    <vardomain max="9" min="9" size="1">
+      <values>9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_43_">
+    <vardomain max="8" min="5" size="4">
+      <values>1 5 6 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_44_">
+    <vardomain max="8" min="5" size="4">
+      <values>1 5 6 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_45_">
+    <vardomain max="4" min="8" size="3">
+      <values>4 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_46_">
+    <vardomain max="5" min="5" size="1">
+      <values>5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_47_">
+    <vardomain max="9" min="4" size="2">
+      <values>4 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_48_">
+    <vardomain max="1" min="1" size="1">
+      <values>1</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_49_">
+    <vardomain max="7" min="4" size="2">
+      <values>4 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_50_">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_51_">
+    <vardomain max="3" min="3" size="1">
+      <values>3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="X_INTRODUCED_52_">
+    <vardomain max="2" min="2" size="1">
+      <values>2</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="puzzle">
+    <vardomain max="8" min="7" size="2">
+      <values>7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="puzzle">
+    <vardomain max="5" min="7" size="5">
+      <values>2 5 7 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="puzzle">
+    <vardomain max="4" min="4" size="1">
+      <values>4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="puzzle">
+    <vardomain max="9" min="2" size="3">
+      <values>2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="puzzle">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="puzzle">
+    <vardomain max="1" min="1" size="1">
+      <values>1</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="puzzle">
+    <vardomain max="8" min="3" size="2">
+      <values>3 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="puzzle">
+    <vardomain max="5" min="7" size="4">
+      <values>2 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="puzzle">
+    <vardomain max="8" min="5" size="2">
+      <values>5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="puzzle">
+    <vardomain max="5" min="2" size="5">
+      <values>2 3 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="puzzle">
+    <vardomain max="8" min="1" size="3">
+      <values>1 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="puzzle">
+    <vardomain max="3" min="3" size="1">
+      <values>3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="puzzle">
+    <vardomain max="5" min="1" size="2">
+      <values>1 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="puzzle">
+    <vardomain max="2" min="2" size="1">
+      <values>2</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="puzzle">
+    <vardomain max="5" min="4" size="2">
+      <values>4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="puzzle">
+    <vardomain max="7" min="7" size="1">
+      <values>7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="puzzle">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="puzzle">
+    <vardomain max="9" min="9" size="1">
+      <values>9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="puzzle">
+    <vardomain max="8" min="4" size="4">
+      <values>1 4 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="puzzle">
+    <vardomain max="8" min="1" size="6">
+      <values>1 2 5 6 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="puzzle">
+    <vardomain max="1" min="7" size="3">
+      <values>1 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="puzzle">
+    <vardomain max="5" min="1" size="3">
+      <values>1 2 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="puzzle">
+    <vardomain max="5" min="3" size="2">
+      <values>3 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="puzzle">
+    <vardomain max="9" min="9" size="1">
+      <values>9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="puzzle">
+    <vardomain max="8" min="3" size="3">
+      <values>3 4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="puzzle">
+    <vardomain max="8" min="1" size="6">
+      <values>1 2 4 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="puzzle">
+    <vardomain max="8" min="1" size="3">
+      <values>1 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" var="puzzle">
+    <vardomain max="8" min="1" size="7">
+      <values>1 2 3 4 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-constraint chrono="4" cident="c4" cinternal="X_INTRODUCED_53_[4] = 7"/>
+  <choice-point chrono="4" nident="7"/>
+  <new-variable chrono="4" var="X_INTRODUCED_0_">
+    <vardomain max="1" min="3" size="4">
+      <values>1 3 4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_1_">
+    <vardomain max="9" min="9" size="1">
+      <values>9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_2_">
+    <vardomain max="1" min="3" size="4">
+      <values>1 3 4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_3_">
+    <vardomain max="7" min="7" size="1">
+      <values>7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_4_">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_5_">
+    <vardomain max="2" min="2" size="1">
+      <values>2</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_6_">
+    <vardomain max="8" min="1" size="3">
+      <values>1 4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_7_">
+    <vardomain max="8" min="1" size="2">
+      <values>1 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_8_">
+    <vardomain max="8" min="1" size="3">
+      <values>1 4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_9_">
+    <vardomain max="2" min="2" size="1">
+      <values>2</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_10_">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_11_">
+    <vardomain max="8" min="8" size="1">
+      <values>8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_12_">
+    <vardomain max="4" min="4" size="1">
+      <values>4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_13_">
+    <vardomain max="3" min="3" size="1">
+      <values>3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_14_">
+    <vardomain max="1" min="1" size="1">
+      <values>1</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_15_">
+    <vardomain max="5" min="5" size="1">
+      <values>5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_16_">
+    <vardomain max="7" min="7" size="1">
+      <values>7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_17_">
+    <vardomain max="9" min="9" size="1">
+      <values>9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_18_">
+    <vardomain max="7" min="1" size="3">
+      <values>1 4 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_19_">
+    <vardomain max="7" min="1" size="2">
+      <values>1 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_20_">
+    <vardomain max="4" min="1" size="2">
+      <values>1 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_21_">
+    <vardomain max="9" min="9" size="1">
+      <values>9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_22_">
+    <vardomain max="8" min="8" size="1">
+      <values>8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_23_">
+    <vardomain max="5" min="5" size="1">
+      <values>5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_24_">
+    <vardomain max="4" min="1" size="3">
+      <values>1 2 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_25_">
+    <vardomain max="3" min="3" size="1">
+      <values>3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_26_">
+    <vardomain max="6" min="1" size="4">
+      <values>1 2 4 6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_27_">
+    <vardomain max="3" min="1" size="2">
+      <values>1 3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_28_">
+    <vardomain max="2" min="2" size="1">
+      <values>2</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_29_">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_30_">
+    <vardomain max="8" min="8" size="1">
+      <values>8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_31_">
+    <vardomain max="7" min="5" size="2">
+      <values>5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_32_">
+    <vardomain max="9" min="9" size="1">
+      <values>9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_33_">
+    <vardomain max="7" min="1" size="2">
+      <values>1 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_34_">
+    <vardomain max="4" min="4" size="1">
+      <values>4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_35_">
+    <vardomain max="7" min="1" size="3">
+      <values>1 5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_36_">
+    <vardomain max="8" min="3" size="4">
+      <values>1 3 4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_37_">
+    <vardomain max="8" min="1" size="2">
+      <values>1 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_38_">
+    <vardomain max="7" min="7" size="1">
+      <values>7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_39_">
+    <vardomain max="5" min="3" size="2">
+      <values>3 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_40_">
+    <vardomain max="2" min="2" size="1">
+      <values>2</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_41_">
+    <vardomain max="4" min="3" size="2">
+      <values>3 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_42_">
+    <vardomain max="9" min="9" size="1">
+      <values>9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_43_">
+    <vardomain max="8" min="5" size="4">
+      <values>1 5 6 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_44_">
+    <vardomain max="8" min="5" size="4">
+      <values>1 5 6 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_45_">
+    <vardomain max="4" min="8" size="3">
+      <values>4 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_46_">
+    <vardomain max="5" min="5" size="1">
+      <values>5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_47_">
+    <vardomain max="9" min="4" size="2">
+      <values>4 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_48_">
+    <vardomain max="1" min="1" size="1">
+      <values>1</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_49_">
+    <vardomain max="7" min="4" size="2">
+      <values>4 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_50_">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_51_">
+    <vardomain max="3" min="3" size="1">
+      <values>3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="X_INTRODUCED_52_">
+    <vardomain max="2" min="2" size="1">
+      <values>2</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="puzzle">
+    <vardomain max="8" min="7" size="2">
+      <values>7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="puzzle">
+    <vardomain max="5" min="7" size="4">
+      <values>5 7 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="puzzle">
+    <vardomain max="4" min="4" size="1">
+      <values>4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="puzzle">
+    <vardomain max="9" min="2" size="3">
+      <values>2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="puzzle">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="puzzle">
+    <vardomain max="1" min="1" size="1">
+      <values>1</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="puzzle">
+    <vardomain max="8" min="3" size="2">
+      <values>3 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="puzzle">
+    <vardomain max="2" min="7" size="3">
+      <values>2 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="puzzle">
+    <vardomain max="8" min="5" size="2">
+      <values>5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="puzzle">
+    <vardomain max="5" min="2" size="5">
+      <values>2 3 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="puzzle">
+    <vardomain max="8" min="1" size="3">
+      <values>1 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="puzzle">
+    <vardomain max="3" min="3" size="1">
+      <values>3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="puzzle">
+    <vardomain max="5" min="1" size="2">
+      <values>1 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="puzzle">
+    <vardomain max="2" min="2" size="1">
+      <values>2</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="puzzle">
+    <vardomain max="5" min="4" size="2">
+      <values>4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="puzzle">
+    <vardomain max="7" min="7" size="1">
+      <values>7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="puzzle">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="puzzle">
+    <vardomain max="9" min="9" size="1">
+      <values>9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="puzzle">
+    <vardomain max="8" min="4" size="4">
+      <values>1 4 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="puzzle">
+    <vardomain max="1" min="5" size="5">
+      <values>1 5 6 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="puzzle">
+    <vardomain max="1" min="7" size="3">
+      <values>1 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="puzzle">
+    <vardomain max="5" min="1" size="3">
+      <values>1 2 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="puzzle">
+    <vardomain max="5" min="3" size="2">
+      <values>3 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="puzzle">
+    <vardomain max="9" min="9" size="1">
+      <values>9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="puzzle">
+    <vardomain max="8" min="3" size="3">
+      <values>3 4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="puzzle">
+    <vardomain max="4" min="1" size="5">
+      <values>1 2 4 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="puzzle">
+    <vardomain max="8" min="1" size="3">
+      <values>1 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" var="puzzle">
+    <vardomain max="8" min="1" size="7">
+      <values>1 2 3 4 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-constraint chrono="5" cident="c5" cinternal="X_INTRODUCED_53_[10] = 2"/>
+  <choice-point chrono="5" nident="9"/>
+  <new-variable chrono="5" var="X_INTRODUCED_0_">
+    <vardomain max="5" min="3" size="3">
+      <values>3 4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_1_">
+    <vardomain max="9" min="9" size="1">
+      <values>9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_2_">
+    <vardomain max="5" min="3" size="3">
+      <values>3 4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_3_">
+    <vardomain max="7" min="7" size="1">
+      <values>7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_4_">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_5_">
+    <vardomain max="2" min="2" size="1">
+      <values>2</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_6_">
+    <vardomain max="8" min="4" size="2">
+      <values>4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_7_">
+    <vardomain max="1" min="1" size="1">
+      <values>1</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_8_">
+    <vardomain max="8" min="4" size="2">
+      <values>4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_9_">
+    <vardomain max="2" min="2" size="1">
+      <values>2</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_10_">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_11_">
+    <vardomain max="8" min="8" size="1">
+      <values>8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_12_">
+    <vardomain max="4" min="4" size="1">
+      <values>4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_13_">
+    <vardomain max="3" min="3" size="1">
+      <values>3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_14_">
+    <vardomain max="1" min="1" size="1">
+      <values>1</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_15_">
+    <vardomain max="5" min="5" size="1">
+      <values>5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_16_">
+    <vardomain max="7" min="7" size="1">
+      <values>7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_17_">
+    <vardomain max="9" min="9" size="1">
+      <values>9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_18_">
+    <vardomain max="7" min="1" size="3">
+      <values>1 4 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_19_">
+    <vardomain max="7" min="1" size="2">
+      <values>1 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_20_">
+    <vardomain max="4" min="1" size="2">
+      <values>1 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_21_">
+    <vardomain max="9" min="9" size="1">
+      <values>9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_22_">
+    <vardomain max="8" min="8" size="1">
+      <values>8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_23_">
+    <vardomain max="5" min="5" size="1">
+      <values>5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_24_">
+    <vardomain max="4" min="2" size="2">
+      <values>2 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_25_">
+    <vardomain max="3" min="3" size="1">
+      <values>3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_26_">
+    <vardomain max="6" min="2" size="3">
+      <values>2 4 6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_27_">
+    <vardomain max="3" min="1" size="2">
+      <values>1 3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_28_">
+    <vardomain max="2" min="2" size="1">
+      <values>2</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_29_">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_30_">
+    <vardomain max="8" min="8" size="1">
+      <values>8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_31_">
+    <vardomain max="7" min="5" size="2">
+      <values>5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_32_">
+    <vardomain max="9" min="9" size="1">
+      <values>9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_33_">
+    <vardomain max="7" min="1" size="2">
+      <values>1 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_34_">
+    <vardomain max="4" min="4" size="1">
+      <values>4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_35_">
+    <vardomain max="7" min="1" size="3">
+      <values>1 5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_36_">
+    <vardomain max="8" min="3" size="4">
+      <values>1 3 4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_37_">
+    <vardomain max="8" min="1" size="2">
+      <values>1 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_38_">
+    <vardomain max="7" min="7" size="1">
+      <values>7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_39_">
+    <vardomain max="5" min="3" size="2">
+      <values>3 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_40_">
+    <vardomain max="2" min="2" size="1">
+      <values>2</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_41_">
+    <vardomain max="4" min="3" size="2">
+      <values>3 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_42_">
+    <vardomain max="9" min="9" size="1">
+      <values>9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_43_">
+    <vardomain max="8" min="5" size="3">
+      <values>5 6 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_44_">
+    <vardomain max="8" min="5" size="4">
+      <values>1 5 6 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_45_">
+    <vardomain max="4" min="8" size="3">
+      <values>4 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_46_">
+    <vardomain max="5" min="5" size="1">
+      <values>5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_47_">
+    <vardomain max="9" min="4" size="2">
+      <values>4 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_48_">
+    <vardomain max="1" min="1" size="1">
+      <values>1</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_49_">
+    <vardomain max="7" min="4" size="2">
+      <values>4 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_50_">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_51_">
+    <vardomain max="3" min="3" size="1">
+      <values>3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="X_INTRODUCED_52_">
+    <vardomain max="2" min="2" size="1">
+      <values>2</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="puzzle">
+    <vardomain max="8" min="7" size="2">
+      <values>7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="puzzle">
+    <vardomain max="5" min="7" size="4">
+      <values>5 7 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="puzzle">
+    <vardomain max="4" min="4" size="1">
+      <values>4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="puzzle">
+    <vardomain max="9" min="2" size="3">
+      <values>2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="puzzle">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="puzzle">
+    <vardomain max="1" min="1" size="1">
+      <values>1</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="puzzle">
+    <vardomain max="8" min="3" size="2">
+      <values>3 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="puzzle">
+    <vardomain max="2" min="7" size="3">
+      <values>2 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="puzzle">
+    <vardomain max="8" min="5" size="2">
+      <values>5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="puzzle">
+    <vardomain max="5" min="2" size="5">
+      <values>2 3 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="puzzle">
+    <vardomain max="8" min="1" size="3">
+      <values>1 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="puzzle">
+    <vardomain max="3" min="3" size="1">
+      <values>3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="puzzle">
+    <vardomain max="5" min="1" size="2">
+      <values>1 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="puzzle">
+    <vardomain max="2" min="2" size="1">
+      <values>2</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="puzzle">
+    <vardomain max="5" min="4" size="2">
+      <values>4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="puzzle">
+    <vardomain max="7" min="7" size="1">
+      <values>7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="puzzle">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="puzzle">
+    <vardomain max="9" min="9" size="1">
+      <values>9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="puzzle">
+    <vardomain max="8" min="4" size="4">
+      <values>1 4 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="puzzle">
+    <vardomain max="1" min="5" size="5">
+      <values>1 5 6 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="puzzle">
+    <vardomain max="1" min="7" size="3">
+      <values>1 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="puzzle">
+    <vardomain max="5" min="1" size="3">
+      <values>1 2 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="puzzle">
+    <vardomain max="5" min="3" size="2">
+      <values>3 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="puzzle">
+    <vardomain max="9" min="9" size="1">
+      <values>9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="puzzle">
+    <vardomain max="8" min="3" size="3">
+      <values>3 4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="puzzle">
+    <vardomain max="4" min="1" size="5">
+      <values>1 2 4 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="puzzle">
+    <vardomain max="8" min="5" size="2">
+      <values>5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" var="puzzle">
+    <vardomain max="8" min="1" size="7">
+      <values>1 2 3 4 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-constraint chrono="6" cident="c6" cinternal="X_INTRODUCED_53_[8] = 1"/>
+  <choice-point chrono="6" nident="11"/>
+  <new-variable chrono="6" var="X_INTRODUCED_0_">
+    <vardomain max="5" min="3" size="2">
+      <values>3 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_1_">
+    <vardomain max="9" min="9" size="1">
+      <values>9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_2_">
+    <vardomain max="5" min="3" size="2">
+      <values>3 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_3_">
+    <vardomain max="7" min="7" size="1">
+      <values>7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_4_">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_5_">
+    <vardomain max="2" min="2" size="1">
+      <values>2</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_6_">
+    <vardomain max="4" min="4" size="1">
+      <values>4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_7_">
+    <vardomain max="1" min="1" size="1">
+      <values>1</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_8_">
+    <vardomain max="8" min="8" size="1">
+      <values>8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_9_">
+    <vardomain max="2" min="2" size="1">
+      <values>2</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_10_">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_11_">
+    <vardomain max="8" min="8" size="1">
+      <values>8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_12_">
+    <vardomain max="4" min="4" size="1">
+      <values>4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_13_">
+    <vardomain max="3" min="3" size="1">
+      <values>3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_14_">
+    <vardomain max="1" min="1" size="1">
+      <values>1</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_15_">
+    <vardomain max="5" min="5" size="1">
+      <values>5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_16_">
+    <vardomain max="7" min="7" size="1">
+      <values>7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_17_">
+    <vardomain max="9" min="9" size="1">
+      <values>9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_18_">
+    <vardomain max="7" min="1" size="3">
+      <values>1 4 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_19_">
+    <vardomain max="7" min="1" size="2">
+      <values>1 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_20_">
+    <vardomain max="4" min="1" size="2">
+      <values>1 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_21_">
+    <vardomain max="9" min="9" size="1">
+      <values>9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_22_">
+    <vardomain max="8" min="8" size="1">
+      <values>8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_23_">
+    <vardomain max="5" min="5" size="1">
+      <values>5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_24_">
+    <vardomain max="2" min="2" size="1">
+      <values>2</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_25_">
+    <vardomain max="3" min="3" size="1">
+      <values>3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_26_">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_27_">
+    <vardomain max="3" min="1" size="2">
+      <values>1 3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_28_">
+    <vardomain max="2" min="2" size="1">
+      <values>2</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_29_">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_30_">
+    <vardomain max="8" min="8" size="1">
+      <values>8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_31_">
+    <vardomain max="7" min="7" size="1">
+      <values>7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_32_">
+    <vardomain max="9" min="9" size="1">
+      <values>9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_33_">
+    <vardomain max="1" min="1" size="1">
+      <values>1</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_34_">
+    <vardomain max="4" min="4" size="1">
+      <values>4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_35_">
+    <vardomain max="5" min="5" size="1">
+      <values>5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_36_">
+    <vardomain max="8" min="3" size="4">
+      <values>1 3 4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_37_">
+    <vardomain max="8" min="1" size="2">
+      <values>1 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_38_">
+    <vardomain max="7" min="7" size="1">
+      <values>7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_39_">
+    <vardomain max="5" min="3" size="2">
+      <values>3 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_40_">
+    <vardomain max="2" min="2" size="1">
+      <values>2</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_41_">
+    <vardomain max="4" min="3" size="2">
+      <values>3 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_42_">
+    <vardomain max="9" min="9" size="1">
+      <values>9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_43_">
+    <vardomain max="8" min="5" size="3">
+      <values>5 6 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_44_">
+    <vardomain max="5" min="5" size="1">
+      <values>5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_45_">
+    <vardomain max="8" min="8" size="1">
+      <values>8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_46_">
+    <vardomain max="5" min="5" size="1">
+      <values>5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_47_">
+    <vardomain max="9" min="9" size="1">
+      <values>9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_48_">
+    <vardomain max="1" min="1" size="1">
+      <values>1</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_49_">
+    <vardomain max="4" min="4" size="1">
+      <values>4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_50_">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_51_">
+    <vardomain max="3" min="3" size="1">
+      <values>3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="X_INTRODUCED_52_">
+    <vardomain max="2" min="2" size="1">
+      <values>2</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="puzzle">
+    <vardomain max="7" min="7" size="1">
+      <values>7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="puzzle">
+    <vardomain max="5" min="7" size="4">
+      <values>5 7 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="puzzle">
+    <vardomain max="4" min="4" size="1">
+      <values>4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="puzzle">
+    <vardomain max="9" min="2" size="3">
+      <values>2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="puzzle">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="puzzle">
+    <vardomain max="1" min="1" size="1">
+      <values>1</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="puzzle">
+    <vardomain max="8" min="3" size="2">
+      <values>3 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="puzzle">
+    <vardomain max="8" min="7" size="2">
+      <values>7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="puzzle">
+    <vardomain max="8" min="5" size="2">
+      <values>5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="puzzle">
+    <vardomain max="5" min="2" size="3">
+      <values>2 3 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="puzzle">
+    <vardomain max="8" min="1" size="3">
+      <values>1 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="puzzle">
+    <vardomain max="3" min="3" size="1">
+      <values>3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="puzzle">
+    <vardomain max="5" min="1" size="2">
+      <values>1 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="puzzle">
+    <vardomain max="2" min="2" size="1">
+      <values>2</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="puzzle">
+    <vardomain max="5" min="5" size="1">
+      <values>5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="puzzle">
+    <vardomain max="7" min="7" size="1">
+      <values>7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="puzzle">
+    <vardomain max="6" min="6" size="1">
+      <values>6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="puzzle">
+    <vardomain max="9" min="9" size="1">
+      <values>9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="puzzle">
+    <vardomain max="1" min="4" size="3">
+      <values>1 4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="puzzle">
+    <vardomain max="1" min="5" size="5">
+      <values>1 5 6 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="puzzle">
+    <vardomain max="1" min="7" size="3">
+      <values>1 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="puzzle">
+    <vardomain max="5" min="1" size="3">
+      <values>1 2 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="puzzle">
+    <vardomain max="5" min="3" size="2">
+      <values>3 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="puzzle">
+    <vardomain max="9" min="9" size="1">
+      <values>9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="puzzle">
+    <vardomain max="8" min="3" size="3">
+      <values>3 4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="puzzle">
+    <vardomain max="1" min="7" size="3">
+      <values>1 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="puzzle">
+    <vardomain max="8" min="5" size="2">
+      <values>5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="6" var="puzzle">
+    <vardomain max="5" min="1" size="5">
+      <values>1 2 3 4 5</values>
+    </vardomain>
+  </new-variable>
+  <back-to chrono="7" node="11" node-before="9"/>
+  <new-constraint chrono="8" cident="c7" cinternal="X_INTRODUCED_53_[7] = 4"/>
+  <choice-point chrono="8" nident="12"/>
+  <back-to chrono="9" node="12" node-before="9"/>
+  <solved chrono="10" cident="c7">
+    <state>
+      <variable vname="X_INTRODUCED_0_">
+        <vardomain max="5" min="5" size="1">
+          <values>5</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_1_">
+        <vardomain max="9" min="9" size="1">
+          <values>9</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_2_">
+        <vardomain max="3" min="3" size="1">
+          <values>3</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_3_">
+        <vardomain max="7" min="7" size="1">
+          <values>7</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_4_">
+        <vardomain max="6" min="6" size="1">
+          <values>6</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_5_">
+        <vardomain max="2" min="2" size="1">
+          <values>2</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_6_">
+        <vardomain max="8" min="8" size="1">
+          <values>8</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_7_">
+        <vardomain max="1" min="1" size="1">
+          <values>1</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_8_">
+        <vardomain max="4" min="4" size="1">
+          <values>4</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_9_">
+        <vardomain max="2" min="2" size="1">
+          <values>2</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_10_">
+        <vardomain max="6" min="6" size="1">
+          <values>6</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_11_">
+        <vardomain max="8" min="8" size="1">
+          <values>8</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_12_">
+        <vardomain max="4" min="4" size="1">
+          <values>4</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_13_">
+        <vardomain max="3" min="3" size="1">
+          <values>3</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_14_">
+        <vardomain max="1" min="1" size="1">
+          <values>1</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_15_">
+        <vardomain max="5" min="5" size="1">
+          <values>5</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_16_">
+        <vardomain max="7" min="7" size="1">
+          <values>7</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_17_">
+        <vardomain max="9" min="9" size="1">
+          <values>9</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_18_">
+        <vardomain max="7" min="7" size="1">
+          <values>7</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_19_">
+        <vardomain max="1" min="1" size="1">
+          <values>1</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_20_">
+        <vardomain max="4" min="4" size="1">
+          <values>4</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_21_">
+        <vardomain max="9" min="9" size="1">
+          <values>9</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_22_">
+        <vardomain max="8" min="8" size="1">
+          <values>8</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_23_">
+        <vardomain max="5" min="5" size="1">
+          <values>5</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_24_">
+        <vardomain max="2" min="2" size="1">
+          <values>2</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_25_">
+        <vardomain max="3" min="3" size="1">
+          <values>3</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_26_">
+        <vardomain max="6" min="6" size="1">
+          <values>6</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_27_">
+        <vardomain max="3" min="3" size="1">
+          <values>3</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_28_">
+        <vardomain max="2" min="2" size="1">
+          <values>2</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_29_">
+        <vardomain max="6" min="6" size="1">
+          <values>6</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_30_">
+        <vardomain max="8" min="8" size="1">
+          <values>8</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_31_">
+        <vardomain max="5" min="5" size="1">
+          <values>5</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_32_">
+        <vardomain max="9" min="9" size="1">
+          <values>9</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_33_">
+        <vardomain max="1" min="1" size="1">
+          <values>1</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_34_">
+        <vardomain max="4" min="4" size="1">
+          <values>4</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_35_">
+        <vardomain max="7" min="7" size="1">
+          <values>7</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_36_">
+        <vardomain max="1" min="1" size="1">
+          <values>1</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_37_">
+        <vardomain max="8" min="8" size="1">
+          <values>8</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_38_">
+        <vardomain max="7" min="7" size="1">
+          <values>7</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_39_">
+        <vardomain max="3" min="3" size="1">
+          <values>3</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_40_">
+        <vardomain max="2" min="2" size="1">
+          <values>2</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_41_">
+        <vardomain max="4" min="4" size="1">
+          <values>4</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_42_">
+        <vardomain max="9" min="9" size="1">
+          <values>9</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_43_">
+        <vardomain max="6" min="6" size="1">
+          <values>6</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_44_">
+        <vardomain max="5" min="5" size="1">
+          <values>5</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_45_">
+        <vardomain max="4" min="4" size="1">
+          <values>4</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_46_">
+        <vardomain max="5" min="5" size="1">
+          <values>5</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_47_">
+        <vardomain max="9" min="9" size="1">
+          <values>9</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_48_">
+        <vardomain max="1" min="1" size="1">
+          <values>1</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_49_">
+        <vardomain max="7" min="7" size="1">
+          <values>7</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_50_">
+        <vardomain max="6" min="6" size="1">
+          <values>6</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_51_">
+        <vardomain max="3" min="3" size="1">
+          <values>3</values>
+        </vardomain>
+      </variable>
+      <variable vname="X_INTRODUCED_52_">
+        <vardomain max="2" min="2" size="1">
+          <values>2</values>
+        </vardomain>
+      </variable>
+      <variable vname="puzzle">
+        <vardomain max="8" min="8" size="1">
+          <values>8</values>
+        </vardomain>
+      </variable>
+      <variable vname="puzzle">
+        <vardomain max="9" min="9" size="1">
+          <values>9</values>
+        </vardomain>
+      </variable>
+      <variable vname="puzzle">
+        <vardomain max="4" min="4" size="1">
+          <values>4</values>
+        </vardomain>
+      </variable>
+      <variable vname="puzzle">
+        <vardomain max="2" min="2" size="1">
+          <values>2</values>
+        </vardomain>
+      </variable>
+      <variable vname="puzzle">
+        <vardomain max="6" min="6" size="1">
+          <values>6</values>
+        </vardomain>
+      </variable>
+      <variable vname="puzzle">
+        <vardomain max="1" min="1" size="1">
+          <values>1</values>
+        </vardomain>
+      </variable>
+      <variable vname="puzzle">
+        <vardomain max="8" min="8" size="1">
+          <values>8</values>
+        </vardomain>
+      </variable>
+      <variable vname="puzzle">
+        <vardomain max="7" min="7" size="1">
+          <values>7</values>
+        </vardomain>
+      </variable>
+      <variable vname="puzzle">
+        <vardomain max="5" min="5" size="1">
+          <values>5</values>
+        </vardomain>
+      </variable>
+      <variable vname="puzzle">
+        <vardomain max="3" min="3" size="1">
+          <values>3</values>
+        </vardomain>
+      </variable>
+      <variable vname="puzzle">
+        <vardomain max="8" min="8" size="1">
+          <values>8</values>
+        </vardomain>
+      </variable>
+      <variable vname="puzzle">
+        <vardomain max="3" min="3" size="1">
+          <values>3</values>
+        </vardomain>
+      </variable>
+      <variable vname="puzzle">
+        <vardomain max="5" min="5" size="1">
+          <values>5</values>
+        </vardomain>
+      </variable>
+      <variable vname="puzzle">
+        <vardomain max="2" min="2" size="1">
+          <values>2</values>
+        </vardomain>
+      </variable>
+      <variable vname="puzzle">
+        <vardomain max="4" min="4" size="1">
+          <values>4</values>
+        </vardomain>
+      </variable>
+      <variable vname="puzzle">
+        <vardomain max="7" min="7" size="1">
+          <values>7</values>
+        </vardomain>
+      </variable>
+      <variable vname="puzzle">
+        <vardomain max="6" min="6" size="1">
+          <values>6</values>
+        </vardomain>
+      </variable>
+      <variable vname="puzzle">
+        <vardomain max="9" min="9" size="1">
+          <values>9</values>
+        </vardomain>
+      </variable>
+      <variable vname="puzzle">
+        <vardomain max="1" min="1" size="1">
+          <values>1</values>
+        </vardomain>
+      </variable>
+      <variable vname="puzzle">
+        <vardomain max="6" min="6" size="1">
+          <values>6</values>
+        </vardomain>
+      </variable>
+      <variable vname="puzzle">
+        <vardomain max="7" min="7" size="1">
+          <values>7</values>
+        </vardomain>
+      </variable>
+      <variable vname="puzzle">
+        <vardomain max="1" min="1" size="1">
+          <values>1</values>
+        </vardomain>
+      </variable>
+      <variable vname="puzzle">
+        <vardomain max="5" min="5" size="1">
+          <values>5</values>
+        </vardomain>
+      </variable>
+      <variable vname="puzzle">
+        <vardomain max="9" min="9" size="1">
+          <values>9</values>
+        </vardomain>
+      </variable>
+      <variable vname="puzzle">
+        <vardomain max="3" min="3" size="1">
+          <values>3</values>
+        </vardomain>
+      </variable>
+      <variable vname="puzzle">
+        <vardomain max="4" min="4" size="1">
+          <values>4</values>
+        </vardomain>
+      </variable>
+      <variable vname="puzzle">
+        <vardomain max="8" min="8" size="1">
+          <values>8</values>
+        </vardomain>
+      </variable>
+      <variable vname="puzzle">
+        <vardomain max="2" min="2" size="1">
+          <values>2</values>
+        </vardomain>
+      </variable>
+    </state>
+  </solved>
+  <choice-point chrono="10" nident="10"/>
+  <back-to chrono="11" node="10" node-before="7"/>
+  <new-constraint chrono="12" cident="c8" cinternal=""/>
+  <choice-point chrono="12" nident="8"/>
+  <back-to chrono="13" node="8" node-before="5"/>
+  <new-constraint chrono="14" cident="c9" cinternal=""/>
+  <choice-point chrono="14" nident="6"/>
+  <back-to chrono="15" node="6" node-before="3"/>
+  <new-constraint chrono="16" cident="c10" cinternal=""/>
+  <choice-point chrono="16" nident="4"/>
+  <back-to chrono="17" node="4" node-before="1"/>
+  <new-constraint chrono="18" cident="c11" cinternal=""/>
+  <choice-point chrono="18" nident="2"/>
+  <back-to chrono="19" node="2" node-before="0"/>
+  <new-constraint chrono="20" cident="c12" cinternal=""/>
 </gentra4cp>

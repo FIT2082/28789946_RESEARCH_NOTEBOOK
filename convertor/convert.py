@@ -50,7 +50,6 @@ for table in tables:
 				json += outputJSONObject(col, item[col], last)
 
 			if i != (len(items)-1):
-			#if i < 10000:
 				json += '\t},\n'
 			else:
 				json += '\t}\n'

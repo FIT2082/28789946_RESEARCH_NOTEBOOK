@@ -33,6 +33,15 @@ def select_all_nodes(conn):
     rows = cur.fetchall()
     return rows
 
+def get_all_info(conn):
+    """
+    """
+    cur = conn.cursor()
+    cur.execute("SELECT * FROM Info")
+    rows = cur.fetchall()
+    return rows
+    
+
 def select_task_by_status(conn, status):
     """
     Query nodes by priority
