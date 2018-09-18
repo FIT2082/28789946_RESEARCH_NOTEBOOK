@@ -1,0 +1,17 @@
+ Let L = FootyScore;
+Assume L is regular, and hence there exists an N such that <pumping lemma>
+
+Consider (1^N, 1^N, 6(1^N) + 1^N), which is an element of L;
+
+For all xyz such that xyz = w, and y!=empty, |xy| <= N:
+    // not sure if this is allowed bc w is usually just one case...
+    y must be 1. '(1^k' or 2. '1^k' where 1 <= k <= N
+    xyyz then must be:
+        1: '(1^(N)(1^(N), 1^N, 6(1^N) + 1^N)'
+        2: '(1^(N + k), 1^N, 6(1^N) + 1^N)'
+    In (1), we find that the initial bracket is repeated within the string, breaking L. Contradiction
+    and in (2), we find that the 6g + b = p property is not fulfiled. Contradiction.
+
+Hence, xyyz is not an element of L. 
+Thus L is not regular.  
+

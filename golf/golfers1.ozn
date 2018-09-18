@@ -1,0 +1,7 @@
+output ["Social golfers:\n\n","Groups        : ",show(n_groups),"\n","No. per group : ",show(n_per_group),"\n","No. of rounds : ",show(n_rounds),"\n"]++[(if p==1 then ("\nround "++show(r))++":" else "" endif++if p mod n_per_group==1 then "   " else " " endif)++show_int(2,round_place_golfer[r,p]) | r in rounds, p in places, ];
+int: n_groups = 5;
+int: n_per_group = 2;
+int: n_rounds = 8;
+set of int: rounds = 1..8;
+set of int: places = 1..10;
+array [rounds,places] of int: round_place_golfer;

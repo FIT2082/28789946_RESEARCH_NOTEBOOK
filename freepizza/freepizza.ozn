@@ -1,0 +1,5 @@
+output [((("how = "++show(how))++";\nobjective = ")++show(objective))++";\n"];
+set of int: PIZZA = 1..10;
+array [PIZZA] of int: price = [50,60,90,70,80,100,20,30,40,10];
+array [PIZZA] of int: how;
+int: objective = sum([bool2int(how[p]<=0)*price[p] | p in PIZZA, ]);

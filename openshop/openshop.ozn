@@ -1,0 +1,5 @@
+output ["job_task_start = array2d(",show(jobs),", ",show(tasks),", ",show(job_task_start),");\n","objective = ",show(objective),";\n"];
+set of int: jobs = 1..8;
+set of int: tasks = 1..8;
+array [jobs,tasks] of int: job_task_start;
+int: objective;

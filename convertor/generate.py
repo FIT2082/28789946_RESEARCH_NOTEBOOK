@@ -21,12 +21,15 @@ for row in info:
     d[row[0]] = row[1]
 
 for key in d:
-    d[key] = d[key].replace(';\n', "@")
-    d[key] = json.loads(d[key])
-    d[key] = d[key]['domains'].split('@')
-    d[key].pop(-1)
+    if '\n' in d[key]:
+        d[key] = d[key].replace(';\n', "@")
+        d[key] = json.loads(d[key])
+        d[key] = d[key]['domains'].split('@')
+        d[key].pop(-1)
 
 # node object
+
+
 class Node:
     def __init__(self, id, parent, data, left=False):
         self.id = id
@@ -38,6 +41,7 @@ class Node:
         self.cident = None
         self.backtrack = (False, None)
         self.info = None
+
 
 # construct tree
 tree = []
@@ -52,8 +56,7 @@ for node in tree:
     if node.parent >= 0:
         if node.left:
             tree[node.parent].lc = node.id
-        else:
-            tree[node.parent].rc = node.id
+        else: tree[node.parent].rc = node.id
 
 # left preorder traversal
 def dfs(tree):
@@ -71,10 +74,13 @@ def dfs(tree):
         if cur.data[-3] == 0:
             cur.backtrack = (True, cur.parent)
     return path
+
+
 path = dfs(tree)
 
 # xml definitions
 top = Element('gentra4cp')
+tree = ElementTree.ElementTree(top)
 header = SubElement(top, 'header')
 date = SubElement(header, 'date')
 creator = SubElement(header, 'creator')
@@ -85,9 +91,11 @@ chrono = 0
 cident = 0
 depth = 0
 for node in path:
-    choicepoint = SubElement(top, 'choice-point', {'chrono' : str(chrono), 'nident':str(node.id)})
-    # if not solved, create new constraint
-    if node.id in d and node.data[-2]!= 0:
+    choicepoint = SubElement(
+        top, 'choice-point', {'chrono': str(chrono), 'depth': str(depth), 'nident': str(node.id)})
+    depth += 1
+    # if not solved, create new choicepoint and list all variables
+    if node.id in d and node.data[-2] != 0:
         for var in d[node.id]:
             if '=' in var:
                 var = var.replace(" ", "")
@@ -97,58 +105,75 @@ for node in path:
                 var = var[0]
             else:
                 var = var.replace(" ", "")
-                domain = re.findall(r'\d\.\.\d', var)
+                domain = re.findall(r'-?\d*\.\.-?\d*', var)
                 var = var.split(":")[-1]
-            varx = SubElement(top, 'new-variable', {'chrono' : str(chrono), 'var':str(var)})
-            if domain:
+            varx = SubElement(top, 'new-variable',
+                              {'chrono': str(chrono), 'vident': str(var), 'depth': str(depth) , 'vname': str(var), 'vinternal':str(var)})
+            #print('domain', domain) 
+            if type(domain) ==list and len(domain) >0:
+                #print('var', var) 
                 vals = []
+               # print('domain', domain)
                 for elem in domain:
+                    elem = elem.split('.')
+                    #print(elem) 
                     if elem[0] == elem[-1]:
                         vals.append(elem[0])
                     else:
                         min1 = int(elem[0])
                         max1 = int(elem[-1])
                         for i in range(min1, (max1 + 1)):
-                            vals.append(i)
-                # print(vals)
+                            vals.append(int(i))
                 size = len(vals)
-                # print(size)
-                str_val = " ".join(map(str, vals))        
-                vard = SubElement(varx, 'vardomain', {'min' : str(min(vals)), 'max': str(max(vals)), 'size': str(size)})
+                vals = list(map(lambda x:int(x), vals)) 
+                str_val = " ".join(map(str, vals))
+                print(vals)
+                vard = SubElement(varx, 'vardomain', {'min': str(
+                    min(vals)), 'max': str(max(vals)), 'size': str(size)})
                 values = SubElement(vard, 'values')
                 values.text = str_val
     if node.backtrack[0]:
-        chrono +=1
-        backtrack = SubElement(top, 'back-to', {'chrono':str(chrono), 'node':str(node.id), 'node-before':str(node.backtrack[1])})
+        chrono += 1
+        depth -= 1
+        backtrack = SubElement(top, 'back-to', {'chrono': str(
+            chrono), 'depth': str(depth), 'node': str(node.id), 'node-before': str(node.backtrack[1])})
     if node.data[-2] != 0:
-        chrono +=1
-        cident +=1
+        chrono += 1
+        cident += 1
         node.cident = cident
-        new_cons = SubElement(top, 'new-constraint', {'chrono' : str(chrono), 'cident': 'c' + str(cident), 'cinternal':node.data[-1]})
+        new_cons = SubElement(top, 'new-constraint', {'chrono': str(
+            chrono), 'depth':str(depth), 'cident': 'c' + str(cident), 'cinternal': node.data[-1]})
     # if solve, report solved state
     if node.data[-2] == 0:
-        chrono +=1
-        solution = SubElement(top, 'solved', {'chrono' : str(chrono), 'cident': 'c' + str(cident)})
+        chrono += 1
+        solution = SubElement(
+            top, 'solved', {'chrono': str(chrono), 'cident': 'c' + str(cident)})
         # get solution
         state = SubElement(solution, 'state')
         for sol in d[node.id]:
-            print(sol)
+            #print(sol)
             sol = sol.replace(" ", "")
             sol = sol.split(":")[-1]
             sol = sol.split('=')
             domain = sol[-1]
             sol = sol[0]
-            vartag = SubElement(state, 'variable', {'vname': str(sol)})
-            vard = SubElement(vartag, 'vardomain', {'min' :str(domain), 'max': str(domain), 'size': '1'})
+            vartag = SubElement(state, 'variable', {'vident': str(sol), 'vname': str(sol), 'type': 'int', 'vinternal': str(sol)})
+            vard = SubElement(vartag, 'vardomain', {'min': str(
+                domain), 'max': str(domain), 'size': '1'})
             values = SubElement(vard, 'values')
             values.text = domain
-            
-# pretty prints XML   
+
+# pretty prints XML
+
+
 def prettify(elem):
     rough_string = ElementTree.tostring(elem, 'utf-8')
     reparsed = minidom.parseString(rough_string)
     return reparsed.toprettyxml(indent="  ")
 
+
 # write to file
 with open(fp, 'w') as out:
     out.write(prettify(top))
+#tree.write(open(fp, 'w'), encoding='unicode')
+
