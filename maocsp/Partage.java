@@ -10,7 +10,7 @@
 package maocsp;
 
 /**
- *  Cette classe existe uniquement à des fins de communication entre les autres classes...
+ *  Cette classe existe uniquement ï¿½ des fins de communication entre les autres classes...
  * @author jamian
  */
 
@@ -22,61 +22,61 @@ public class Partage {
     public Partage() {
     }
     
-    /* Informations relatives au fichier MIDI créé.  */
+    /* Informations relatives au fichier MIDI crï¿½ï¿½.  */
     
-    static String lenom;    // Nom du fichier midi a créer
+    static String lenom;    // Nom du fichier midi a crï¿½er
     static int lespistes;   // Nombre de pistes
     static int ladiv;       // nombre de divisions par noire
     static int basetempo;   // tempo de base
-    static int modtempo;    // ce qu' on ajoute au tempo chaque fois qu' on s' enfonce dans l' arbre (à virer...)
-    static MusicScore ms;   // le MusicScore traité
-    static Midifile mf;     // Le Midifile traité
-    static String copyright; // Le texte du copyright indiqué dnas le fichier MIDI généré
+    static int modtempo;    // ce qu' on ajoute au tempo chaque fois qu' on s' enfonce dans l' arbre (ï¿½ virer...)
+    static MusicScore ms;   // le MusicScore traitï¿½
+    static Midifile mf;     // Le Midifile traitï¿½
+    static String copyright; // Le texte du copyright indiquï¿½ dnas le fichier MIDI gï¿½nï¿½rï¿½
     
     
     
-    /* Informations générales sur la trace, données par le Pre-Analyser ou l' utilisateur */
+    /* Informations gï¿½nï¿½rales sur la trace, donnï¿½es par le Pre-Analyser ou l' utilisateur */
     
-    static ArrayList varlist;       // liste des variables présentes dans la trace
-    static ArrayList constrlist;    // liste des contraintes présentes dans la trace
-    static ArrayList nodelist;      // liste des différents CP et BT rencontrés avec leur numero de balise
+    static ArrayList varlist;       // liste des variables prï¿½sentes dans la trace
+    static ArrayList constrlist;    // liste des contraintes prï¿½sentes dans la trace
+    static ArrayList nodelist;      // liste des diffï¿½rents CP et BT rencontrï¿½s avec leur numero de balise
     static int maxdepth;            // profondeur max de l' arbre de recherche
     static int nbelem;              // Nombre de balises ouvrantes du document XML
-    static int balbegin;            // balise sur laquelle on commencera à faire de la musique
+    static int balbegin;            // balise sur laquelle on commencera ï¿½ faire de la musique
     static int balend;              // balise sur laquelle on arretera de faire de la musique
-    static int ModChoice;           // Numéro du mode utilisé
-    static boolean notallvar;       // Mis a true si l' utilisateur a choisi de ne pas utiliser toutes les variables pour générer la musique
-    static boolean[] selectedvars;  // selectedvars[v] ssi X sélenctionnée par l' utilisateur et varno(X)=v
-    static int nbvars;              // Indique le nombre de variables utilisées dans la musique
+    static int ModChoice;           // Numï¿½ro du mode utilisï¿½
+    static boolean notallvar;       // Mis a true si l' utilisateur a choisi de ne pas utiliser toutes les variables pour gï¿½nï¿½rer la musique
+    static boolean[] selectedvars;  // selectedvars[v] ssi X sï¿½lenctionnï¿½e par l' utilisateur et varno(X)=v
+    static int nbvars;              // Indique le nombre de variables utilisï¿½es dans la musique
     
     
     
-    /* Informations modifiées pendant le second parcours de la trace, données par le handler, 
-     * et dont les differents mods peuvent se servir (entre autres) pour générer la musique.
-     * Ces valeurs, contrairement à celles données par lengthpre-analyser, sont donc dépendantes de la position à laquelle on se trouve dans la trace. */
+    /* Informations modifiï¿½es pendant le second parcours de la trace, donnï¿½es par le handler, 
+     * et dont les differents mods peuvent se servir (entre autres) pour gï¿½nï¿½rer la musique.
+     * Ces valeurs, contrairement ï¿½ celles donnï¿½es par lengthpre-analyser, sont donc dï¿½pendantes de la position ï¿½ laquelle on se trouve dans la trace. */
     
-    static int nbvar;               // Nombres de variables que l' on connait actuellement. Diffère de partage.nbvars tant que toutes les variables n' ont pas été rencontrées (par new-variable)
-    static boolean[] encountered;   // Encountered[varno(variable)] = true si on a  passé le <new-variable vident="variable" ... />
+    static int nbvar;               // Nombres de variables que l' on connait actuellement. Diffï¿½re de partage.nbvars tant que toutes les variables n' ont pas ï¿½tï¿½ rencontrï¿½es (par new-variable)
+    static boolean[] encountered;   // Encountered[varno(variable)] = true si on a  passï¿½ le <new-variable vident="variable" ... />
     static int depth;               // Profondeur actuelle dans l' arbre de recherche
     static int[] domainSize;        // n=domainSize[x] :- varno(v)=x , taille_du_domaine(v) = n.
     
-    static boolean state;           // Si on est dans la description d' un état (toutes les variables connues à la queue leu leu)
-    static boolean reduce;          // Si on est dans un évènement de réduction
-    static boolean vardomain;       // Si on est en train de décrire un domaine de variable
-    static boolean delta;           // Si on est en train de décrire une différence (typiquement, dans un reduce, une série de range décrivant les variables enlevées)
-    static boolean solution;        // Si on est en train de décrire une solution
-    static boolean failure;         // Si on est en train de décrire un échec
-    static boolean backto;          // Si on est en train de décrire un backtracking (typiquement : rappel du choice-point où on viens de remonter)
-    static boolean cp;              // Si on est en train de décrire un point de choix (un state est toujours décrit lors d' un choice-point).
+    static boolean state;           // Si on est dans la description d' un ï¿½tat (toutes les variables connues ï¿½ la queue leu leu)
+    static boolean reduce;          // Si on est dans un ï¿½vï¿½nement de rï¿½duction
+    static boolean vardomain;       // Si on est en train de dï¿½crire un domaine de variable
+    static boolean delta;           // Si on est en train de dï¿½crire une diffï¿½rence (typiquement, dans un reduce, une sï¿½rie de range dï¿½crivant les variables enlevï¿½es)
+    static boolean solution;        // Si on est en train de dï¿½crire une solution
+    static boolean failure;         // Si on est en train de dï¿½crire un ï¿½chec
+    static boolean backto;          // Si on est en train de dï¿½crire un backtracking (typiquement : rappel du choice-point oï¿½ on viens de remonter)
+    static boolean cp;              // Si on est en train de dï¿½crire un point de choix (un state est toujours dï¿½crit lors d' un choice-point).
     
     static int currentvar;          // De quelle variable on est en  train de parler (pour vardomain et range). On parle de X si currentvar=varno(X).
     static int currentcontr;        // De quelle contrainte on est en train de parler.
-    static boolean[] isArcCo;       // isArcCo[v] si la variable X tq v=varno(X) est suceptible d' être décrit par arc-consistance (son domaine est compris dans un intervale de moins de 256 valeurs)
-    static int[] min;               // min[v] indique la borne inférieure de la variable X telle que v=varno(X);
-    static int[] max;               // Pareil, mais pour la borne supérieure. WARNING : Peut avoir des valeurs excessivement grandes (200 000 000 000 avec des traces générées par codeine version Windows 32 bits, en compilant une version 64 bits, j' ose même pas imaginer...)
+    static boolean[] isArcCo;       // isArcCo[v] si la variable X tq v=varno(X) est suceptible d' ï¿½tre dï¿½crit par arc-consistance (son domaine est compris dans un intervale de moins de 256 valeurs)
+    static int[] min;               // min[v] indique la borne infï¿½rieure de la variable X telle que v=varno(X);
+    static int[] max;               // Pareil, mais pour la borne supï¿½rieure. WARNING : Peut avoir des valeurs excessivement grandes (200 000 000 000 avec des traces gï¿½nï¿½rï¿½es par codeine version Windows 32 bits, en compilant une version 64 bits, j' ose mï¿½me pas imaginer...)
     
-    static boolean[][] arcco;       /* description complète du domaine d' une variable si celle ci est traitée par l' arc-consistance sous GNU-prolog.
-                                     * on a arcco[v][n] si on a isArcCo[v] et si la valeur max[v]+n est présente dans le domaine de X, pourvu que varno(X)=v :) */
+    static boolean[][] arcco;       /* description complï¿½te du domaine d' une variable si celle ci est traitï¿½e par l' arc-consistance sous GNU-prolog.
+                                     * on a arcco[v][n] si on a isArcCo[v] et si la valeur max[v]+n est prï¿½sente dans le domaine de X, pourvu que varno(X)=v :) */
     
     
     

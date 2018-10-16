@@ -1,7 +1,7 @@
 /*
  * Main.java
  *
- * Created on 17 f�vrier 2005, 22:20
+ * Created on 17 fvrier 2005, 22:20
  */
 
 package maocsp;
@@ -28,7 +28,7 @@ public class Main {
      */
     public static void main(String[] args) {    
         Partage.maxdepth=0;
-        Partage.copyright="Jeremie VAUTARD - Universit� d' Orl�ans"; 
+        Partage.copyright="Jeremie VAUTARD - Universit d' Orlans"; 
         String nomxml="";
         BufferedReader in=new BufferedReader(new InputStreamReader(System.in));
 
@@ -55,8 +55,8 @@ public class Main {
             parseur.parse(fichier, gestionnaire);
 
 
-        } catch (SAXException se) {System.out.println(se); System.out.println("Oups... Le XML n' �tait pas bon..."); System.exit(-1);}
-        catch (IOException ioe) {System.out.println("Oups, je sais pas ce qu' il s' est pass�..."); System.exit(-1);}
+        } catch (SAXException se) {System.out.println(se); System.out.println("Oups... Le XML n' tait pas bon..."); System.exit(-1);}
+        catch (IOException ioe) {System.out.println("Oups, je sais pas ce qu' il s' est pass..."); System.exit(-1);}
         catch (ParserConfigurationException ce) {System.out.println("Parser Configuration Exception"); System.exit(-1);}
 
 
@@ -102,7 +102,7 @@ public class Main {
 //                 System.out.print("Variable ");System.out.println(plop.internal);
 //                 System.out.print("Intervenant ");System.out.print(plop.noccur);System.out.println(" fois.");
 //                 System.out.print("valeur min : ");System.out.print(plop.lowbound);System.out.print("   valeur max : ");System.out.println(plop.highbound);
-//                 System.out.print("Correspond � la variable : ");System.out.println(plop.name);
+//                 System.out.print("Correspond  la variable : ");System.out.println(plop.name);
 //                 System.out.print("Garder ? (O/N)");
 //                 while (!rep2.equalsIgnoreCase("O") & !rep2.equalsIgnoreCase("N")) {
 //                     try {rep2=in.readLine();}
@@ -157,8 +157,8 @@ public class Main {
             parseur.parse(fichier, gestionnaire);
 
 
-        } catch (SAXException se) {System.out.println(se); System.out.println("Oups... Le XML n' �tait pas bon...");}
-        catch (IOException ioe) {System.out.println("Oups, je sais pas ce qu' il s' est pass�...");}
+        } catch (SAXException se) {System.out.println(se); System.out.println("Oups... Le XML n' tait pas bon...");}
+        catch (IOException ioe) {System.out.println("Oups, je sais pas ce qu' il s' est pass...");}
         catch (ParserConfigurationException ce) {System.out.println("Parser Configuration Exception");}
 
 
