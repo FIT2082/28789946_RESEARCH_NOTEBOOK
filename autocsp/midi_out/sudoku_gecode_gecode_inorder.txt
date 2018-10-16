@@ -1,0 +1,597 @@
+MThd | Format=1 | # of Tracks=4 | Division=192
+Track #0
+ |Time Sig |  4/4      | 
+	    |Copyright	 | len=37   |
+<Jeremie VAUTARD - Universit d' Orlans>
+1 : 1 : 0 |  Tempo | BPM=140 | 
+1 : 1 : 0 |  Tempo | BPM=142 | 
+14 : 2 : 0 |  Tempo | BPM=142 | 
+14 : 2 : 0 |  Tempo | BPM=144 | 
+14 : 2 : 0 |End of track|
+
+Track #1
+1 : 1 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=F 3  | vol=64
+1 : 1 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A 3  | vol=64
+1 : 2 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=F 3  | vol=64
+1 : 2 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A 3  | vol=64
+1 : 2 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=F 3  | vol=64
+1 : 2 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A 3  | vol=64
+1 : 3 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=F 3  | vol=64
+1 : 3 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A 3  | vol=64
+1 : 3 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=F 3  | vol=64
+1 : 3 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A 3  | vol=64
+1 : 4 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=F 3  | vol=64
+1 : 4 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A 3  | vol=64
+1 : 4 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A 3  | vol=64
+1 : 4 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=C 4  | vol=64
+2 : 1 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A 3  | vol=64
+2 : 1 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=C 4  | vol=64
+2 : 1 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=G 3  | vol=64
+2 : 1 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A#3  | vol=64
+2 : 2 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=G 3  | vol=64
+2 : 2 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A#3  | vol=64
+2 : 2 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=G 3  | vol=64
+2 : 2 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A#3  | vol=64
+2 : 3 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=G 3  | vol=64
+2 : 3 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A#3  | vol=64
+2 : 3 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=F 3  | vol=64
+2 : 3 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A 3  | vol=64
+2 : 4 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=F 3  | vol=64
+2 : 4 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A 3  | vol=64
+2 : 4 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=F 3  | vol=64
+2 : 4 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A 3  | vol=64
+3 : 1 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=F 3  | vol=64
+3 : 1 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A 3  | vol=64
+3 : 1 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=F 3  | vol=64
+3 : 1 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A 3  | vol=64
+3 : 2 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=F 3  | vol=64
+3 : 2 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A 3  | vol=64
+3 : 2 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=G 3  | vol=64
+3 : 2 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A#3  | vol=64
+3 : 3 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=G 3  | vol=64
+3 : 3 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A#3  | vol=64
+3 : 3 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=G 3  | vol=64
+3 : 3 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A#3  | vol=64
+3 : 4 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=G 3  | vol=64
+3 : 4 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A#3  | vol=64
+3 : 4 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=G 3  | vol=64
+3 : 4 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A#3  | vol=64
+4 : 1 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=G 3  | vol=64
+4 : 1 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A#3  | vol=64
+4 : 1 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=G 3  | vol=64
+4 : 1 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A#3  | vol=64
+4 : 2 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=G 3  | vol=64
+4 : 2 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A#3  | vol=64
+4 : 2 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=F 3  | vol=64
+4 : 2 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A 3  | vol=64
+4 : 3 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=F 3  | vol=64
+4 : 3 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A 3  | vol=64
+4 : 3 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=F 3  | vol=64
+4 : 3 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A 3  | vol=64
+4 : 4 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=F 3  | vol=64
+4 : 4 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A 3  | vol=64
+4 : 4 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=F 3  | vol=64
+4 : 4 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A 3  | vol=64
+5 : 1 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=F 3  | vol=64
+5 : 1 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A 3  | vol=64
+5 : 1 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=E 4  | vol=64
+5 : 1 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=G 4  | vol=64
+5 : 2 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=E 4  | vol=64
+5 : 2 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=G 4  | vol=64
+5 : 2 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=F 3  | vol=64
+5 : 2 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A 3  | vol=64
+5 : 3 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=F 3  | vol=64
+5 : 3 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A 3  | vol=64
+5 : 3 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=F 3  | vol=64
+5 : 3 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A 3  | vol=64
+5 : 4 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=F 3  | vol=64
+5 : 4 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A 3  | vol=64
+5 : 4 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=F 3  | vol=64
+5 : 4 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A 3  | vol=64
+6 : 1 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=F 3  | vol=64
+6 : 1 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A 3  | vol=64
+6 : 1 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A 3  | vol=64
+6 : 1 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=C 4  | vol=64
+6 : 2 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A 3  | vol=64
+6 : 2 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=C 4  | vol=64
+6 : 2 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=F 3  | vol=64
+6 : 2 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A 3  | vol=64
+6 : 3 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=F 3  | vol=64
+6 : 3 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A 3  | vol=64
+6 : 3 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=F 3  | vol=64
+6 : 3 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A 3  | vol=64
+6 : 4 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=F 3  | vol=64
+6 : 4 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A 3  | vol=64
+6 : 4 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=F 3  | vol=64
+6 : 4 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A 3  | vol=64
+7 : 1 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=F 3  | vol=64
+7 : 1 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A 3  | vol=64
+7 : 1 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=F 3  | vol=64
+7 : 1 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A 3  | vol=64
+7 : 2 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=F 3  | vol=64
+7 : 2 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A 3  | vol=64
+7 : 2 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A 3  | vol=64
+7 : 2 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=C 4  | vol=64
+7 : 3 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A 3  | vol=64
+7 : 3 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=C 4  | vol=64
+7 : 3 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=G 3  | vol=64
+7 : 3 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A#3  | vol=64
+7 : 4 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=G 3  | vol=64
+7 : 4 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A#3  | vol=64
+7 : 4 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=G 3  | vol=64
+7 : 4 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A#3  | vol=64
+8 : 1 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=G 3  | vol=64
+8 : 1 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A#3  | vol=64
+8 : 1 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=F 3  | vol=64
+8 : 1 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A 3  | vol=64
+8 : 2 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=F 3  | vol=64
+8 : 2 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A 3  | vol=64
+8 : 2 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=F 3  | vol=64
+8 : 2 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A 3  | vol=64
+8 : 3 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=F 3  | vol=64
+8 : 3 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A 3  | vol=64
+8 : 3 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A#3  | vol=64
+8 : 3 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=D 4  | vol=64
+8 : 4 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A#3  | vol=64
+8 : 4 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=D 4  | vol=64
+8 : 4 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A#3  | vol=64
+8 : 4 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=D 4  | vol=64
+9 : 1 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A#3  | vol=64
+9 : 1 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=D 4  | vol=64
+9 : 1 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A#3  | vol=64
+9 : 1 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=D 4  | vol=64
+9 : 2 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A#3  | vol=64
+9 : 2 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=D 4  | vol=64
+9 : 2 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=E 4  | vol=64
+9 : 2 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=G 4  | vol=64
+9 : 3 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=E 4  | vol=64
+9 : 3 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=G 4  | vol=64
+9 : 3 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=G 3  | vol=64
+9 : 3 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A#3  | vol=64
+9 : 4 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=G 3  | vol=64
+9 : 4 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A#3  | vol=64
+9 : 4 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=G 3  | vol=64
+9 : 4 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A#3  | vol=64
+10 : 1 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=G 3  | vol=64
+10 : 1 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A#3  | vol=64
+10 : 1 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A 3  | vol=64
+10 : 1 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=C 4  | vol=64
+10 : 2 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A 3  | vol=64
+10 : 2 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=C 4  | vol=64
+10 : 2 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=G 3  | vol=64
+10 : 2 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A#3  | vol=64
+10 : 3 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=G 3  | vol=64
+10 : 3 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A#3  | vol=64
+10 : 3 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=C 4  | vol=64
+10 : 3 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=E 4  | vol=64
+10 : 4 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=C 4  | vol=64
+10 : 4 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=E 4  | vol=64
+10 : 4 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=G 3  | vol=64
+10 : 4 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A#3  | vol=64
+11 : 1 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=G 3  | vol=64
+11 : 1 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A#3  | vol=64
+11 : 1 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=F 3  | vol=64
+11 : 1 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A 3  | vol=64
+11 : 2 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=F 3  | vol=64
+11 : 2 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A 3  | vol=64
+11 : 2 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=F 3  | vol=64
+11 : 2 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A 3  | vol=64
+11 : 3 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=F 3  | vol=64
+11 : 3 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A 3  | vol=64
+11 : 3 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A#3  | vol=64
+11 : 3 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=D 4  | vol=64
+11 : 4 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A#3  | vol=64
+11 : 4 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=D 4  | vol=64
+11 : 4 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=F 3  | vol=64
+11 : 4 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A 3  | vol=64
+12 : 1 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=F 3  | vol=64
+12 : 1 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A 3  | vol=64
+12 : 1 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=F 3  | vol=64
+12 : 1 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A 3  | vol=64
+12 : 2 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=F 3  | vol=64
+12 : 2 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A 3  | vol=64
+12 : 2 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=F 3  | vol=64
+12 : 2 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A 3  | vol=64
+12 : 3 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=F 3  | vol=64
+12 : 3 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A 3  | vol=64
+12 : 3 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=F 3  | vol=64
+12 : 3 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A 3  | vol=64
+12 : 4 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=F 3  | vol=64
+12 : 4 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A 3  | vol=64
+12 : 4 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A 3  | vol=64
+12 : 4 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=C 4  | vol=64
+13 : 1 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A 3  | vol=64
+13 : 1 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=C 4  | vol=64
+13 : 1 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A 3  | vol=64
+13 : 1 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=C 4  | vol=64
+13 : 2 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A 3  | vol=64
+13 : 2 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=C 4  | vol=64
+13 : 2 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A 3  | vol=64
+13 : 2 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=C 4  | vol=64
+13 : 3 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A 3  | vol=64
+13 : 3 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=C 4  | vol=64
+13 : 3 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=F 3  | vol=64
+13 : 3 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A 3  | vol=64
+13 : 4 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=F 3  | vol=64
+13 : 4 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A 3  | vol=64
+13 : 4 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=F 3  | vol=64
+13 : 4 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A 3  | vol=64
+14 : 1 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=F 3  | vol=64
+14 : 1 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A 3  | vol=64
+14 : 1 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=F 3  | vol=64
+14 : 1 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A 3  | vol=64
+14 : 2 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=F 3  | vol=64
+14 : 2 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A 3  | vol=64
+14 : 2 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=E 4  | vol=64
+14 : 2 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=G 4  | vol=64
+14 : 3 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=E 4  | vol=64
+14 : 3 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=G 4  | vol=64
+14 : 3 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=G 3  | vol=64
+14 : 3 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A#3  | vol=64
+14 : 4 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=G 3  | vol=64
+14 : 4 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A#3  | vol=64
+14 : 4 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A 3  | vol=64
+14 : 4 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=C 4  | vol=64
+15 : 1 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A 3  | vol=64
+15 : 1 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=C 4  | vol=64
+15 : 1 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=G 3  | vol=64
+15 : 1 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A#3  | vol=64
+15 : 2 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=G 3  | vol=64
+15 : 2 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A#3  | vol=64
+15 : 2 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=G 3  | vol=64
+15 : 2 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A#3  | vol=64
+15 : 3 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=G 3  | vol=64
+15 : 3 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A#3  | vol=64
+15 : 3 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=G 3  | vol=64
+15 : 3 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A#3  | vol=64
+15 : 4 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=G 3  | vol=64
+15 : 4 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A#3  | vol=64
+15 : 4 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=C 4  | vol=64
+15 : 4 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=E 4  | vol=64
+16 : 1 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=C 4  | vol=64
+16 : 1 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=E 4  | vol=64
+16 : 1 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=G 3  | vol=64
+16 : 1 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A#3  | vol=64
+16 : 2 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=G 3  | vol=64
+16 : 2 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A#3  | vol=64
+16 : 2 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=G 3  | vol=64
+16 : 2 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A#3  | vol=64
+16 : 3 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=G 3  | vol=64
+16 : 3 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A#3  | vol=64
+16 : 3 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=G 3  | vol=64
+16 : 3 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A#3  | vol=64
+16 : 4 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=G 3  | vol=64
+16 : 4 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A#3  | vol=64
+16 : 4 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=G 3  | vol=64
+16 : 4 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A#3  | vol=64
+17 : 1 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=G 3  | vol=64
+17 : 1 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A#3  | vol=64
+17 : 1 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=G 3  | vol=64
+17 : 1 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A#3  | vol=64
+17 : 2 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=G 3  | vol=64
+17 : 2 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A#3  | vol=64
+17 : 2 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=G 3  | vol=64
+17 : 2 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A#3  | vol=64
+17 : 3 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=G 3  | vol=64
+17 : 3 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A#3  | vol=64
+17 : 3 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=E 4  | vol=64
+17 : 3 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=G 4  | vol=64
+17 : 4 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=E 4  | vol=64
+17 : 4 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=G 4  | vol=64
+17 : 4 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=G 3  | vol=64
+17 : 4 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=A#3  | vol=64
+18 : 1 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=G 3  | vol=64
+18 : 1 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=A#3  | vol=64
+18 : 1 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=E 4  | vol=64
+18 : 1 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=G 4  | vol=64
+18 : 2 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=E 4  | vol=64
+18 : 2 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=G 4  | vol=64
+18 : 2 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=C 4  | vol=64
+18 : 2 : 0 | Program | chan=1 | pgm #=1
+           | on Note | chan=1 | pitch=E 4  | vol=64
+18 : 3 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=C 4  | vol=64
+18 : 3 : 0 | Program | chan=1 | pgm #=1
+           | off Note | chan=1 | pitch=E 4  | vol=64
+18 : 4 : 0 |End of track|
+
+Track #2
+1 : 1 : 0 | Program | chan=2 | pgm #=72
+           | on Note | chan=2 | pitch=F 2  | vol=64
+1 : 1 : 0 | Program | chan=2 | pgm #=72
+           | on Note | chan=2 | pitch=A 2  | vol=64
+1 : 1 : 0 | Program | chan=2 | pgm #=72
+           | on Note | chan=2 | pitch=D 3  | vol=64
+1 : 1 : 0 | Program | chan=2 | pgm #=72
+           | on Note | chan=2 | pitch=F 3  | vol=64
+14 : 2 : 0 | Program | chan=2 | pgm #=72
+           | off Note | chan=2 | pitch=F 2  | vol=64
+14 : 2 : 0 | Program | chan=2 | pgm #=72
+           | off Note | chan=2 | pitch=A 2  | vol=64
+14 : 2 : 0 | Program | chan=2 | pgm #=72
+           | off Note | chan=2 | pitch=D 3  | vol=64
+14 : 2 : 0 | Program | chan=2 | pgm #=72
+           | off Note | chan=2 | pitch=F 3  | vol=64
+14 : 3 : 0 |End of track|
+
+
+Track #3
+1: 1:  0  |Program  | chan=10   | pgm #=  1 Grand Piano
+1 : 2 : 0 | End of Track|

@@ -1,0 +1,95 @@
+<?xml version="1.0" ?>
+<gentra4cp>
+  <header>
+    <date/>
+    <creator/>
+  </header>
+  <provide/>
+  <choice-point chrono="0" depth="0" nident="0"/>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_0_" vinternal="X_INTRODUCED_0_" vname="X_INTRODUCED_0_">
+    <vardomain max="5" min="1" size="5">
+      <values>1 2 3 4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_1_" vinternal="X_INTRODUCED_1_" vname="X_INTRODUCED_1_">
+    <vardomain max="5" min="1" size="5">
+      <values>1 2 3 4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_2_" vinternal="X_INTRODUCED_2_" vname="X_INTRODUCED_2_">
+    <vardomain max="5" min="1" size="5">
+      <values>1 2 3 4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_3_" vinternal="X_INTRODUCED_3_" vname="X_INTRODUCED_3_">
+    <vardomain max="5" min="1" size="5">
+      <values>1 2 3 4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_4_" vinternal="X_INTRODUCED_4_" vname="X_INTRODUCED_4_">
+    <vardomain max="5" min="1" size="5">
+      <values>1 2 3 4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-constraint chrono="1" cident="c1" cinternal="" depth="1"/>
+  <choice-point chrono="1" depth="1" nident="1"/>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_0_" vinternal="X_INTRODUCED_0_" vname="X_INTRODUCED_0_"/>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_1_" vinternal="X_INTRODUCED_1_" vname="X_INTRODUCED_1_">
+    <vardomain max="5" min="3" size="3">
+      <values>3 4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_2_" vinternal="X_INTRODUCED_2_" vname="X_INTRODUCED_2_">
+    <vardomain max="5" min="2" size="3">
+      <values>2 4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_3_" vinternal="X_INTRODUCED_3_" vname="X_INTRODUCED_3_">
+    <vardomain max="5" min="2" size="3">
+      <values>2 3 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_4_" vinternal="X_INTRODUCED_4_" vname="X_INTRODUCED_4_">
+    <vardomain max="4" min="2" size="3">
+      <values>2 3 4</values>
+    </vardomain>
+  </new-variable>
+  <new-constraint chrono="2" cident="c2" cinternal="q[1] = 1" depth="2"/>
+  <choice-point chrono="2" depth="2" nident="3"/>
+  <back-to chrono="3" depth="2" node="3" node-before="1"/>
+  <solved chrono="4" cident="c2">
+    <state>
+      <variable type="int" vident="X_INTRODUCED_0_" vinternal="X_INTRODUCED_0_" vname="X_INTRODUCED_0_">
+        <vardomain max="1" min="1" size="1">
+          <values>1</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_1_" vinternal="X_INTRODUCED_1_" vname="X_INTRODUCED_1_">
+        <vardomain max="3" min="3" size="1">
+          <values>3</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_2_" vinternal="X_INTRODUCED_2_" vname="X_INTRODUCED_2_">
+        <vardomain max="5" min="5" size="1">
+          <values>5</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_3_" vinternal="X_INTRODUCED_3_" vname="X_INTRODUCED_3_">
+        <vardomain max="2" min="2" size="1">
+          <values>2</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_4_" vinternal="X_INTRODUCED_4_" vname="X_INTRODUCED_4_">
+        <vardomain max="4" min="4" size="1">
+          <values>4</values>
+        </vardomain>
+      </variable>
+    </state>
+  </solved>
+  <choice-point chrono="4" depth="2" nident="4"/>
+  <back-to chrono="5" depth="2" node="4" node-before="1"/>
+  <new-constraint chrono="6" cident="c3" cinternal="" depth="2"/>
+  <choice-point chrono="6" depth="2" nident="2"/>
+  <back-to chrono="7" depth="2" node="2" node-before="0"/>
+  <new-constraint chrono="8" cident="c4" cinternal="" depth="2"/>
+</gentra4cp>

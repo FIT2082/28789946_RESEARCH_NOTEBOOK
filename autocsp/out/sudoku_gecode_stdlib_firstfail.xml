@@ -1,0 +1,3392 @@
+<?xml version="1.0" ?>
+<gentra4cp>
+  <header>
+    <date/>
+    <creator/>
+  </header>
+  <provide/>
+  <choice-point chrono="0" depth="0" nident="0"/>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_0_" vinternal="X_INTRODUCED_0_" vname="X_INTRODUCED_0_">
+    <vardomain max="9" min="1" size="7">
+      <values>1 2 3 4 5 7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_1_" vinternal="X_INTRODUCED_1_" vname="X_INTRODUCED_1_">
+    <vardomain max="9" min="1" size="3">
+      <values>1 7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_2_" vinternal="X_INTRODUCED_2_" vname="X_INTRODUCED_2_">
+    <vardomain max="9" min="1" size="6">
+      <values>1 2 3 4 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_3_" vinternal="X_INTRODUCED_3_" vname="X_INTRODUCED_3_">
+    <vardomain max="9" min="3" size="3">
+      <values>3 7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_4_" vinternal="X_INTRODUCED_4_" vname="X_INTRODUCED_4_">
+    <vardomain max="9" min="2" size="5">
+      <values>2 3 6 7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_5_" vinternal="X_INTRODUCED_5_" vname="X_INTRODUCED_5_">
+    <vardomain max="3" min="2" size="2">
+      <values>2 3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_6_" vinternal="X_INTRODUCED_6_" vname="X_INTRODUCED_6_">
+    <vardomain max="8" min="1" size="5">
+      <values>1 2 4 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_7_" vinternal="X_INTRODUCED_7_" vname="X_INTRODUCED_7_">
+    <vardomain max="8" min="1" size="4">
+      <values>1 5 6 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_8_" vinternal="X_INTRODUCED_8_" vname="X_INTRODUCED_8_">
+    <vardomain max="9" min="1" size="7">
+      <values>1 2 4 5 6 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_9_" vinternal="X_INTRODUCED_9_" vname="X_INTRODUCED_9_">
+    <vardomain max="9" min="2" size="4">
+      <values>2 3 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_10_" vinternal="X_INTRODUCED_10_" vname="X_INTRODUCED_10_"/>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_11_" vinternal="X_INTRODUCED_11_" vname="X_INTRODUCED_11_"/>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_12_" vinternal="X_INTRODUCED_12_" vname="X_INTRODUCED_12_"/>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_13_" vinternal="X_INTRODUCED_13_" vname="X_INTRODUCED_13_">
+    <vardomain max="9" min="2" size="3">
+      <values>2 3 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_14_" vinternal="X_INTRODUCED_14_" vname="X_INTRODUCED_14_"/>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_15_" vinternal="X_INTRODUCED_15_" vname="X_INTRODUCED_15_">
+    <vardomain max="5" min="2" size="2">
+      <values>2 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_16_" vinternal="X_INTRODUCED_16_" vname="X_INTRODUCED_16_"/>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_17_" vinternal="X_INTRODUCED_17_" vname="X_INTRODUCED_17_">
+    <vardomain max="9" min="2" size="3">
+      <values>2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_18_" vinternal="X_INTRODUCED_18_" vname="X_INTRODUCED_18_">
+    <vardomain max="9" min="1" size="5">
+      <values>1 2 4 7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_19_" vinternal="X_INTRODUCED_19_" vname="X_INTRODUCED_19_">
+    <vardomain max="9" min="1" size="3">
+      <values>1 7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_20_" vinternal="X_INTRODUCED_20_" vname="X_INTRODUCED_20_">
+    <vardomain max="9" min="1" size="4">
+      <values>1 2 4 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_21_" vinternal="X_INTRODUCED_21_" vname="X_INTRODUCED_21_">
+    <vardomain max="9" min="7" size="2">
+      <values>7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_22_" vinternal="X_INTRODUCED_22_" vname="X_INTRODUCED_22_"/>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_23_" vinternal="X_INTRODUCED_23_" vname="X_INTRODUCED_23_"/>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_24_" vinternal="X_INTRODUCED_24_" vname="X_INTRODUCED_24_">
+    <vardomain max="4" min="1" size="3">
+      <values>1 2 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_25_" vinternal="X_INTRODUCED_25_" vname="X_INTRODUCED_25_"/>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_26_" vinternal="X_INTRODUCED_26_" vname="X_INTRODUCED_26_">
+    <vardomain max="9" min="1" size="5">
+      <values>1 2 4 6 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_27_" vinternal="X_INTRODUCED_27_" vname="X_INTRODUCED_27_">
+    <vardomain max="3" min="1" size="2">
+      <values>1 3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_28_" vinternal="X_INTRODUCED_28_" vname="X_INTRODUCED_28_"/>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_29_" vinternal="X_INTRODUCED_29_" vname="X_INTRODUCED_29_"/>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_30_" vinternal="X_INTRODUCED_30_" vname="X_INTRODUCED_30_"/>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_31_" vinternal="X_INTRODUCED_31_" vname="X_INTRODUCED_31_">
+    <vardomain max="7" min="3" size="3">
+      <values>3 5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_32_" vinternal="X_INTRODUCED_32_" vname="X_INTRODUCED_32_"/>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_33_" vinternal="X_INTRODUCED_33_" vname="X_INTRODUCED_33_">
+    <vardomain max="7" min="1" size="3">
+      <values>1 5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_34_" vinternal="X_INTRODUCED_34_" vname="X_INTRODUCED_34_"/>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_35_" vinternal="X_INTRODUCED_35_" vname="X_INTRODUCED_35_">
+    <vardomain max="7" min="1" size="3">
+      <values>1 5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_36_" vinternal="X_INTRODUCED_36_" vname="X_INTRODUCED_36_">
+    <vardomain max="8" min="1" size="4">
+      <values>1 3 4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_37_" vinternal="X_INTRODUCED_37_" vname="X_INTRODUCED_37_">
+    <vardomain max="8" min="1" size="2">
+      <values>1 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_38_" vinternal="X_INTRODUCED_38_" vname="X_INTRODUCED_38_"/>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_39_" vinternal="X_INTRODUCED_39_" vname="X_INTRODUCED_39_">
+    <vardomain max="5" min="3" size="2">
+      <values>3 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_40_" vinternal="X_INTRODUCED_40_" vname="X_INTRODUCED_40_">
+    <vardomain max="5" min="2" size="4">
+      <values>2 3 4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_41_" vinternal="X_INTRODUCED_41_" vname="X_INTRODUCED_41_">
+    <vardomain max="4" min="2" size="3">
+      <values>2 3 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_42_" vinternal="X_INTRODUCED_42_" vname="X_INTRODUCED_42_"/>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_43_" vinternal="X_INTRODUCED_43_" vname="X_INTRODUCED_43_">
+    <vardomain max="8" min="1" size="4">
+      <values>1 5 6 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_44_" vinternal="X_INTRODUCED_44_" vname="X_INTRODUCED_44_">
+    <vardomain max="8" min="1" size="4">
+      <values>1 5 6 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_45_" vinternal="X_INTRODUCED_45_" vname="X_INTRODUCED_45_">
+    <vardomain max="9" min="4" size="3">
+      <values>4 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_46_" vinternal="X_INTRODUCED_46_" vname="X_INTRODUCED_46_"/>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_47_" vinternal="X_INTRODUCED_47_" vname="X_INTRODUCED_47_">
+    <vardomain max="9" min="4" size="2">
+      <values>4 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_48_" vinternal="X_INTRODUCED_48_" vname="X_INTRODUCED_48_"/>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_49_" vinternal="X_INTRODUCED_49_" vname="X_INTRODUCED_49_">
+    <vardomain max="7" min="4" size="2">
+      <values>4 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_50_" vinternal="X_INTRODUCED_50_" vname="X_INTRODUCED_50_"/>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_51_" vinternal="X_INTRODUCED_51_" vname="X_INTRODUCED_51_"/>
+  <new-variable chrono="0" depth="1" vident="X_INTRODUCED_52_" vinternal="X_INTRODUCED_52_" vname="X_INTRODUCED_52_"/>
+  <new-variable chrono="0" depth="1" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="7" size="2">
+      <values>7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="2" size="5">
+      <values>2 5 7 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="0" depth="1" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="2" size="3">
+      <values>2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="0" depth="1" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="0" depth="1" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="3" size="2">
+      <values>3 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="2" size="4">
+      <values>2 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="5" size="2">
+      <values>5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="2" size="5">
+      <values>2 3 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="3">
+      <values>1 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="0" depth="1" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="5" min="1" size="2">
+      <values>1 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="0" depth="1" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="5" min="4" size="2">
+      <values>4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="0" depth="1" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="0" depth="1" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="0" depth="1" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="4">
+      <values>1 4 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="1" size="7">
+      <values>1 2 5 6 7 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="1" size="4">
+      <values>1 7 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="1" size="4">
+      <values>1 2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="3" size="3">
+      <values>3 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="3" size="4">
+      <values>3 4 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="3" size="3">
+      <values>3 4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="6">
+      <values>1 2 4 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="3">
+      <values>1 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="0" depth="1" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="7">
+      <values>1 2 3 4 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-constraint chrono="1" cident="c1" cinternal="" depth="1"/>
+  <choice-point chrono="1" depth="1" nident="1"/>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_0_" vinternal="X_INTRODUCED_0_" vname="X_INTRODUCED_0_">
+    <vardomain max="9" min="1" size="6">
+      <values>1 3 4 5 7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_1_" vinternal="X_INTRODUCED_1_" vname="X_INTRODUCED_1_">
+    <vardomain max="9" min="1" size="3">
+      <values>1 7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_2_" vinternal="X_INTRODUCED_2_" vname="X_INTRODUCED_2_">
+    <vardomain max="9" min="1" size="5">
+      <values>1 3 4 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_3_" vinternal="X_INTRODUCED_3_" vname="X_INTRODUCED_3_">
+    <vardomain max="9" min="3" size="3">
+      <values>3 7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_4_" vinternal="X_INTRODUCED_4_" vname="X_INTRODUCED_4_">
+    <vardomain max="9" min="3" size="4">
+      <values>3 6 7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_5_" vinternal="X_INTRODUCED_5_" vname="X_INTRODUCED_5_"/>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_6_" vinternal="X_INTRODUCED_6_" vname="X_INTRODUCED_6_">
+    <vardomain max="8" min="1" size="4">
+      <values>1 4 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_7_" vinternal="X_INTRODUCED_7_" vname="X_INTRODUCED_7_">
+    <vardomain max="8" min="1" size="4">
+      <values>1 5 6 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_8_" vinternal="X_INTRODUCED_8_" vname="X_INTRODUCED_8_">
+    <vardomain max="9" min="1" size="6">
+      <values>1 4 5 6 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_9_" vinternal="X_INTRODUCED_9_" vname="X_INTRODUCED_9_">
+    <vardomain max="9" min="2" size="4">
+      <values>2 3 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_10_" vinternal="X_INTRODUCED_10_" vname="X_INTRODUCED_10_"/>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_11_" vinternal="X_INTRODUCED_11_" vname="X_INTRODUCED_11_"/>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_12_" vinternal="X_INTRODUCED_12_" vname="X_INTRODUCED_12_"/>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_13_" vinternal="X_INTRODUCED_13_" vname="X_INTRODUCED_13_">
+    <vardomain max="9" min="3" size="2">
+      <values>3 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_14_" vinternal="X_INTRODUCED_14_" vname="X_INTRODUCED_14_"/>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_15_" vinternal="X_INTRODUCED_15_" vname="X_INTRODUCED_15_">
+    <vardomain max="5" min="2" size="2">
+      <values>2 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_16_" vinternal="X_INTRODUCED_16_" vname="X_INTRODUCED_16_"/>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_17_" vinternal="X_INTRODUCED_17_" vname="X_INTRODUCED_17_">
+    <vardomain max="9" min="2" size="3">
+      <values>2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_18_" vinternal="X_INTRODUCED_18_" vname="X_INTRODUCED_18_">
+    <vardomain max="9" min="1" size="5">
+      <values>1 2 4 7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_19_" vinternal="X_INTRODUCED_19_" vname="X_INTRODUCED_19_">
+    <vardomain max="9" min="1" size="3">
+      <values>1 7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_20_" vinternal="X_INTRODUCED_20_" vname="X_INTRODUCED_20_">
+    <vardomain max="9" min="1" size="4">
+      <values>1 2 4 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_21_" vinternal="X_INTRODUCED_21_" vname="X_INTRODUCED_21_">
+    <vardomain max="9" min="7" size="2">
+      <values>7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_22_" vinternal="X_INTRODUCED_22_" vname="X_INTRODUCED_22_"/>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_23_" vinternal="X_INTRODUCED_23_" vname="X_INTRODUCED_23_"/>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_24_" vinternal="X_INTRODUCED_24_" vname="X_INTRODUCED_24_">
+    <vardomain max="4" min="1" size="3">
+      <values>1 2 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_25_" vinternal="X_INTRODUCED_25_" vname="X_INTRODUCED_25_"/>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_26_" vinternal="X_INTRODUCED_26_" vname="X_INTRODUCED_26_">
+    <vardomain max="9" min="1" size="5">
+      <values>1 2 4 6 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_27_" vinternal="X_INTRODUCED_27_" vname="X_INTRODUCED_27_">
+    <vardomain max="3" min="1" size="2">
+      <values>1 3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_28_" vinternal="X_INTRODUCED_28_" vname="X_INTRODUCED_28_"/>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_29_" vinternal="X_INTRODUCED_29_" vname="X_INTRODUCED_29_"/>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_30_" vinternal="X_INTRODUCED_30_" vname="X_INTRODUCED_30_"/>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_31_" vinternal="X_INTRODUCED_31_" vname="X_INTRODUCED_31_">
+    <vardomain max="7" min="3" size="3">
+      <values>3 5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_32_" vinternal="X_INTRODUCED_32_" vname="X_INTRODUCED_32_"/>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_33_" vinternal="X_INTRODUCED_33_" vname="X_INTRODUCED_33_">
+    <vardomain max="7" min="1" size="3">
+      <values>1 5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_34_" vinternal="X_INTRODUCED_34_" vname="X_INTRODUCED_34_"/>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_35_" vinternal="X_INTRODUCED_35_" vname="X_INTRODUCED_35_">
+    <vardomain max="7" min="1" size="3">
+      <values>1 5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_36_" vinternal="X_INTRODUCED_36_" vname="X_INTRODUCED_36_">
+    <vardomain max="8" min="1" size="4">
+      <values>1 3 4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_37_" vinternal="X_INTRODUCED_37_" vname="X_INTRODUCED_37_">
+    <vardomain max="8" min="1" size="2">
+      <values>1 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_38_" vinternal="X_INTRODUCED_38_" vname="X_INTRODUCED_38_"/>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_39_" vinternal="X_INTRODUCED_39_" vname="X_INTRODUCED_39_">
+    <vardomain max="5" min="3" size="2">
+      <values>3 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_40_" vinternal="X_INTRODUCED_40_" vname="X_INTRODUCED_40_">
+    <vardomain max="5" min="2" size="4">
+      <values>2 3 4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_41_" vinternal="X_INTRODUCED_41_" vname="X_INTRODUCED_41_">
+    <vardomain max="4" min="3" size="2">
+      <values>3 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_42_" vinternal="X_INTRODUCED_42_" vname="X_INTRODUCED_42_"/>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_43_" vinternal="X_INTRODUCED_43_" vname="X_INTRODUCED_43_">
+    <vardomain max="8" min="1" size="4">
+      <values>1 5 6 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_44_" vinternal="X_INTRODUCED_44_" vname="X_INTRODUCED_44_">
+    <vardomain max="8" min="1" size="4">
+      <values>1 5 6 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_45_" vinternal="X_INTRODUCED_45_" vname="X_INTRODUCED_45_">
+    <vardomain max="9" min="4" size="3">
+      <values>4 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_46_" vinternal="X_INTRODUCED_46_" vname="X_INTRODUCED_46_"/>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_47_" vinternal="X_INTRODUCED_47_" vname="X_INTRODUCED_47_">
+    <vardomain max="9" min="4" size="2">
+      <values>4 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_48_" vinternal="X_INTRODUCED_48_" vname="X_INTRODUCED_48_"/>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_49_" vinternal="X_INTRODUCED_49_" vname="X_INTRODUCED_49_">
+    <vardomain max="7" min="4" size="2">
+      <values>4 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_50_" vinternal="X_INTRODUCED_50_" vname="X_INTRODUCED_50_"/>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_51_" vinternal="X_INTRODUCED_51_" vname="X_INTRODUCED_51_"/>
+  <new-variable chrono="1" depth="2" vident="X_INTRODUCED_52_" vinternal="X_INTRODUCED_52_" vname="X_INTRODUCED_52_"/>
+  <new-variable chrono="1" depth="2" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="7" size="2">
+      <values>7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="2" size="5">
+      <values>2 5 7 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="1" depth="2" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="2" size="3">
+      <values>2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="1" depth="2" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="1" depth="2" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="3" size="2">
+      <values>3 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="2" size="4">
+      <values>2 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="5" size="2">
+      <values>5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="2" size="5">
+      <values>2 3 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="3">
+      <values>1 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="1" depth="2" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="5" min="1" size="2">
+      <values>1 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="1" depth="2" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="5" min="4" size="2">
+      <values>4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="1" depth="2" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="1" depth="2" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="1" depth="2" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="4">
+      <values>1 4 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="1" size="7">
+      <values>1 2 5 6 7 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="1" size="4">
+      <values>1 7 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="1" size="4">
+      <values>1 2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="3" size="3">
+      <values>3 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="3" size="4">
+      <values>3 4 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="3" size="3">
+      <values>3 4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="6">
+      <values>1 2 4 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="3">
+      <values>1 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="1" depth="2" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="7">
+      <values>1 2 3 4 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-constraint chrono="2" cident="c2" cinternal="X_INTRODUCED_81_[6] = 2" depth="2"/>
+  <choice-point chrono="2" depth="2" nident="3"/>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_0_" vinternal="X_INTRODUCED_0_" vname="X_INTRODUCED_0_">
+    <vardomain max="9" min="1" size="6">
+      <values>1 3 4 5 7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_1_" vinternal="X_INTRODUCED_1_" vname="X_INTRODUCED_1_">
+    <vardomain max="9" min="1" size="3">
+      <values>1 7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_2_" vinternal="X_INTRODUCED_2_" vname="X_INTRODUCED_2_">
+    <vardomain max="9" min="1" size="5">
+      <values>1 3 4 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_3_" vinternal="X_INTRODUCED_3_" vname="X_INTRODUCED_3_">
+    <vardomain max="9" min="7" size="2">
+      <values>7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_4_" vinternal="X_INTRODUCED_4_" vname="X_INTRODUCED_4_">
+    <vardomain max="9" min="6" size="3">
+      <values>6 7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_5_" vinternal="X_INTRODUCED_5_" vname="X_INTRODUCED_5_"/>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_6_" vinternal="X_INTRODUCED_6_" vname="X_INTRODUCED_6_">
+    <vardomain max="8" min="1" size="4">
+      <values>1 4 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_7_" vinternal="X_INTRODUCED_7_" vname="X_INTRODUCED_7_">
+    <vardomain max="8" min="1" size="4">
+      <values>1 5 6 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_8_" vinternal="X_INTRODUCED_8_" vname="X_INTRODUCED_8_">
+    <vardomain max="9" min="1" size="6">
+      <values>1 4 5 6 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_9_" vinternal="X_INTRODUCED_9_" vname="X_INTRODUCED_9_">
+    <vardomain max="9" min="2" size="3">
+      <values>2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_10_" vinternal="X_INTRODUCED_10_" vname="X_INTRODUCED_10_"/>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_11_" vinternal="X_INTRODUCED_11_" vname="X_INTRODUCED_11_"/>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_12_" vinternal="X_INTRODUCED_12_" vname="X_INTRODUCED_12_"/>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_13_" vinternal="X_INTRODUCED_13_" vname="X_INTRODUCED_13_"/>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_14_" vinternal="X_INTRODUCED_14_" vname="X_INTRODUCED_14_"/>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_15_" vinternal="X_INTRODUCED_15_" vname="X_INTRODUCED_15_">
+    <vardomain max="5" min="2" size="2">
+      <values>2 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_16_" vinternal="X_INTRODUCED_16_" vname="X_INTRODUCED_16_"/>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_17_" vinternal="X_INTRODUCED_17_" vname="X_INTRODUCED_17_">
+    <vardomain max="9" min="2" size="3">
+      <values>2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_18_" vinternal="X_INTRODUCED_18_" vname="X_INTRODUCED_18_">
+    <vardomain max="9" min="1" size="5">
+      <values>1 2 4 7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_19_" vinternal="X_INTRODUCED_19_" vname="X_INTRODUCED_19_">
+    <vardomain max="9" min="1" size="3">
+      <values>1 7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_20_" vinternal="X_INTRODUCED_20_" vname="X_INTRODUCED_20_">
+    <vardomain max="9" min="1" size="4">
+      <values>1 2 4 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_21_" vinternal="X_INTRODUCED_21_" vname="X_INTRODUCED_21_">
+    <vardomain max="9" min="7" size="2">
+      <values>7 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_22_" vinternal="X_INTRODUCED_22_" vname="X_INTRODUCED_22_"/>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_23_" vinternal="X_INTRODUCED_23_" vname="X_INTRODUCED_23_"/>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_24_" vinternal="X_INTRODUCED_24_" vname="X_INTRODUCED_24_">
+    <vardomain max="4" min="1" size="3">
+      <values>1 2 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_25_" vinternal="X_INTRODUCED_25_" vname="X_INTRODUCED_25_"/>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_26_" vinternal="X_INTRODUCED_26_" vname="X_INTRODUCED_26_">
+    <vardomain max="9" min="1" size="5">
+      <values>1 2 4 6 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_27_" vinternal="X_INTRODUCED_27_" vname="X_INTRODUCED_27_">
+    <vardomain max="3" min="1" size="2">
+      <values>1 3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_28_" vinternal="X_INTRODUCED_28_" vname="X_INTRODUCED_28_"/>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_29_" vinternal="X_INTRODUCED_29_" vname="X_INTRODUCED_29_"/>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_30_" vinternal="X_INTRODUCED_30_" vname="X_INTRODUCED_30_"/>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_31_" vinternal="X_INTRODUCED_31_" vname="X_INTRODUCED_31_">
+    <vardomain max="7" min="5" size="2">
+      <values>5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_32_" vinternal="X_INTRODUCED_32_" vname="X_INTRODUCED_32_"/>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_33_" vinternal="X_INTRODUCED_33_" vname="X_INTRODUCED_33_">
+    <vardomain max="7" min="1" size="3">
+      <values>1 5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_34_" vinternal="X_INTRODUCED_34_" vname="X_INTRODUCED_34_"/>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_35_" vinternal="X_INTRODUCED_35_" vname="X_INTRODUCED_35_">
+    <vardomain max="7" min="1" size="3">
+      <values>1 5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_36_" vinternal="X_INTRODUCED_36_" vname="X_INTRODUCED_36_">
+    <vardomain max="8" min="1" size="4">
+      <values>1 3 4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_37_" vinternal="X_INTRODUCED_37_" vname="X_INTRODUCED_37_">
+    <vardomain max="8" min="1" size="2">
+      <values>1 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_38_" vinternal="X_INTRODUCED_38_" vname="X_INTRODUCED_38_"/>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_39_" vinternal="X_INTRODUCED_39_" vname="X_INTRODUCED_39_">
+    <vardomain max="5" min="3" size="2">
+      <values>3 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_40_" vinternal="X_INTRODUCED_40_" vname="X_INTRODUCED_40_">
+    <vardomain max="5" min="2" size="3">
+      <values>2 4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_41_" vinternal="X_INTRODUCED_41_" vname="X_INTRODUCED_41_">
+    <vardomain max="4" min="3" size="2">
+      <values>3 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_42_" vinternal="X_INTRODUCED_42_" vname="X_INTRODUCED_42_"/>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_43_" vinternal="X_INTRODUCED_43_" vname="X_INTRODUCED_43_">
+    <vardomain max="8" min="1" size="4">
+      <values>1 5 6 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_44_" vinternal="X_INTRODUCED_44_" vname="X_INTRODUCED_44_">
+    <vardomain max="8" min="1" size="4">
+      <values>1 5 6 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_45_" vinternal="X_INTRODUCED_45_" vname="X_INTRODUCED_45_">
+    <vardomain max="9" min="4" size="3">
+      <values>4 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_46_" vinternal="X_INTRODUCED_46_" vname="X_INTRODUCED_46_"/>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_47_" vinternal="X_INTRODUCED_47_" vname="X_INTRODUCED_47_">
+    <vardomain max="9" min="4" size="2">
+      <values>4 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_48_" vinternal="X_INTRODUCED_48_" vname="X_INTRODUCED_48_"/>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_49_" vinternal="X_INTRODUCED_49_" vname="X_INTRODUCED_49_">
+    <vardomain max="7" min="4" size="2">
+      <values>4 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_50_" vinternal="X_INTRODUCED_50_" vname="X_INTRODUCED_50_"/>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_51_" vinternal="X_INTRODUCED_51_" vname="X_INTRODUCED_51_"/>
+  <new-variable chrono="2" depth="3" vident="X_INTRODUCED_52_" vinternal="X_INTRODUCED_52_" vname="X_INTRODUCED_52_"/>
+  <new-variable chrono="2" depth="3" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="7" size="2">
+      <values>7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="2" size="5">
+      <values>2 5 7 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="2" depth="3" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="2" size="3">
+      <values>2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="2" depth="3" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="2" depth="3" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="3" size="2">
+      <values>3 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="2" size="4">
+      <values>2 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="5" size="2">
+      <values>5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="2" size="5">
+      <values>2 3 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="3">
+      <values>1 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="2" depth="3" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="5" min="1" size="2">
+      <values>1 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="2" depth="3" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="5" min="4" size="2">
+      <values>4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="2" depth="3" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="2" depth="3" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="2" depth="3" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="4">
+      <values>1 4 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="1" size="7">
+      <values>1 2 5 6 7 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="1" size="4">
+      <values>1 7 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="1" size="4">
+      <values>1 2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="3" size="3">
+      <values>3 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="4" size="3">
+      <values>4 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="3" size="3">
+      <values>3 4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="6">
+      <values>1 2 4 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="3">
+      <values>1 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="2" depth="3" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="7">
+      <values>1 2 3 4 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-constraint chrono="3" cident="c3" cinternal="X_INTRODUCED_81_[14] = 3" depth="3"/>
+  <choice-point chrono="3" depth="3" nident="5"/>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_0_" vinternal="X_INTRODUCED_0_" vname="X_INTRODUCED_0_">
+    <vardomain max="9" min="1" size="5">
+      <values>1 3 4 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_1_" vinternal="X_INTRODUCED_1_" vname="X_INTRODUCED_1_">
+    <vardomain max="9" min="1" size="2">
+      <values>1 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_2_" vinternal="X_INTRODUCED_2_" vname="X_INTRODUCED_2_">
+    <vardomain max="9" min="1" size="5">
+      <values>1 3 4 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_3_" vinternal="X_INTRODUCED_3_" vname="X_INTRODUCED_3_"/>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_4_" vinternal="X_INTRODUCED_4_" vname="X_INTRODUCED_4_"/>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_5_" vinternal="X_INTRODUCED_5_" vname="X_INTRODUCED_5_"/>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_6_" vinternal="X_INTRODUCED_6_" vname="X_INTRODUCED_6_">
+    <vardomain max="8" min="1" size="4">
+      <values>1 4 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_7_" vinternal="X_INTRODUCED_7_" vname="X_INTRODUCED_7_">
+    <vardomain max="8" min="1" size="3">
+      <values>1 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_8_" vinternal="X_INTRODUCED_8_" vname="X_INTRODUCED_8_">
+    <vardomain max="9" min="1" size="5">
+      <values>1 4 5 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_9_" vinternal="X_INTRODUCED_9_" vname="X_INTRODUCED_9_">
+    <vardomain max="9" min="2" size="3">
+      <values>2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_10_" vinternal="X_INTRODUCED_10_" vname="X_INTRODUCED_10_"/>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_11_" vinternal="X_INTRODUCED_11_" vname="X_INTRODUCED_11_"/>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_12_" vinternal="X_INTRODUCED_12_" vname="X_INTRODUCED_12_"/>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_13_" vinternal="X_INTRODUCED_13_" vname="X_INTRODUCED_13_"/>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_14_" vinternal="X_INTRODUCED_14_" vname="X_INTRODUCED_14_"/>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_15_" vinternal="X_INTRODUCED_15_" vname="X_INTRODUCED_15_">
+    <vardomain max="5" min="2" size="2">
+      <values>2 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_16_" vinternal="X_INTRODUCED_16_" vname="X_INTRODUCED_16_"/>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_17_" vinternal="X_INTRODUCED_17_" vname="X_INTRODUCED_17_">
+    <vardomain max="9" min="2" size="3">
+      <values>2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_18_" vinternal="X_INTRODUCED_18_" vname="X_INTRODUCED_18_">
+    <vardomain max="7" min="1" size="4">
+      <values>1 2 4 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_19_" vinternal="X_INTRODUCED_19_" vname="X_INTRODUCED_19_">
+    <vardomain max="7" min="1" size="2">
+      <values>1 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_20_" vinternal="X_INTRODUCED_20_" vname="X_INTRODUCED_20_">
+    <vardomain max="4" min="1" size="3">
+      <values>1 2 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_21_" vinternal="X_INTRODUCED_21_" vname="X_INTRODUCED_21_"/>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_22_" vinternal="X_INTRODUCED_22_" vname="X_INTRODUCED_22_"/>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_23_" vinternal="X_INTRODUCED_23_" vname="X_INTRODUCED_23_"/>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_24_" vinternal="X_INTRODUCED_24_" vname="X_INTRODUCED_24_">
+    <vardomain max="4" min="1" size="3">
+      <values>1 2 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_25_" vinternal="X_INTRODUCED_25_" vname="X_INTRODUCED_25_"/>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_26_" vinternal="X_INTRODUCED_26_" vname="X_INTRODUCED_26_">
+    <vardomain max="6" min="1" size="4">
+      <values>1 2 4 6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_27_" vinternal="X_INTRODUCED_27_" vname="X_INTRODUCED_27_">
+    <vardomain max="3" min="1" size="2">
+      <values>1 3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_28_" vinternal="X_INTRODUCED_28_" vname="X_INTRODUCED_28_"/>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_29_" vinternal="X_INTRODUCED_29_" vname="X_INTRODUCED_29_"/>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_30_" vinternal="X_INTRODUCED_30_" vname="X_INTRODUCED_30_"/>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_31_" vinternal="X_INTRODUCED_31_" vname="X_INTRODUCED_31_">
+    <vardomain max="7" min="5" size="2">
+      <values>5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_32_" vinternal="X_INTRODUCED_32_" vname="X_INTRODUCED_32_"/>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_33_" vinternal="X_INTRODUCED_33_" vname="X_INTRODUCED_33_">
+    <vardomain max="7" min="1" size="3">
+      <values>1 5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_34_" vinternal="X_INTRODUCED_34_" vname="X_INTRODUCED_34_"/>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_35_" vinternal="X_INTRODUCED_35_" vname="X_INTRODUCED_35_">
+    <vardomain max="7" min="1" size="3">
+      <values>1 5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_36_" vinternal="X_INTRODUCED_36_" vname="X_INTRODUCED_36_">
+    <vardomain max="8" min="1" size="4">
+      <values>1 3 4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_37_" vinternal="X_INTRODUCED_37_" vname="X_INTRODUCED_37_">
+    <vardomain max="8" min="1" size="2">
+      <values>1 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_38_" vinternal="X_INTRODUCED_38_" vname="X_INTRODUCED_38_"/>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_39_" vinternal="X_INTRODUCED_39_" vname="X_INTRODUCED_39_">
+    <vardomain max="5" min="3" size="2">
+      <values>3 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_40_" vinternal="X_INTRODUCED_40_" vname="X_INTRODUCED_40_">
+    <vardomain max="5" min="2" size="3">
+      <values>2 4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_41_" vinternal="X_INTRODUCED_41_" vname="X_INTRODUCED_41_">
+    <vardomain max="4" min="3" size="2">
+      <values>3 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_42_" vinternal="X_INTRODUCED_42_" vname="X_INTRODUCED_42_"/>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_43_" vinternal="X_INTRODUCED_43_" vname="X_INTRODUCED_43_">
+    <vardomain max="8" min="1" size="4">
+      <values>1 5 6 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_44_" vinternal="X_INTRODUCED_44_" vname="X_INTRODUCED_44_">
+    <vardomain max="8" min="1" size="4">
+      <values>1 5 6 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_45_" vinternal="X_INTRODUCED_45_" vname="X_INTRODUCED_45_">
+    <vardomain max="9" min="4" size="3">
+      <values>4 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_46_" vinternal="X_INTRODUCED_46_" vname="X_INTRODUCED_46_"/>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_47_" vinternal="X_INTRODUCED_47_" vname="X_INTRODUCED_47_">
+    <vardomain max="9" min="4" size="2">
+      <values>4 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_48_" vinternal="X_INTRODUCED_48_" vname="X_INTRODUCED_48_"/>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_49_" vinternal="X_INTRODUCED_49_" vname="X_INTRODUCED_49_">
+    <vardomain max="7" min="4" size="2">
+      <values>4 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_50_" vinternal="X_INTRODUCED_50_" vname="X_INTRODUCED_50_"/>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_51_" vinternal="X_INTRODUCED_51_" vname="X_INTRODUCED_51_"/>
+  <new-variable chrono="3" depth="4" vident="X_INTRODUCED_52_" vinternal="X_INTRODUCED_52_" vname="X_INTRODUCED_52_"/>
+  <new-variable chrono="3" depth="4" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="7" size="2">
+      <values>7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="2" size="5">
+      <values>2 5 7 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="3" depth="4" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="2" size="3">
+      <values>2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="3" depth="4" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="3" depth="4" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="3" size="2">
+      <values>3 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="2" size="4">
+      <values>2 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="5" size="2">
+      <values>5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="2" size="5">
+      <values>2 3 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="3">
+      <values>1 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="3" depth="4" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="5" min="1" size="2">
+      <values>1 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="3" depth="4" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="5" min="4" size="2">
+      <values>4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="3" depth="4" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="3" depth="4" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="3" depth="4" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="4">
+      <values>1 4 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="1" size="7">
+      <values>1 2 5 6 7 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="1" size="4">
+      <values>1 7 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="1" size="4">
+      <values>1 2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="5" min="3" size="2">
+      <values>3 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="4" size="3">
+      <values>4 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="3" size="3">
+      <values>3 4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="6">
+      <values>1 2 4 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="3">
+      <values>1 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="3" depth="4" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="7">
+      <values>1 2 3 4 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-constraint chrono="4" cident="c4" cinternal="X_INTRODUCED_81_[4] = 7" depth="4"/>
+  <choice-point chrono="4" depth="4" nident="7"/>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_0_" vinternal="X_INTRODUCED_0_" vname="X_INTRODUCED_0_">
+    <vardomain max="9" min="3" size="4">
+      <values>3 4 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_1_" vinternal="X_INTRODUCED_1_" vname="X_INTRODUCED_1_"/>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_2_" vinternal="X_INTRODUCED_2_" vname="X_INTRODUCED_2_">
+    <vardomain max="9" min="3" size="4">
+      <values>3 4 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_3_" vinternal="X_INTRODUCED_3_" vname="X_INTRODUCED_3_"/>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_4_" vinternal="X_INTRODUCED_4_" vname="X_INTRODUCED_4_"/>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_5_" vinternal="X_INTRODUCED_5_" vname="X_INTRODUCED_5_"/>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_6_" vinternal="X_INTRODUCED_6_" vname="X_INTRODUCED_6_">
+    <vardomain max="8" min="4" size="3">
+      <values>4 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_7_" vinternal="X_INTRODUCED_7_" vname="X_INTRODUCED_7_">
+    <vardomain max="8" min="5" size="2">
+      <values>5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_8_" vinternal="X_INTRODUCED_8_" vname="X_INTRODUCED_8_">
+    <vardomain max="9" min="4" size="4">
+      <values>4 5 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_9_" vinternal="X_INTRODUCED_9_" vname="X_INTRODUCED_9_">
+    <vardomain max="9" min="2" size="3">
+      <values>2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_10_" vinternal="X_INTRODUCED_10_" vname="X_INTRODUCED_10_"/>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_11_" vinternal="X_INTRODUCED_11_" vname="X_INTRODUCED_11_"/>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_12_" vinternal="X_INTRODUCED_12_" vname="X_INTRODUCED_12_"/>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_13_" vinternal="X_INTRODUCED_13_" vname="X_INTRODUCED_13_"/>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_14_" vinternal="X_INTRODUCED_14_" vname="X_INTRODUCED_14_"/>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_15_" vinternal="X_INTRODUCED_15_" vname="X_INTRODUCED_15_">
+    <vardomain max="5" min="2" size="2">
+      <values>2 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_16_" vinternal="X_INTRODUCED_16_" vname="X_INTRODUCED_16_"/>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_17_" vinternal="X_INTRODUCED_17_" vname="X_INTRODUCED_17_">
+    <vardomain max="9" min="2" size="3">
+      <values>2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_18_" vinternal="X_INTRODUCED_18_" vname="X_INTRODUCED_18_">
+    <vardomain max="4" min="2" size="2">
+      <values>2 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_19_" vinternal="X_INTRODUCED_19_" vname="X_INTRODUCED_19_"/>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_20_" vinternal="X_INTRODUCED_20_" vname="X_INTRODUCED_20_">
+    <vardomain max="4" min="2" size="2">
+      <values>2 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_21_" vinternal="X_INTRODUCED_21_" vname="X_INTRODUCED_21_"/>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_22_" vinternal="X_INTRODUCED_22_" vname="X_INTRODUCED_22_"/>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_23_" vinternal="X_INTRODUCED_23_" vname="X_INTRODUCED_23_"/>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_24_" vinternal="X_INTRODUCED_24_" vname="X_INTRODUCED_24_">
+    <vardomain max="4" min="1" size="3">
+      <values>1 2 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_25_" vinternal="X_INTRODUCED_25_" vname="X_INTRODUCED_25_"/>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_26_" vinternal="X_INTRODUCED_26_" vname="X_INTRODUCED_26_">
+    <vardomain max="6" min="1" size="4">
+      <values>1 2 4 6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_27_" vinternal="X_INTRODUCED_27_" vname="X_INTRODUCED_27_">
+    <vardomain max="3" min="1" size="2">
+      <values>1 3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_28_" vinternal="X_INTRODUCED_28_" vname="X_INTRODUCED_28_"/>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_29_" vinternal="X_INTRODUCED_29_" vname="X_INTRODUCED_29_"/>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_30_" vinternal="X_INTRODUCED_30_" vname="X_INTRODUCED_30_"/>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_31_" vinternal="X_INTRODUCED_31_" vname="X_INTRODUCED_31_">
+    <vardomain max="7" min="5" size="2">
+      <values>5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_32_" vinternal="X_INTRODUCED_32_" vname="X_INTRODUCED_32_"/>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_33_" vinternal="X_INTRODUCED_33_" vname="X_INTRODUCED_33_">
+    <vardomain max="7" min="1" size="3">
+      <values>1 5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_34_" vinternal="X_INTRODUCED_34_" vname="X_INTRODUCED_34_"/>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_35_" vinternal="X_INTRODUCED_35_" vname="X_INTRODUCED_35_">
+    <vardomain max="7" min="1" size="3">
+      <values>1 5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_36_" vinternal="X_INTRODUCED_36_" vname="X_INTRODUCED_36_">
+    <vardomain max="4" min="1" size="3">
+      <values>1 3 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_37_" vinternal="X_INTRODUCED_37_" vname="X_INTRODUCED_37_"/>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_38_" vinternal="X_INTRODUCED_38_" vname="X_INTRODUCED_38_"/>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_39_" vinternal="X_INTRODUCED_39_" vname="X_INTRODUCED_39_">
+    <vardomain max="5" min="3" size="2">
+      <values>3 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_40_" vinternal="X_INTRODUCED_40_" vname="X_INTRODUCED_40_">
+    <vardomain max="5" min="2" size="3">
+      <values>2 4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_41_" vinternal="X_INTRODUCED_41_" vname="X_INTRODUCED_41_">
+    <vardomain max="4" min="3" size="2">
+      <values>3 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_42_" vinternal="X_INTRODUCED_42_" vname="X_INTRODUCED_42_"/>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_43_" vinternal="X_INTRODUCED_43_" vname="X_INTRODUCED_43_">
+    <vardomain max="6" min="1" size="3">
+      <values>1 5 6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_44_" vinternal="X_INTRODUCED_44_" vname="X_INTRODUCED_44_">
+    <vardomain max="6" min="1" size="3">
+      <values>1 5 6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_45_" vinternal="X_INTRODUCED_45_" vname="X_INTRODUCED_45_">
+    <vardomain max="9" min="4" size="2">
+      <values>4 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_46_" vinternal="X_INTRODUCED_46_" vname="X_INTRODUCED_46_"/>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_47_" vinternal="X_INTRODUCED_47_" vname="X_INTRODUCED_47_">
+    <vardomain max="9" min="4" size="2">
+      <values>4 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_48_" vinternal="X_INTRODUCED_48_" vname="X_INTRODUCED_48_"/>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_49_" vinternal="X_INTRODUCED_49_" vname="X_INTRODUCED_49_">
+    <vardomain max="7" min="4" size="2">
+      <values>4 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_50_" vinternal="X_INTRODUCED_50_" vname="X_INTRODUCED_50_"/>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_51_" vinternal="X_INTRODUCED_51_" vname="X_INTRODUCED_51_"/>
+  <new-variable chrono="4" depth="5" vident="X_INTRODUCED_52_" vinternal="X_INTRODUCED_52_" vname="X_INTRODUCED_52_"/>
+  <new-variable chrono="4" depth="5" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="7" size="2">
+      <values>7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="2" size="4">
+      <values>2 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="4" depth="5" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="5" min="2" size="2">
+      <values>2 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="4" depth="5" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="4" depth="5" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="3" size="2">
+      <values>3 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="2" size="4">
+      <values>2 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="5" size="2">
+      <values>5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="2" size="5">
+      <values>2 3 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="3">
+      <values>1 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="4" depth="5" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="5" min="1" size="2">
+      <values>1 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="4" depth="5" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="5" min="4" size="2">
+      <values>4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="4" depth="5" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="4" depth="5" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="4" depth="5" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="4">
+      <values>1 4 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="6">
+      <values>1 2 5 6 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="4" depth="5" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="5" min="1" size="3">
+      <values>1 2 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="5" min="3" size="2">
+      <values>3 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="5" min="4" size="2">
+      <values>4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="3" size="3">
+      <values>3 4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="6">
+      <values>1 2 4 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="3">
+      <values>1 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="4" depth="5" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="7">
+      <values>1 2 3 4 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-constraint chrono="5" cident="c5" cinternal="X_INTRODUCED_81_[2] = 1" depth="5"/>
+  <choice-point chrono="5" depth="5" nident="9"/>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_0_" vinternal="X_INTRODUCED_0_" vname="X_INTRODUCED_0_">
+    <vardomain max="9" min="3" size="3">
+      <values>3 4 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_1_" vinternal="X_INTRODUCED_1_" vname="X_INTRODUCED_1_"/>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_2_" vinternal="X_INTRODUCED_2_" vname="X_INTRODUCED_2_">
+    <vardomain max="9" min="3" size="3">
+      <values>3 4 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_3_" vinternal="X_INTRODUCED_3_" vname="X_INTRODUCED_3_"/>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_4_" vinternal="X_INTRODUCED_4_" vname="X_INTRODUCED_4_"/>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_5_" vinternal="X_INTRODUCED_5_" vname="X_INTRODUCED_5_"/>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_6_" vinternal="X_INTRODUCED_6_" vname="X_INTRODUCED_6_">
+    <vardomain max="8" min="4" size="2">
+      <values>4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_7_" vinternal="X_INTRODUCED_7_" vname="X_INTRODUCED_7_"/>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_8_" vinternal="X_INTRODUCED_8_" vname="X_INTRODUCED_8_">
+    <vardomain max="8" min="4" size="2">
+      <values>4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_9_" vinternal="X_INTRODUCED_9_" vname="X_INTRODUCED_9_"/>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_10_" vinternal="X_INTRODUCED_10_" vname="X_INTRODUCED_10_"/>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_11_" vinternal="X_INTRODUCED_11_" vname="X_INTRODUCED_11_"/>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_12_" vinternal="X_INTRODUCED_12_" vname="X_INTRODUCED_12_"/>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_13_" vinternal="X_INTRODUCED_13_" vname="X_INTRODUCED_13_"/>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_14_" vinternal="X_INTRODUCED_14_" vname="X_INTRODUCED_14_"/>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_15_" vinternal="X_INTRODUCED_15_" vname="X_INTRODUCED_15_"/>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_16_" vinternal="X_INTRODUCED_16_" vname="X_INTRODUCED_16_"/>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_17_" vinternal="X_INTRODUCED_17_" vname="X_INTRODUCED_17_"/>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_18_" vinternal="X_INTRODUCED_18_" vname="X_INTRODUCED_18_">
+    <vardomain max="4" min="2" size="2">
+      <values>2 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_19_" vinternal="X_INTRODUCED_19_" vname="X_INTRODUCED_19_"/>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_20_" vinternal="X_INTRODUCED_20_" vname="X_INTRODUCED_20_">
+    <vardomain max="4" min="2" size="2">
+      <values>2 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_21_" vinternal="X_INTRODUCED_21_" vname="X_INTRODUCED_21_"/>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_22_" vinternal="X_INTRODUCED_22_" vname="X_INTRODUCED_22_"/>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_23_" vinternal="X_INTRODUCED_23_" vname="X_INTRODUCED_23_"/>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_24_" vinternal="X_INTRODUCED_24_" vname="X_INTRODUCED_24_">
+    <vardomain max="4" min="1" size="2">
+      <values>1 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_25_" vinternal="X_INTRODUCED_25_" vname="X_INTRODUCED_25_"/>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_26_" vinternal="X_INTRODUCED_26_" vname="X_INTRODUCED_26_">
+    <vardomain max="6" min="1" size="3">
+      <values>1 4 6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_27_" vinternal="X_INTRODUCED_27_" vname="X_INTRODUCED_27_">
+    <vardomain max="3" min="1" size="2">
+      <values>1 3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_28_" vinternal="X_INTRODUCED_28_" vname="X_INTRODUCED_28_"/>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_29_" vinternal="X_INTRODUCED_29_" vname="X_INTRODUCED_29_"/>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_30_" vinternal="X_INTRODUCED_30_" vname="X_INTRODUCED_30_"/>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_31_" vinternal="X_INTRODUCED_31_" vname="X_INTRODUCED_31_"/>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_32_" vinternal="X_INTRODUCED_32_" vname="X_INTRODUCED_32_"/>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_33_" vinternal="X_INTRODUCED_33_" vname="X_INTRODUCED_33_">
+    <vardomain max="7" min="1" size="3">
+      <values>1 5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_34_" vinternal="X_INTRODUCED_34_" vname="X_INTRODUCED_34_"/>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_35_" vinternal="X_INTRODUCED_35_" vname="X_INTRODUCED_35_">
+    <vardomain max="7" min="1" size="3">
+      <values>1 5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_36_" vinternal="X_INTRODUCED_36_" vname="X_INTRODUCED_36_">
+    <vardomain max="3" min="1" size="2">
+      <values>1 3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_37_" vinternal="X_INTRODUCED_37_" vname="X_INTRODUCED_37_"/>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_38_" vinternal="X_INTRODUCED_38_" vname="X_INTRODUCED_38_"/>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_39_" vinternal="X_INTRODUCED_39_" vname="X_INTRODUCED_39_"/>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_40_" vinternal="X_INTRODUCED_40_" vname="X_INTRODUCED_40_">
+    <vardomain max="5" min="2" size="2">
+      <values>2 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_41_" vinternal="X_INTRODUCED_41_" vname="X_INTRODUCED_41_"/>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_42_" vinternal="X_INTRODUCED_42_" vname="X_INTRODUCED_42_"/>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_43_" vinternal="X_INTRODUCED_43_" vname="X_INTRODUCED_43_"/>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_44_" vinternal="X_INTRODUCED_44_" vname="X_INTRODUCED_44_">
+    <vardomain max="5" min="1" size="2">
+      <values>1 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_45_" vinternal="X_INTRODUCED_45_" vname="X_INTRODUCED_45_">
+    <vardomain max="9" min="4" size="2">
+      <values>4 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_46_" vinternal="X_INTRODUCED_46_" vname="X_INTRODUCED_46_"/>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_47_" vinternal="X_INTRODUCED_47_" vname="X_INTRODUCED_47_">
+    <vardomain max="9" min="4" size="2">
+      <values>4 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_48_" vinternal="X_INTRODUCED_48_" vname="X_INTRODUCED_48_"/>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_49_" vinternal="X_INTRODUCED_49_" vname="X_INTRODUCED_49_"/>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_50_" vinternal="X_INTRODUCED_50_" vname="X_INTRODUCED_50_"/>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_51_" vinternal="X_INTRODUCED_51_" vname="X_INTRODUCED_51_"/>
+  <new-variable chrono="5" depth="6" vident="X_INTRODUCED_52_" vinternal="X_INTRODUCED_52_" vname="X_INTRODUCED_52_"/>
+  <new-variable chrono="5" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="5" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="7" min="2" size="2">
+      <values>2 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="5" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="5" min="2" size="2">
+      <values>2 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="5" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="5" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="5" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="7" min="5" size="2">
+      <values>5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="5" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="7" min="2" size="3">
+      <values>2 5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="2">
+      <values>1 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="5" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="5" min="1" size="2">
+      <values>1 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="5" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="5" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="5" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="5" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="5" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="5" min="4" size="2">
+      <values>4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="7" min="2" size="3">
+      <values>2 6 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="5" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="5" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="5" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="5" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="5" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="5" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="5" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="5" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="7" min="2" size="3">
+      <values>2 3 7</values>
+    </vardomain>
+  </new-variable>
+  <back-to chrono="6" depth="5" node="9" node-before="7"/>
+  <new-constraint chrono="7" cident="c6" cinternal="X_INTRODUCED_81_[8] = 5" depth="5"/>
+  <choice-point chrono="7" depth="5" nident="10"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_0_" vinternal="X_INTRODUCED_0_" vname="X_INTRODUCED_0_">
+    <vardomain max="9" min="3" size="3">
+      <values>3 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_1_" vinternal="X_INTRODUCED_1_" vname="X_INTRODUCED_1_"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_2_" vinternal="X_INTRODUCED_2_" vname="X_INTRODUCED_2_"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_3_" vinternal="X_INTRODUCED_3_" vname="X_INTRODUCED_3_"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_4_" vinternal="X_INTRODUCED_4_" vname="X_INTRODUCED_4_"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_5_" vinternal="X_INTRODUCED_5_" vname="X_INTRODUCED_5_"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_6_" vinternal="X_INTRODUCED_6_" vname="X_INTRODUCED_6_">
+    <vardomain max="5" min="4" size="2">
+      <values>4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_7_" vinternal="X_INTRODUCED_7_" vname="X_INTRODUCED_7_"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_8_" vinternal="X_INTRODUCED_8_" vname="X_INTRODUCED_8_">
+    <vardomain max="9" min="4" size="3">
+      <values>4 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_9_" vinternal="X_INTRODUCED_9_" vname="X_INTRODUCED_9_">
+    <vardomain max="9" min="5" size="2">
+      <values>5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_10_" vinternal="X_INTRODUCED_10_" vname="X_INTRODUCED_10_"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_11_" vinternal="X_INTRODUCED_11_" vname="X_INTRODUCED_11_"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_12_" vinternal="X_INTRODUCED_12_" vname="X_INTRODUCED_12_"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_13_" vinternal="X_INTRODUCED_13_" vname="X_INTRODUCED_13_"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_14_" vinternal="X_INTRODUCED_14_" vname="X_INTRODUCED_14_"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_15_" vinternal="X_INTRODUCED_15_" vname="X_INTRODUCED_15_">
+    <vardomain max="5" min="2" size="2">
+      <values>2 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_16_" vinternal="X_INTRODUCED_16_" vname="X_INTRODUCED_16_"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_17_" vinternal="X_INTRODUCED_17_" vname="X_INTRODUCED_17_">
+    <vardomain max="9" min="2" size="3">
+      <values>2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_18_" vinternal="X_INTRODUCED_18_" vname="X_INTRODUCED_18_"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_19_" vinternal="X_INTRODUCED_19_" vname="X_INTRODUCED_19_"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_20_" vinternal="X_INTRODUCED_20_" vname="X_INTRODUCED_20_"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_21_" vinternal="X_INTRODUCED_21_" vname="X_INTRODUCED_21_"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_22_" vinternal="X_INTRODUCED_22_" vname="X_INTRODUCED_22_"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_23_" vinternal="X_INTRODUCED_23_" vname="X_INTRODUCED_23_"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_24_" vinternal="X_INTRODUCED_24_" vname="X_INTRODUCED_24_"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_25_" vinternal="X_INTRODUCED_25_" vname="X_INTRODUCED_25_"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_26_" vinternal="X_INTRODUCED_26_" vname="X_INTRODUCED_26_">
+    <vardomain max="6" min="1" size="2">
+      <values>1 6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_27_" vinternal="X_INTRODUCED_27_" vname="X_INTRODUCED_27_">
+    <vardomain max="3" min="1" size="2">
+      <values>1 3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_28_" vinternal="X_INTRODUCED_28_" vname="X_INTRODUCED_28_"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_29_" vinternal="X_INTRODUCED_29_" vname="X_INTRODUCED_29_"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_30_" vinternal="X_INTRODUCED_30_" vname="X_INTRODUCED_30_"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_31_" vinternal="X_INTRODUCED_31_" vname="X_INTRODUCED_31_"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_32_" vinternal="X_INTRODUCED_32_" vname="X_INTRODUCED_32_"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_33_" vinternal="X_INTRODUCED_33_" vname="X_INTRODUCED_33_">
+    <vardomain max="7" min="1" size="3">
+      <values>1 5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_34_" vinternal="X_INTRODUCED_34_" vname="X_INTRODUCED_34_"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_35_" vinternal="X_INTRODUCED_35_" vname="X_INTRODUCED_35_">
+    <vardomain max="7" min="1" size="3">
+      <values>1 5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_36_" vinternal="X_INTRODUCED_36_" vname="X_INTRODUCED_36_">
+    <vardomain max="4" min="1" size="3">
+      <values>1 3 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_37_" vinternal="X_INTRODUCED_37_" vname="X_INTRODUCED_37_"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_38_" vinternal="X_INTRODUCED_38_" vname="X_INTRODUCED_38_"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_39_" vinternal="X_INTRODUCED_39_" vname="X_INTRODUCED_39_"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_40_" vinternal="X_INTRODUCED_40_" vname="X_INTRODUCED_40_"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_41_" vinternal="X_INTRODUCED_41_" vname="X_INTRODUCED_41_">
+    <vardomain max="4" min="3" size="2">
+      <values>3 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_42_" vinternal="X_INTRODUCED_42_" vname="X_INTRODUCED_42_"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_43_" vinternal="X_INTRODUCED_43_" vname="X_INTRODUCED_43_"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_44_" vinternal="X_INTRODUCED_44_" vname="X_INTRODUCED_44_">
+    <vardomain max="5" min="1" size="2">
+      <values>1 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_45_" vinternal="X_INTRODUCED_45_" vname="X_INTRODUCED_45_"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_46_" vinternal="X_INTRODUCED_46_" vname="X_INTRODUCED_46_"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_47_" vinternal="X_INTRODUCED_47_" vname="X_INTRODUCED_47_"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_48_" vinternal="X_INTRODUCED_48_" vname="X_INTRODUCED_48_"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_49_" vinternal="X_INTRODUCED_49_" vname="X_INTRODUCED_49_"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_50_" vinternal="X_INTRODUCED_50_" vname="X_INTRODUCED_50_"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_51_" vinternal="X_INTRODUCED_51_" vname="X_INTRODUCED_51_"/>
+  <new-variable chrono="7" depth="6" vident="X_INTRODUCED_52_" vinternal="X_INTRODUCED_52_" vname="X_INTRODUCED_52_"/>
+  <new-variable chrono="7" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="7" size="2">
+      <values>7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="7" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="7" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="7" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="7" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="7" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="7" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="7" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="7" size="2">
+      <values>7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="7" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="7" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="3" size="3">
+      <values>3 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="7" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="7" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="7" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="7" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="7" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="7" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="7" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="7" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="7" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="7" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="7" min="6" size="2">
+      <values>6 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="7" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="7" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="7" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="7" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="7" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="7" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="2" size="3">
+      <values>2 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="7" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="7" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="2" size="3">
+      <values>2 7 8</values>
+    </vardomain>
+  </new-variable>
+  <back-to chrono="8" depth="5" node="10" node-before="7"/>
+  <new-constraint chrono="9" cident="c7" cinternal="X_INTRODUCED_81_[8] != 5" depth="5"/>
+  <choice-point chrono="9" depth="5" nident="8"/>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_0_" vinternal="X_INTRODUCED_0_" vname="X_INTRODUCED_0_">
+    <vardomain max="5" min="1" size="4">
+      <values>1 3 4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_1_" vinternal="X_INTRODUCED_1_" vname="X_INTRODUCED_1_"/>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_2_" vinternal="X_INTRODUCED_2_" vname="X_INTRODUCED_2_">
+    <vardomain max="5" min="1" size="4">
+      <values>1 3 4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_3_" vinternal="X_INTRODUCED_3_" vname="X_INTRODUCED_3_"/>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_4_" vinternal="X_INTRODUCED_4_" vname="X_INTRODUCED_4_"/>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_5_" vinternal="X_INTRODUCED_5_" vname="X_INTRODUCED_5_"/>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_6_" vinternal="X_INTRODUCED_6_" vname="X_INTRODUCED_6_">
+    <vardomain max="8" min="1" size="4">
+      <values>1 4 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_7_" vinternal="X_INTRODUCED_7_" vname="X_INTRODUCED_7_">
+    <vardomain max="8" min="1" size="3">
+      <values>1 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_8_" vinternal="X_INTRODUCED_8_" vname="X_INTRODUCED_8_">
+    <vardomain max="8" min="1" size="4">
+      <values>1 4 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_9_" vinternal="X_INTRODUCED_9_" vname="X_INTRODUCED_9_">
+    <vardomain max="5" min="2" size="2">
+      <values>2 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_10_" vinternal="X_INTRODUCED_10_" vname="X_INTRODUCED_10_"/>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_11_" vinternal="X_INTRODUCED_11_" vname="X_INTRODUCED_11_"/>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_12_" vinternal="X_INTRODUCED_12_" vname="X_INTRODUCED_12_"/>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_13_" vinternal="X_INTRODUCED_13_" vname="X_INTRODUCED_13_"/>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_14_" vinternal="X_INTRODUCED_14_" vname="X_INTRODUCED_14_"/>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_15_" vinternal="X_INTRODUCED_15_" vname="X_INTRODUCED_15_">
+    <vardomain max="5" min="2" size="2">
+      <values>2 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_16_" vinternal="X_INTRODUCED_16_" vname="X_INTRODUCED_16_"/>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_17_" vinternal="X_INTRODUCED_17_" vname="X_INTRODUCED_17_">
+    <vardomain max="9" min="2" size="3">
+      <values>2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_18_" vinternal="X_INTRODUCED_18_" vname="X_INTRODUCED_18_">
+    <vardomain max="7" min="1" size="4">
+      <values>1 2 4 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_19_" vinternal="X_INTRODUCED_19_" vname="X_INTRODUCED_19_">
+    <vardomain max="7" min="1" size="2">
+      <values>1 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_20_" vinternal="X_INTRODUCED_20_" vname="X_INTRODUCED_20_">
+    <vardomain max="4" min="1" size="3">
+      <values>1 2 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_21_" vinternal="X_INTRODUCED_21_" vname="X_INTRODUCED_21_"/>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_22_" vinternal="X_INTRODUCED_22_" vname="X_INTRODUCED_22_"/>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_23_" vinternal="X_INTRODUCED_23_" vname="X_INTRODUCED_23_"/>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_24_" vinternal="X_INTRODUCED_24_" vname="X_INTRODUCED_24_">
+    <vardomain max="4" min="1" size="3">
+      <values>1 2 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_25_" vinternal="X_INTRODUCED_25_" vname="X_INTRODUCED_25_"/>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_26_" vinternal="X_INTRODUCED_26_" vname="X_INTRODUCED_26_">
+    <vardomain max="6" min="1" size="4">
+      <values>1 2 4 6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_27_" vinternal="X_INTRODUCED_27_" vname="X_INTRODUCED_27_">
+    <vardomain max="3" min="1" size="2">
+      <values>1 3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_28_" vinternal="X_INTRODUCED_28_" vname="X_INTRODUCED_28_"/>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_29_" vinternal="X_INTRODUCED_29_" vname="X_INTRODUCED_29_"/>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_30_" vinternal="X_INTRODUCED_30_" vname="X_INTRODUCED_30_"/>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_31_" vinternal="X_INTRODUCED_31_" vname="X_INTRODUCED_31_">
+    <vardomain max="7" min="5" size="2">
+      <values>5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_32_" vinternal="X_INTRODUCED_32_" vname="X_INTRODUCED_32_"/>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_33_" vinternal="X_INTRODUCED_33_" vname="X_INTRODUCED_33_">
+    <vardomain max="7" min="1" size="3">
+      <values>1 5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_34_" vinternal="X_INTRODUCED_34_" vname="X_INTRODUCED_34_"/>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_35_" vinternal="X_INTRODUCED_35_" vname="X_INTRODUCED_35_">
+    <vardomain max="7" min="1" size="3">
+      <values>1 5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_36_" vinternal="X_INTRODUCED_36_" vname="X_INTRODUCED_36_">
+    <vardomain max="8" min="1" size="4">
+      <values>1 3 4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_37_" vinternal="X_INTRODUCED_37_" vname="X_INTRODUCED_37_">
+    <vardomain max="8" min="1" size="2">
+      <values>1 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_38_" vinternal="X_INTRODUCED_38_" vname="X_INTRODUCED_38_"/>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_39_" vinternal="X_INTRODUCED_39_" vname="X_INTRODUCED_39_">
+    <vardomain max="5" min="3" size="2">
+      <values>3 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_40_" vinternal="X_INTRODUCED_40_" vname="X_INTRODUCED_40_">
+    <vardomain max="5" min="2" size="3">
+      <values>2 4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_41_" vinternal="X_INTRODUCED_41_" vname="X_INTRODUCED_41_">
+    <vardomain max="4" min="3" size="2">
+      <values>3 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_42_" vinternal="X_INTRODUCED_42_" vname="X_INTRODUCED_42_"/>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_43_" vinternal="X_INTRODUCED_43_" vname="X_INTRODUCED_43_">
+    <vardomain max="8" min="1" size="4">
+      <values>1 5 6 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_44_" vinternal="X_INTRODUCED_44_" vname="X_INTRODUCED_44_">
+    <vardomain max="8" min="1" size="4">
+      <values>1 5 6 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_45_" vinternal="X_INTRODUCED_45_" vname="X_INTRODUCED_45_">
+    <vardomain max="9" min="4" size="3">
+      <values>4 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_46_" vinternal="X_INTRODUCED_46_" vname="X_INTRODUCED_46_"/>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_47_" vinternal="X_INTRODUCED_47_" vname="X_INTRODUCED_47_">
+    <vardomain max="9" min="4" size="2">
+      <values>4 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_48_" vinternal="X_INTRODUCED_48_" vname="X_INTRODUCED_48_"/>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_49_" vinternal="X_INTRODUCED_49_" vname="X_INTRODUCED_49_">
+    <vardomain max="7" min="4" size="2">
+      <values>4 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_50_" vinternal="X_INTRODUCED_50_" vname="X_INTRODUCED_50_"/>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_51_" vinternal="X_INTRODUCED_51_" vname="X_INTRODUCED_51_"/>
+  <new-variable chrono="9" depth="6" vident="X_INTRODUCED_52_" vinternal="X_INTRODUCED_52_" vname="X_INTRODUCED_52_"/>
+  <new-variable chrono="9" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="7" size="2">
+      <values>7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="2" size="5">
+      <values>2 5 7 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="9" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="2" size="3">
+      <values>2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="9" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="9" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="3" size="2">
+      <values>3 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="2" size="4">
+      <values>2 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="5" size="2">
+      <values>5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="2" size="5">
+      <values>2 3 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="3">
+      <values>1 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="9" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="5" min="1" size="2">
+      <values>1 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="9" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="5" min="4" size="2">
+      <values>4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="9" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="9" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="9" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="4">
+      <values>1 4 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="1" size="7">
+      <values>1 2 5 6 7 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="3">
+      <values>1 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="1" size="4">
+      <values>1 2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="5" min="3" size="2">
+      <values>3 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="4" size="3">
+      <values>4 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="3" size="3">
+      <values>3 4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="6">
+      <values>1 2 4 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="3">
+      <values>1 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="9" depth="6" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="7">
+      <values>1 2 3 4 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-constraint chrono="10" cident="c8" cinternal="X_INTRODUCED_81_[2] != 1" depth="6"/>
+  <choice-point chrono="10" depth="6" nident="11"/>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_0_" vinternal="X_INTRODUCED_0_" vname="X_INTRODUCED_0_">
+    <vardomain max="5" min="1" size="4">
+      <values>1 3 4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_1_" vinternal="X_INTRODUCED_1_" vname="X_INTRODUCED_1_"/>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_2_" vinternal="X_INTRODUCED_2_" vname="X_INTRODUCED_2_">
+    <vardomain max="5" min="1" size="4">
+      <values>1 3 4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_3_" vinternal="X_INTRODUCED_3_" vname="X_INTRODUCED_3_"/>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_4_" vinternal="X_INTRODUCED_4_" vname="X_INTRODUCED_4_"/>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_5_" vinternal="X_INTRODUCED_5_" vname="X_INTRODUCED_5_"/>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_6_" vinternal="X_INTRODUCED_6_" vname="X_INTRODUCED_6_">
+    <vardomain max="8" min="1" size="3">
+      <values>1 4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_7_" vinternal="X_INTRODUCED_7_" vname="X_INTRODUCED_7_">
+    <vardomain max="8" min="1" size="2">
+      <values>1 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_8_" vinternal="X_INTRODUCED_8_" vname="X_INTRODUCED_8_">
+    <vardomain max="8" min="1" size="3">
+      <values>1 4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_9_" vinternal="X_INTRODUCED_9_" vname="X_INTRODUCED_9_"/>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_10_" vinternal="X_INTRODUCED_10_" vname="X_INTRODUCED_10_"/>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_11_" vinternal="X_INTRODUCED_11_" vname="X_INTRODUCED_11_"/>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_12_" vinternal="X_INTRODUCED_12_" vname="X_INTRODUCED_12_"/>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_13_" vinternal="X_INTRODUCED_13_" vname="X_INTRODUCED_13_"/>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_14_" vinternal="X_INTRODUCED_14_" vname="X_INTRODUCED_14_"/>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_15_" vinternal="X_INTRODUCED_15_" vname="X_INTRODUCED_15_"/>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_16_" vinternal="X_INTRODUCED_16_" vname="X_INTRODUCED_16_"/>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_17_" vinternal="X_INTRODUCED_17_" vname="X_INTRODUCED_17_"/>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_18_" vinternal="X_INTRODUCED_18_" vname="X_INTRODUCED_18_">
+    <vardomain max="7" min="1" size="3">
+      <values>1 4 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_19_" vinternal="X_INTRODUCED_19_" vname="X_INTRODUCED_19_">
+    <vardomain max="7" min="1" size="2">
+      <values>1 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_20_" vinternal="X_INTRODUCED_20_" vname="X_INTRODUCED_20_">
+    <vardomain max="4" min="1" size="2">
+      <values>1 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_21_" vinternal="X_INTRODUCED_21_" vname="X_INTRODUCED_21_"/>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_22_" vinternal="X_INTRODUCED_22_" vname="X_INTRODUCED_22_"/>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_23_" vinternal="X_INTRODUCED_23_" vname="X_INTRODUCED_23_"/>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_24_" vinternal="X_INTRODUCED_24_" vname="X_INTRODUCED_24_">
+    <vardomain max="4" min="1" size="3">
+      <values>1 2 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_25_" vinternal="X_INTRODUCED_25_" vname="X_INTRODUCED_25_"/>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_26_" vinternal="X_INTRODUCED_26_" vname="X_INTRODUCED_26_">
+    <vardomain max="6" min="1" size="4">
+      <values>1 2 4 6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_27_" vinternal="X_INTRODUCED_27_" vname="X_INTRODUCED_27_">
+    <vardomain max="3" min="1" size="2">
+      <values>1 3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_28_" vinternal="X_INTRODUCED_28_" vname="X_INTRODUCED_28_"/>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_29_" vinternal="X_INTRODUCED_29_" vname="X_INTRODUCED_29_"/>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_30_" vinternal="X_INTRODUCED_30_" vname="X_INTRODUCED_30_"/>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_31_" vinternal="X_INTRODUCED_31_" vname="X_INTRODUCED_31_">
+    <vardomain max="7" min="5" size="2">
+      <values>5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_32_" vinternal="X_INTRODUCED_32_" vname="X_INTRODUCED_32_"/>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_33_" vinternal="X_INTRODUCED_33_" vname="X_INTRODUCED_33_">
+    <vardomain max="7" min="1" size="2">
+      <values>1 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_34_" vinternal="X_INTRODUCED_34_" vname="X_INTRODUCED_34_"/>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_35_" vinternal="X_INTRODUCED_35_" vname="X_INTRODUCED_35_">
+    <vardomain max="7" min="1" size="3">
+      <values>1 5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_36_" vinternal="X_INTRODUCED_36_" vname="X_INTRODUCED_36_">
+    <vardomain max="8" min="1" size="4">
+      <values>1 3 4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_37_" vinternal="X_INTRODUCED_37_" vname="X_INTRODUCED_37_">
+    <vardomain max="8" min="1" size="2">
+      <values>1 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_38_" vinternal="X_INTRODUCED_38_" vname="X_INTRODUCED_38_"/>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_39_" vinternal="X_INTRODUCED_39_" vname="X_INTRODUCED_39_">
+    <vardomain max="5" min="3" size="2">
+      <values>3 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_40_" vinternal="X_INTRODUCED_40_" vname="X_INTRODUCED_40_">
+    <vardomain max="5" min="2" size="3">
+      <values>2 4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_41_" vinternal="X_INTRODUCED_41_" vname="X_INTRODUCED_41_">
+    <vardomain max="4" min="3" size="2">
+      <values>3 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_42_" vinternal="X_INTRODUCED_42_" vname="X_INTRODUCED_42_"/>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_43_" vinternal="X_INTRODUCED_43_" vname="X_INTRODUCED_43_">
+    <vardomain max="8" min="1" size="4">
+      <values>1 5 6 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_44_" vinternal="X_INTRODUCED_44_" vname="X_INTRODUCED_44_">
+    <vardomain max="8" min="1" size="4">
+      <values>1 5 6 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_45_" vinternal="X_INTRODUCED_45_" vname="X_INTRODUCED_45_">
+    <vardomain max="9" min="4" size="3">
+      <values>4 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_46_" vinternal="X_INTRODUCED_46_" vname="X_INTRODUCED_46_"/>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_47_" vinternal="X_INTRODUCED_47_" vname="X_INTRODUCED_47_">
+    <vardomain max="9" min="4" size="2">
+      <values>4 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_48_" vinternal="X_INTRODUCED_48_" vname="X_INTRODUCED_48_"/>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_49_" vinternal="X_INTRODUCED_49_" vname="X_INTRODUCED_49_">
+    <vardomain max="7" min="4" size="2">
+      <values>4 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_50_" vinternal="X_INTRODUCED_50_" vname="X_INTRODUCED_50_"/>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_51_" vinternal="X_INTRODUCED_51_" vname="X_INTRODUCED_51_"/>
+  <new-variable chrono="10" depth="7" vident="X_INTRODUCED_52_" vinternal="X_INTRODUCED_52_" vname="X_INTRODUCED_52_"/>
+  <new-variable chrono="10" depth="7" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="7" size="2">
+      <values>7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="5" size="4">
+      <values>5 7 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="10" depth="7" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="2" size="3">
+      <values>2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="10" depth="7" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="10" depth="7" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="3" size="2">
+      <values>3 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="2" size="3">
+      <values>2 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="5" size="2">
+      <values>5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="2" size="5">
+      <values>2 3 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="3">
+      <values>1 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="10" depth="7" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="5" min="1" size="2">
+      <values>1 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="10" depth="7" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="5" min="4" size="2">
+      <values>4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="10" depth="7" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="10" depth="7" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="10" depth="7" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="4">
+      <values>1 4 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="1" size="6">
+      <values>1 5 6 7 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="3">
+      <values>1 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="1" size="4">
+      <values>1 2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="5" min="3" size="2">
+      <values>3 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="4" size="3">
+      <values>4 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="3" size="3">
+      <values>3 4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="5">
+      <values>1 2 4 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="3">
+      <values>1 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="10" depth="7" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="7">
+      <values>1 2 3 4 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-constraint chrono="11" cident="c9" cinternal="X_INTRODUCED_81_[10] = 2" depth="7"/>
+  <choice-point chrono="11" depth="7" nident="13"/>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_0_" vinternal="X_INTRODUCED_0_" vname="X_INTRODUCED_0_">
+    <vardomain max="5" min="3" size="3">
+      <values>3 4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_1_" vinternal="X_INTRODUCED_1_" vname="X_INTRODUCED_1_"/>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_2_" vinternal="X_INTRODUCED_2_" vname="X_INTRODUCED_2_">
+    <vardomain max="5" min="3" size="3">
+      <values>3 4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_3_" vinternal="X_INTRODUCED_3_" vname="X_INTRODUCED_3_"/>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_4_" vinternal="X_INTRODUCED_4_" vname="X_INTRODUCED_4_"/>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_5_" vinternal="X_INTRODUCED_5_" vname="X_INTRODUCED_5_"/>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_6_" vinternal="X_INTRODUCED_6_" vname="X_INTRODUCED_6_">
+    <vardomain max="8" min="4" size="2">
+      <values>4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_7_" vinternal="X_INTRODUCED_7_" vname="X_INTRODUCED_7_"/>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_8_" vinternal="X_INTRODUCED_8_" vname="X_INTRODUCED_8_">
+    <vardomain max="8" min="4" size="2">
+      <values>4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_9_" vinternal="X_INTRODUCED_9_" vname="X_INTRODUCED_9_"/>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_10_" vinternal="X_INTRODUCED_10_" vname="X_INTRODUCED_10_"/>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_11_" vinternal="X_INTRODUCED_11_" vname="X_INTRODUCED_11_"/>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_12_" vinternal="X_INTRODUCED_12_" vname="X_INTRODUCED_12_"/>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_13_" vinternal="X_INTRODUCED_13_" vname="X_INTRODUCED_13_"/>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_14_" vinternal="X_INTRODUCED_14_" vname="X_INTRODUCED_14_"/>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_15_" vinternal="X_INTRODUCED_15_" vname="X_INTRODUCED_15_"/>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_16_" vinternal="X_INTRODUCED_16_" vname="X_INTRODUCED_16_"/>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_17_" vinternal="X_INTRODUCED_17_" vname="X_INTRODUCED_17_"/>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_18_" vinternal="X_INTRODUCED_18_" vname="X_INTRODUCED_18_">
+    <vardomain max="7" min="1" size="3">
+      <values>1 4 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_19_" vinternal="X_INTRODUCED_19_" vname="X_INTRODUCED_19_">
+    <vardomain max="7" min="1" size="2">
+      <values>1 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_20_" vinternal="X_INTRODUCED_20_" vname="X_INTRODUCED_20_">
+    <vardomain max="4" min="1" size="2">
+      <values>1 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_21_" vinternal="X_INTRODUCED_21_" vname="X_INTRODUCED_21_"/>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_22_" vinternal="X_INTRODUCED_22_" vname="X_INTRODUCED_22_"/>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_23_" vinternal="X_INTRODUCED_23_" vname="X_INTRODUCED_23_"/>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_24_" vinternal="X_INTRODUCED_24_" vname="X_INTRODUCED_24_">
+    <vardomain max="4" min="2" size="2">
+      <values>2 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_25_" vinternal="X_INTRODUCED_25_" vname="X_INTRODUCED_25_"/>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_26_" vinternal="X_INTRODUCED_26_" vname="X_INTRODUCED_26_">
+    <vardomain max="6" min="2" size="3">
+      <values>2 4 6</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_27_" vinternal="X_INTRODUCED_27_" vname="X_INTRODUCED_27_">
+    <vardomain max="3" min="1" size="2">
+      <values>1 3</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_28_" vinternal="X_INTRODUCED_28_" vname="X_INTRODUCED_28_"/>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_29_" vinternal="X_INTRODUCED_29_" vname="X_INTRODUCED_29_"/>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_30_" vinternal="X_INTRODUCED_30_" vname="X_INTRODUCED_30_"/>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_31_" vinternal="X_INTRODUCED_31_" vname="X_INTRODUCED_31_">
+    <vardomain max="7" min="5" size="2">
+      <values>5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_32_" vinternal="X_INTRODUCED_32_" vname="X_INTRODUCED_32_"/>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_33_" vinternal="X_INTRODUCED_33_" vname="X_INTRODUCED_33_">
+    <vardomain max="7" min="1" size="2">
+      <values>1 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_34_" vinternal="X_INTRODUCED_34_" vname="X_INTRODUCED_34_"/>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_35_" vinternal="X_INTRODUCED_35_" vname="X_INTRODUCED_35_">
+    <vardomain max="7" min="1" size="3">
+      <values>1 5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_36_" vinternal="X_INTRODUCED_36_" vname="X_INTRODUCED_36_">
+    <vardomain max="8" min="1" size="4">
+      <values>1 3 4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_37_" vinternal="X_INTRODUCED_37_" vname="X_INTRODUCED_37_">
+    <vardomain max="8" min="1" size="2">
+      <values>1 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_38_" vinternal="X_INTRODUCED_38_" vname="X_INTRODUCED_38_"/>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_39_" vinternal="X_INTRODUCED_39_" vname="X_INTRODUCED_39_">
+    <vardomain max="5" min="3" size="2">
+      <values>3 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_40_" vinternal="X_INTRODUCED_40_" vname="X_INTRODUCED_40_">
+    <vardomain max="5" min="2" size="3">
+      <values>2 4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_41_" vinternal="X_INTRODUCED_41_" vname="X_INTRODUCED_41_">
+    <vardomain max="4" min="3" size="2">
+      <values>3 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_42_" vinternal="X_INTRODUCED_42_" vname="X_INTRODUCED_42_"/>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_43_" vinternal="X_INTRODUCED_43_" vname="X_INTRODUCED_43_">
+    <vardomain max="8" min="5" size="3">
+      <values>5 6 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_44_" vinternal="X_INTRODUCED_44_" vname="X_INTRODUCED_44_">
+    <vardomain max="8" min="1" size="4">
+      <values>1 5 6 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_45_" vinternal="X_INTRODUCED_45_" vname="X_INTRODUCED_45_">
+    <vardomain max="9" min="4" size="3">
+      <values>4 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_46_" vinternal="X_INTRODUCED_46_" vname="X_INTRODUCED_46_"/>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_47_" vinternal="X_INTRODUCED_47_" vname="X_INTRODUCED_47_">
+    <vardomain max="9" min="4" size="2">
+      <values>4 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_48_" vinternal="X_INTRODUCED_48_" vname="X_INTRODUCED_48_"/>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_49_" vinternal="X_INTRODUCED_49_" vname="X_INTRODUCED_49_">
+    <vardomain max="7" min="4" size="2">
+      <values>4 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_50_" vinternal="X_INTRODUCED_50_" vname="X_INTRODUCED_50_"/>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_51_" vinternal="X_INTRODUCED_51_" vname="X_INTRODUCED_51_"/>
+  <new-variable chrono="11" depth="8" vident="X_INTRODUCED_52_" vinternal="X_INTRODUCED_52_" vname="X_INTRODUCED_52_"/>
+  <new-variable chrono="11" depth="8" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="7" size="2">
+      <values>7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="5" size="4">
+      <values>5 7 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="11" depth="8" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="2" size="3">
+      <values>2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="11" depth="8" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="11" depth="8" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="3" size="2">
+      <values>3 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="2" size="3">
+      <values>2 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="5" size="2">
+      <values>5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="2" size="5">
+      <values>2 3 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="3">
+      <values>1 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="11" depth="8" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="5" min="1" size="2">
+      <values>1 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="11" depth="8" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="5" min="4" size="2">
+      <values>4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="11" depth="8" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="11" depth="8" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="11" depth="8" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="4">
+      <values>1 4 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="1" size="6">
+      <values>1 5 6 7 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="3">
+      <values>1 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="1" size="4">
+      <values>1 2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="5" min="3" size="2">
+      <values>3 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="4" size="3">
+      <values>4 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="3" size="3">
+      <values>3 4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="5">
+      <values>1 2 4 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="5" size="2">
+      <values>5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="11" depth="8" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="7">
+      <values>1 2 3 4 5 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-constraint chrono="12" cident="c10" cinternal="X_INTRODUCED_81_[8] = 1" depth="8"/>
+  <choice-point chrono="12" depth="8" nident="15"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_0_" vinternal="X_INTRODUCED_0_" vname="X_INTRODUCED_0_">
+    <vardomain max="5" min="3" size="2">
+      <values>3 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_1_" vinternal="X_INTRODUCED_1_" vname="X_INTRODUCED_1_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_2_" vinternal="X_INTRODUCED_2_" vname="X_INTRODUCED_2_">
+    <vardomain max="5" min="3" size="2">
+      <values>3 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_3_" vinternal="X_INTRODUCED_3_" vname="X_INTRODUCED_3_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_4_" vinternal="X_INTRODUCED_4_" vname="X_INTRODUCED_4_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_5_" vinternal="X_INTRODUCED_5_" vname="X_INTRODUCED_5_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_6_" vinternal="X_INTRODUCED_6_" vname="X_INTRODUCED_6_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_7_" vinternal="X_INTRODUCED_7_" vname="X_INTRODUCED_7_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_8_" vinternal="X_INTRODUCED_8_" vname="X_INTRODUCED_8_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_9_" vinternal="X_INTRODUCED_9_" vname="X_INTRODUCED_9_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_10_" vinternal="X_INTRODUCED_10_" vname="X_INTRODUCED_10_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_11_" vinternal="X_INTRODUCED_11_" vname="X_INTRODUCED_11_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_12_" vinternal="X_INTRODUCED_12_" vname="X_INTRODUCED_12_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_13_" vinternal="X_INTRODUCED_13_" vname="X_INTRODUCED_13_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_14_" vinternal="X_INTRODUCED_14_" vname="X_INTRODUCED_14_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_15_" vinternal="X_INTRODUCED_15_" vname="X_INTRODUCED_15_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_16_" vinternal="X_INTRODUCED_16_" vname="X_INTRODUCED_16_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_17_" vinternal="X_INTRODUCED_17_" vname="X_INTRODUCED_17_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_18_" vinternal="X_INTRODUCED_18_" vname="X_INTRODUCED_18_">
+    <vardomain max="7" min="1" size="3">
+      <values>1 4 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_19_" vinternal="X_INTRODUCED_19_" vname="X_INTRODUCED_19_">
+    <vardomain max="7" min="1" size="2">
+      <values>1 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_20_" vinternal="X_INTRODUCED_20_" vname="X_INTRODUCED_20_">
+    <vardomain max="4" min="1" size="2">
+      <values>1 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_21_" vinternal="X_INTRODUCED_21_" vname="X_INTRODUCED_21_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_22_" vinternal="X_INTRODUCED_22_" vname="X_INTRODUCED_22_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_23_" vinternal="X_INTRODUCED_23_" vname="X_INTRODUCED_23_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_24_" vinternal="X_INTRODUCED_24_" vname="X_INTRODUCED_24_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_25_" vinternal="X_INTRODUCED_25_" vname="X_INTRODUCED_25_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_26_" vinternal="X_INTRODUCED_26_" vname="X_INTRODUCED_26_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_27_" vinternal="X_INTRODUCED_27_" vname="X_INTRODUCED_27_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_28_" vinternal="X_INTRODUCED_28_" vname="X_INTRODUCED_28_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_29_" vinternal="X_INTRODUCED_29_" vname="X_INTRODUCED_29_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_30_" vinternal="X_INTRODUCED_30_" vname="X_INTRODUCED_30_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_31_" vinternal="X_INTRODUCED_31_" vname="X_INTRODUCED_31_">
+    <vardomain max="7" min="5" size="2">
+      <values>5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_32_" vinternal="X_INTRODUCED_32_" vname="X_INTRODUCED_32_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_33_" vinternal="X_INTRODUCED_33_" vname="X_INTRODUCED_33_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_34_" vinternal="X_INTRODUCED_34_" vname="X_INTRODUCED_34_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_35_" vinternal="X_INTRODUCED_35_" vname="X_INTRODUCED_35_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_36_" vinternal="X_INTRODUCED_36_" vname="X_INTRODUCED_36_">
+    <vardomain max="8" min="1" size="4">
+      <values>1 3 4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_37_" vinternal="X_INTRODUCED_37_" vname="X_INTRODUCED_37_">
+    <vardomain max="8" min="1" size="2">
+      <values>1 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_38_" vinternal="X_INTRODUCED_38_" vname="X_INTRODUCED_38_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_39_" vinternal="X_INTRODUCED_39_" vname="X_INTRODUCED_39_">
+    <vardomain max="5" min="3" size="2">
+      <values>3 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_40_" vinternal="X_INTRODUCED_40_" vname="X_INTRODUCED_40_">
+    <vardomain max="5" min="2" size="2">
+      <values>2 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_41_" vinternal="X_INTRODUCED_41_" vname="X_INTRODUCED_41_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_42_" vinternal="X_INTRODUCED_42_" vname="X_INTRODUCED_42_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_43_" vinternal="X_INTRODUCED_43_" vname="X_INTRODUCED_43_">
+    <vardomain max="8" min="5" size="3">
+      <values>5 6 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_44_" vinternal="X_INTRODUCED_44_" vname="X_INTRODUCED_44_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_45_" vinternal="X_INTRODUCED_45_" vname="X_INTRODUCED_45_">
+    <vardomain max="9" min="8" size="2">
+      <values>8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_46_" vinternal="X_INTRODUCED_46_" vname="X_INTRODUCED_46_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_47_" vinternal="X_INTRODUCED_47_" vname="X_INTRODUCED_47_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_48_" vinternal="X_INTRODUCED_48_" vname="X_INTRODUCED_48_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_49_" vinternal="X_INTRODUCED_49_" vname="X_INTRODUCED_49_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_50_" vinternal="X_INTRODUCED_50_" vname="X_INTRODUCED_50_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_51_" vinternal="X_INTRODUCED_51_" vname="X_INTRODUCED_51_"/>
+  <new-variable chrono="12" depth="9" vident="X_INTRODUCED_52_" vinternal="X_INTRODUCED_52_" vname="X_INTRODUCED_52_"/>
+  <new-variable chrono="12" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="12" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="5" size="4">
+      <values>5 7 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="12" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="12" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="2" size="3">
+      <values>2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="12" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="12" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="12" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="3" size="2">
+      <values>3 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="12" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="7" size="2">
+      <values>7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="12" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="5" size="2">
+      <values>5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="12" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="5" min="2" size="3">
+      <values>2 3 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="12" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="3">
+      <values>1 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="12" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="12" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="5" min="1" size="2">
+      <values>1 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="12" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="12" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="12" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="12" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="12" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="12" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="5" min="1" size="3">
+      <values>1 4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="12" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="1" size="6">
+      <values>1 5 6 7 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="12" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="3">
+      <values>1 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="12" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="1" size="4">
+      <values>1 2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="12" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="5" min="3" size="2">
+      <values>3 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="12" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="5" size="2">
+      <values>5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="12" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="3" size="3">
+      <values>3 4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="12" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="7" size="2">
+      <values>7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="12" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="5" size="2">
+      <values>5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="12" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="5" min="1" size="5">
+      <values>1 2 3 4 5</values>
+    </vardomain>
+  </new-variable>
+  <back-to chrono="13" depth="8" node="15" node-before="13"/>
+  <new-constraint chrono="14" cident="c11" cinternal="X_INTRODUCED_81_[7] = 4" depth="8"/>
+  <choice-point chrono="14" depth="8" nident="16"/>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_0_" vinternal="X_INTRODUCED_0_" vname="X_INTRODUCED_0_"/>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_1_" vinternal="X_INTRODUCED_1_" vname="X_INTRODUCED_1_"/>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_2_" vinternal="X_INTRODUCED_2_" vname="X_INTRODUCED_2_"/>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_3_" vinternal="X_INTRODUCED_3_" vname="X_INTRODUCED_3_"/>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_4_" vinternal="X_INTRODUCED_4_" vname="X_INTRODUCED_4_"/>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_5_" vinternal="X_INTRODUCED_5_" vname="X_INTRODUCED_5_"/>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_6_" vinternal="X_INTRODUCED_6_" vname="X_INTRODUCED_6_"/>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_7_" vinternal="X_INTRODUCED_7_" vname="X_INTRODUCED_7_"/>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_8_" vinternal="X_INTRODUCED_8_" vname="X_INTRODUCED_8_"/>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_9_" vinternal="X_INTRODUCED_9_" vname="X_INTRODUCED_9_"/>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_10_" vinternal="X_INTRODUCED_10_" vname="X_INTRODUCED_10_"/>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_11_" vinternal="X_INTRODUCED_11_" vname="X_INTRODUCED_11_"/>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_12_" vinternal="X_INTRODUCED_12_" vname="X_INTRODUCED_12_"/>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_13_" vinternal="X_INTRODUCED_13_" vname="X_INTRODUCED_13_"/>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_14_" vinternal="X_INTRODUCED_14_" vname="X_INTRODUCED_14_"/>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_15_" vinternal="X_INTRODUCED_15_" vname="X_INTRODUCED_15_"/>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_16_" vinternal="X_INTRODUCED_16_" vname="X_INTRODUCED_16_"/>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_17_" vinternal="X_INTRODUCED_17_" vname="X_INTRODUCED_17_"/>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_18_" vinternal="X_INTRODUCED_18_" vname="X_INTRODUCED_18_">
+    <vardomain max="7" min="1" size="3">
+      <values>1 4 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_19_" vinternal="X_INTRODUCED_19_" vname="X_INTRODUCED_19_">
+    <vardomain max="7" min="1" size="2">
+      <values>1 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_20_" vinternal="X_INTRODUCED_20_" vname="X_INTRODUCED_20_">
+    <vardomain max="4" min="1" size="2">
+      <values>1 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_21_" vinternal="X_INTRODUCED_21_" vname="X_INTRODUCED_21_"/>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_22_" vinternal="X_INTRODUCED_22_" vname="X_INTRODUCED_22_"/>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_23_" vinternal="X_INTRODUCED_23_" vname="X_INTRODUCED_23_"/>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_24_" vinternal="X_INTRODUCED_24_" vname="X_INTRODUCED_24_"/>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_25_" vinternal="X_INTRODUCED_25_" vname="X_INTRODUCED_25_"/>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_26_" vinternal="X_INTRODUCED_26_" vname="X_INTRODUCED_26_"/>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_27_" vinternal="X_INTRODUCED_27_" vname="X_INTRODUCED_27_"/>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_28_" vinternal="X_INTRODUCED_28_" vname="X_INTRODUCED_28_"/>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_29_" vinternal="X_INTRODUCED_29_" vname="X_INTRODUCED_29_"/>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_30_" vinternal="X_INTRODUCED_30_" vname="X_INTRODUCED_30_"/>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_31_" vinternal="X_INTRODUCED_31_" vname="X_INTRODUCED_31_">
+    <vardomain max="7" min="5" size="2">
+      <values>5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_32_" vinternal="X_INTRODUCED_32_" vname="X_INTRODUCED_32_"/>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_33_" vinternal="X_INTRODUCED_33_" vname="X_INTRODUCED_33_"/>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_34_" vinternal="X_INTRODUCED_34_" vname="X_INTRODUCED_34_"/>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_35_" vinternal="X_INTRODUCED_35_" vname="X_INTRODUCED_35_">
+    <vardomain max="7" min="5" size="2">
+      <values>5 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_36_" vinternal="X_INTRODUCED_36_" vname="X_INTRODUCED_36_">
+    <vardomain max="8" min="1" size="3">
+      <values>1 4 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_37_" vinternal="X_INTRODUCED_37_" vname="X_INTRODUCED_37_">
+    <vardomain max="8" min="1" size="2">
+      <values>1 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_38_" vinternal="X_INTRODUCED_38_" vname="X_INTRODUCED_38_"/>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_39_" vinternal="X_INTRODUCED_39_" vname="X_INTRODUCED_39_">
+    <vardomain max="5" min="3" size="2">
+      <values>3 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_40_" vinternal="X_INTRODUCED_40_" vname="X_INTRODUCED_40_">
+    <vardomain max="5" min="2" size="3">
+      <values>2 4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_41_" vinternal="X_INTRODUCED_41_" vname="X_INTRODUCED_41_">
+    <vardomain max="4" min="3" size="2">
+      <values>3 4</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_42_" vinternal="X_INTRODUCED_42_" vname="X_INTRODUCED_42_"/>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_43_" vinternal="X_INTRODUCED_43_" vname="X_INTRODUCED_43_">
+    <vardomain max="8" min="5" size="3">
+      <values>5 6 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_44_" vinternal="X_INTRODUCED_44_" vname="X_INTRODUCED_44_">
+    <vardomain max="8" min="5" size="2">
+      <values>5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_45_" vinternal="X_INTRODUCED_45_" vname="X_INTRODUCED_45_">
+    <vardomain max="9" min="4" size="3">
+      <values>4 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_46_" vinternal="X_INTRODUCED_46_" vname="X_INTRODUCED_46_"/>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_47_" vinternal="X_INTRODUCED_47_" vname="X_INTRODUCED_47_">
+    <vardomain max="9" min="4" size="2">
+      <values>4 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_48_" vinternal="X_INTRODUCED_48_" vname="X_INTRODUCED_48_"/>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_49_" vinternal="X_INTRODUCED_49_" vname="X_INTRODUCED_49_">
+    <vardomain max="7" min="4" size="2">
+      <values>4 7</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_50_" vinternal="X_INTRODUCED_50_" vname="X_INTRODUCED_50_"/>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_51_" vinternal="X_INTRODUCED_51_" vname="X_INTRODUCED_51_"/>
+  <new-variable chrono="14" depth="9" vident="X_INTRODUCED_52_" vinternal="X_INTRODUCED_52_" vname="X_INTRODUCED_52_"/>
+  <new-variable chrono="14" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="7" size="2">
+      <values>7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="14" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="8" size="2">
+      <values>8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="14" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="14" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="2" size="3">
+      <values>2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="14" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="14" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="14" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="3" size="2">
+      <values>3 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="14" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="14" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="5" size="2">
+      <values>5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="14" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="2" size="4">
+      <values>2 3 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="14" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="2">
+      <values>1 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="14" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="14" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="5" min="1" size="2">
+      <values>1 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="14" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="14" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="5" min="4" size="2">
+      <values>4 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="14" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="14" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="14" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="14" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="3">
+      <values>1 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="14" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="1" size="5">
+      <values>1 6 7 8 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="14" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="3">
+      <values>1 7 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="14" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="1" size="4">
+      <values>1 2 5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="14" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="5" min="3" size="2">
+      <values>3 5</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="14" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="9" min="5" size="2">
+      <values>5 9</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="14" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="3" size="2">
+      <values>3 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="14" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle"/>
+  <new-variable chrono="14" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="5" size="2">
+      <values>5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-variable chrono="14" depth="9" vident="puzzle" vinternal="puzzle" vname="puzzle">
+    <vardomain max="8" min="1" size="5">
+      <values>1 2 3 5 8</values>
+    </vardomain>
+  </new-variable>
+  <new-constraint chrono="15" cident="c12" cinternal="X_INTRODUCED_81_[7] != 4" depth="9"/>
+  <choice-point chrono="15" depth="9" nident="17"/>
+  <back-to chrono="16" depth="9" node="17" node-before="16"/>
+  <solved chrono="17" cident="c12">
+    <state>
+      <variable type="int" vident="X_INTRODUCED_0_" vinternal="X_INTRODUCED_0_" vname="X_INTRODUCED_0_">
+        <vardomain max="5" min="5" size="1">
+          <values>5</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_1_" vinternal="X_INTRODUCED_1_" vname="X_INTRODUCED_1_">
+        <vardomain max="9" min="9" size="1">
+          <values>9</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_2_" vinternal="X_INTRODUCED_2_" vname="X_INTRODUCED_2_">
+        <vardomain max="3" min="3" size="1">
+          <values>3</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_3_" vinternal="X_INTRODUCED_3_" vname="X_INTRODUCED_3_">
+        <vardomain max="7" min="7" size="1">
+          <values>7</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_4_" vinternal="X_INTRODUCED_4_" vname="X_INTRODUCED_4_">
+        <vardomain max="6" min="6" size="1">
+          <values>6</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_5_" vinternal="X_INTRODUCED_5_" vname="X_INTRODUCED_5_">
+        <vardomain max="2" min="2" size="1">
+          <values>2</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_6_" vinternal="X_INTRODUCED_6_" vname="X_INTRODUCED_6_">
+        <vardomain max="8" min="8" size="1">
+          <values>8</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_7_" vinternal="X_INTRODUCED_7_" vname="X_INTRODUCED_7_">
+        <vardomain max="1" min="1" size="1">
+          <values>1</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_8_" vinternal="X_INTRODUCED_8_" vname="X_INTRODUCED_8_">
+        <vardomain max="4" min="4" size="1">
+          <values>4</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_9_" vinternal="X_INTRODUCED_9_" vname="X_INTRODUCED_9_">
+        <vardomain max="2" min="2" size="1">
+          <values>2</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_10_" vinternal="X_INTRODUCED_10_" vname="X_INTRODUCED_10_">
+        <vardomain max="6" min="6" size="1">
+          <values>6</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_11_" vinternal="X_INTRODUCED_11_" vname="X_INTRODUCED_11_">
+        <vardomain max="8" min="8" size="1">
+          <values>8</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_12_" vinternal="X_INTRODUCED_12_" vname="X_INTRODUCED_12_">
+        <vardomain max="4" min="4" size="1">
+          <values>4</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_13_" vinternal="X_INTRODUCED_13_" vname="X_INTRODUCED_13_">
+        <vardomain max="3" min="3" size="1">
+          <values>3</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_14_" vinternal="X_INTRODUCED_14_" vname="X_INTRODUCED_14_">
+        <vardomain max="1" min="1" size="1">
+          <values>1</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_15_" vinternal="X_INTRODUCED_15_" vname="X_INTRODUCED_15_">
+        <vardomain max="5" min="5" size="1">
+          <values>5</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_16_" vinternal="X_INTRODUCED_16_" vname="X_INTRODUCED_16_">
+        <vardomain max="7" min="7" size="1">
+          <values>7</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_17_" vinternal="X_INTRODUCED_17_" vname="X_INTRODUCED_17_">
+        <vardomain max="9" min="9" size="1">
+          <values>9</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_18_" vinternal="X_INTRODUCED_18_" vname="X_INTRODUCED_18_">
+        <vardomain max="7" min="7" size="1">
+          <values>7</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_19_" vinternal="X_INTRODUCED_19_" vname="X_INTRODUCED_19_">
+        <vardomain max="1" min="1" size="1">
+          <values>1</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_20_" vinternal="X_INTRODUCED_20_" vname="X_INTRODUCED_20_">
+        <vardomain max="4" min="4" size="1">
+          <values>4</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_21_" vinternal="X_INTRODUCED_21_" vname="X_INTRODUCED_21_">
+        <vardomain max="9" min="9" size="1">
+          <values>9</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_22_" vinternal="X_INTRODUCED_22_" vname="X_INTRODUCED_22_">
+        <vardomain max="8" min="8" size="1">
+          <values>8</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_23_" vinternal="X_INTRODUCED_23_" vname="X_INTRODUCED_23_">
+        <vardomain max="5" min="5" size="1">
+          <values>5</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_24_" vinternal="X_INTRODUCED_24_" vname="X_INTRODUCED_24_">
+        <vardomain max="2" min="2" size="1">
+          <values>2</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_25_" vinternal="X_INTRODUCED_25_" vname="X_INTRODUCED_25_">
+        <vardomain max="3" min="3" size="1">
+          <values>3</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_26_" vinternal="X_INTRODUCED_26_" vname="X_INTRODUCED_26_">
+        <vardomain max="6" min="6" size="1">
+          <values>6</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_27_" vinternal="X_INTRODUCED_27_" vname="X_INTRODUCED_27_">
+        <vardomain max="3" min="3" size="1">
+          <values>3</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_28_" vinternal="X_INTRODUCED_28_" vname="X_INTRODUCED_28_">
+        <vardomain max="2" min="2" size="1">
+          <values>2</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_29_" vinternal="X_INTRODUCED_29_" vname="X_INTRODUCED_29_">
+        <vardomain max="6" min="6" size="1">
+          <values>6</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_30_" vinternal="X_INTRODUCED_30_" vname="X_INTRODUCED_30_">
+        <vardomain max="8" min="8" size="1">
+          <values>8</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_31_" vinternal="X_INTRODUCED_31_" vname="X_INTRODUCED_31_">
+        <vardomain max="5" min="5" size="1">
+          <values>5</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_32_" vinternal="X_INTRODUCED_32_" vname="X_INTRODUCED_32_">
+        <vardomain max="9" min="9" size="1">
+          <values>9</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_33_" vinternal="X_INTRODUCED_33_" vname="X_INTRODUCED_33_">
+        <vardomain max="1" min="1" size="1">
+          <values>1</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_34_" vinternal="X_INTRODUCED_34_" vname="X_INTRODUCED_34_">
+        <vardomain max="4" min="4" size="1">
+          <values>4</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_35_" vinternal="X_INTRODUCED_35_" vname="X_INTRODUCED_35_">
+        <vardomain max="7" min="7" size="1">
+          <values>7</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_36_" vinternal="X_INTRODUCED_36_" vname="X_INTRODUCED_36_">
+        <vardomain max="1" min="1" size="1">
+          <values>1</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_37_" vinternal="X_INTRODUCED_37_" vname="X_INTRODUCED_37_">
+        <vardomain max="8" min="8" size="1">
+          <values>8</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_38_" vinternal="X_INTRODUCED_38_" vname="X_INTRODUCED_38_">
+        <vardomain max="7" min="7" size="1">
+          <values>7</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_39_" vinternal="X_INTRODUCED_39_" vname="X_INTRODUCED_39_">
+        <vardomain max="3" min="3" size="1">
+          <values>3</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_40_" vinternal="X_INTRODUCED_40_" vname="X_INTRODUCED_40_">
+        <vardomain max="2" min="2" size="1">
+          <values>2</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_41_" vinternal="X_INTRODUCED_41_" vname="X_INTRODUCED_41_">
+        <vardomain max="4" min="4" size="1">
+          <values>4</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_42_" vinternal="X_INTRODUCED_42_" vname="X_INTRODUCED_42_">
+        <vardomain max="9" min="9" size="1">
+          <values>9</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_43_" vinternal="X_INTRODUCED_43_" vname="X_INTRODUCED_43_">
+        <vardomain max="6" min="6" size="1">
+          <values>6</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_44_" vinternal="X_INTRODUCED_44_" vname="X_INTRODUCED_44_">
+        <vardomain max="5" min="5" size="1">
+          <values>5</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_45_" vinternal="X_INTRODUCED_45_" vname="X_INTRODUCED_45_">
+        <vardomain max="4" min="4" size="1">
+          <values>4</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_46_" vinternal="X_INTRODUCED_46_" vname="X_INTRODUCED_46_">
+        <vardomain max="5" min="5" size="1">
+          <values>5</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_47_" vinternal="X_INTRODUCED_47_" vname="X_INTRODUCED_47_">
+        <vardomain max="9" min="9" size="1">
+          <values>9</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_48_" vinternal="X_INTRODUCED_48_" vname="X_INTRODUCED_48_">
+        <vardomain max="1" min="1" size="1">
+          <values>1</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_49_" vinternal="X_INTRODUCED_49_" vname="X_INTRODUCED_49_">
+        <vardomain max="7" min="7" size="1">
+          <values>7</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_50_" vinternal="X_INTRODUCED_50_" vname="X_INTRODUCED_50_">
+        <vardomain max="6" min="6" size="1">
+          <values>6</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_51_" vinternal="X_INTRODUCED_51_" vname="X_INTRODUCED_51_">
+        <vardomain max="3" min="3" size="1">
+          <values>3</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="X_INTRODUCED_52_" vinternal="X_INTRODUCED_52_" vname="X_INTRODUCED_52_">
+        <vardomain max="2" min="2" size="1">
+          <values>2</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="puzzle" vinternal="puzzle" vname="puzzle">
+        <vardomain max="8" min="8" size="1">
+          <values>8</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="puzzle" vinternal="puzzle" vname="puzzle">
+        <vardomain max="9" min="9" size="1">
+          <values>9</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="puzzle" vinternal="puzzle" vname="puzzle">
+        <vardomain max="4" min="4" size="1">
+          <values>4</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="puzzle" vinternal="puzzle" vname="puzzle">
+        <vardomain max="2" min="2" size="1">
+          <values>2</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="puzzle" vinternal="puzzle" vname="puzzle">
+        <vardomain max="6" min="6" size="1">
+          <values>6</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="puzzle" vinternal="puzzle" vname="puzzle">
+        <vardomain max="1" min="1" size="1">
+          <values>1</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="puzzle" vinternal="puzzle" vname="puzzle">
+        <vardomain max="8" min="8" size="1">
+          <values>8</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="puzzle" vinternal="puzzle" vname="puzzle">
+        <vardomain max="7" min="7" size="1">
+          <values>7</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="puzzle" vinternal="puzzle" vname="puzzle">
+        <vardomain max="5" min="5" size="1">
+          <values>5</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="puzzle" vinternal="puzzle" vname="puzzle">
+        <vardomain max="3" min="3" size="1">
+          <values>3</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="puzzle" vinternal="puzzle" vname="puzzle">
+        <vardomain max="8" min="8" size="1">
+          <values>8</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="puzzle" vinternal="puzzle" vname="puzzle">
+        <vardomain max="3" min="3" size="1">
+          <values>3</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="puzzle" vinternal="puzzle" vname="puzzle">
+        <vardomain max="5" min="5" size="1">
+          <values>5</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="puzzle" vinternal="puzzle" vname="puzzle">
+        <vardomain max="2" min="2" size="1">
+          <values>2</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="puzzle" vinternal="puzzle" vname="puzzle">
+        <vardomain max="4" min="4" size="1">
+          <values>4</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="puzzle" vinternal="puzzle" vname="puzzle">
+        <vardomain max="7" min="7" size="1">
+          <values>7</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="puzzle" vinternal="puzzle" vname="puzzle">
+        <vardomain max="6" min="6" size="1">
+          <values>6</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="puzzle" vinternal="puzzle" vname="puzzle">
+        <vardomain max="9" min="9" size="1">
+          <values>9</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="puzzle" vinternal="puzzle" vname="puzzle">
+        <vardomain max="1" min="1" size="1">
+          <values>1</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="puzzle" vinternal="puzzle" vname="puzzle">
+        <vardomain max="6" min="6" size="1">
+          <values>6</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="puzzle" vinternal="puzzle" vname="puzzle">
+        <vardomain max="7" min="7" size="1">
+          <values>7</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="puzzle" vinternal="puzzle" vname="puzzle">
+        <vardomain max="1" min="1" size="1">
+          <values>1</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="puzzle" vinternal="puzzle" vname="puzzle">
+        <vardomain max="5" min="5" size="1">
+          <values>5</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="puzzle" vinternal="puzzle" vname="puzzle">
+        <vardomain max="9" min="9" size="1">
+          <values>9</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="puzzle" vinternal="puzzle" vname="puzzle">
+        <vardomain max="3" min="3" size="1">
+          <values>3</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="puzzle" vinternal="puzzle" vname="puzzle">
+        <vardomain max="4" min="4" size="1">
+          <values>4</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="puzzle" vinternal="puzzle" vname="puzzle">
+        <vardomain max="8" min="8" size="1">
+          <values>8</values>
+        </vardomain>
+      </variable>
+      <variable type="int" vident="puzzle" vinternal="puzzle" vname="puzzle">
+        <vardomain max="2" min="2" size="1">
+          <values>2</values>
+        </vardomain>
+      </variable>
+    </state>
+  </solved>
+  <choice-point chrono="17" depth="9" nident="18"/>
+  <back-to chrono="18" depth="9" node="18" node-before="16"/>
+  <new-constraint chrono="19" cident="c13" cinternal="" depth="9"/>
+  <choice-point chrono="19" depth="9" nident="14"/>
+  <back-to chrono="20" depth="9" node="14" node-before="11"/>
+  <new-constraint chrono="21" cident="c14" cinternal="" depth="9"/>
+  <choice-point chrono="21" depth="9" nident="12"/>
+  <back-to chrono="22" depth="9" node="12" node-before="8"/>
+  <new-constraint chrono="23" cident="c15" cinternal="" depth="9"/>
+  <choice-point chrono="23" depth="9" nident="6"/>
+  <back-to chrono="24" depth="9" node="6" node-before="3"/>
+  <new-constraint chrono="25" cident="c16" cinternal="" depth="9"/>
+  <choice-point chrono="25" depth="9" nident="4"/>
+  <back-to chrono="26" depth="9" node="4" node-before="1"/>
+  <new-constraint chrono="27" cident="c17" cinternal="" depth="9"/>
+  <choice-point chrono="27" depth="9" nident="2"/>
+  <back-to chrono="28" depth="9" node="2" node-before="0"/>
+  <new-constraint chrono="29" cident="c18" cinternal="" depth="9"/>
+</gentra4cp>
