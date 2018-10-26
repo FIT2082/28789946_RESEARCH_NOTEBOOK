@@ -5,7 +5,10 @@ env/
 
 # vim persistent undo
 *.un~
+*.db
 
+*.xml
+*.txt
 # swap files
 [._]*.s[a-v][a-z]
 [._]*.sw[a-p]

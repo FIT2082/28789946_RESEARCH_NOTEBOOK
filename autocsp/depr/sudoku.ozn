@@ -1,0 +1,4 @@
+output ["sudoku:\n"]++[show(puzzle[i,j])++if j==N then if i mod S==0 /\ i < N then "\n\n" else "\n" endif else if j mod S==0 then "  " else " " endif endif | i,j in 1..N, ];
+int: S = 3;
+int: N = 9;
+array [1..N,1..N] of int: puzzle;

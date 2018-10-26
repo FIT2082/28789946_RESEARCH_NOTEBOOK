@@ -127,7 +127,7 @@ for node in path:
                 size = len(vals)
                 vals = list(map(lambda x:int(x), vals)) 
                 str_val = " ".join(map(str, vals))
-                print(vals)
+                # print(vals)
                 vard = SubElement(varx, 'vardomain', {'min': str(
                     min(vals)), 'max': str(max(vals)), 'size': str(size)})
                 values = SubElement(vard, 'values')
@@ -151,7 +151,6 @@ for node in path:
         # get solution
         state = SubElement(solution, 'state')
         for sol in d[node.id]:
-            #print(sol)
             sol = sol.replace(" ", "")
             sol = sol.split(":")[-1]
             sol = sol.split('=')
@@ -171,7 +170,7 @@ def prettify(elem):
     reparsed = minidom.parseString(rough_string)
     return reparsed.toprettyxml(indent="  ")
 
-
+print(fp)
 # write to file
 with open(fp, 'w') as out:
     out.write(prettify(top))
